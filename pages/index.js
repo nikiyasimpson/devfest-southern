@@ -23,14 +23,21 @@ const Title = styled.h1`
   margin-left: 20px;
   text-align: center;
   &#title {
+    width: 100%;
     font-size: 3em;
+    @media (min-width: 300px) {
+      display: none;
+      overflow: hidden;
+    }
   }
 `
 
 export default () => (
   <Layout>
     <Section skyline>
-      <Title id="title"><DevFestLogo alt="DevFest 2019" width="580px" style={{ position: 'relative', top: '11px' }} /></Title>
+      <Title id="title">
+        <DevFestLogo alt="DevFest 2019" />
+      </Title>
       <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Houston, September 28, 2019</h1>
     </Section>
 
