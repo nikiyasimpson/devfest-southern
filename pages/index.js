@@ -5,7 +5,8 @@ import AnchorButton from "../components/elements/AnchorButton";
 import OffsetHeading from "../components/elements/OffsetHeading";
 import Section from "../components/elements/Section";
 import SponsorList from "../components/SponsorList";
-import DevFestLogo from '../components/icons/devfest_logo.svg'
+import DevFestLogo from '../components/icons/devfest_logo.svg';
+import GDGLogo from '../components/icons/gdg_logo.svg';
 import Footer from '../components/Footer';
 import Anchor from '../components/elements/Anchor';
 import Schedule from '../components/Schedule';
@@ -25,7 +26,13 @@ const Title = styled.h1`
   &#title {
     width: 100%;
     font-size: 3em;
-    @media (min-width: 300px) {
+    @media (max-width: 992px) { 
+      display: none;
+      overflow: hidden;
+    }
+  }
+  &#mobiletitle {
+    @media (min-width: 992px) {
       display: none;
       overflow: hidden;
     }
@@ -37,8 +44,13 @@ export default () => (
     <Section skyline>
       <Title id="title">
         <DevFestLogo alt="DevFest 2019" />
+        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Houston, September 28, 2019</h1>
       </Title>
-      <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Houston, September 28, 2019</h1>
+      <Title id="mobiletitle">
+      <GDGLogo alt="GDG" width="70px" height="35px" /> <br/>
+      <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>DevFest Houston</h1>
+      <h1 style={{ fontSize: '24px', marginTop: '25px', textAlign: 'center'}}>September 28, 2019</h1>
+      </Title>
     </Section>
 
     <Section color="blue">
