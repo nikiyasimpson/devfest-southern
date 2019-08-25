@@ -1,0 +1,18 @@
+[
+  {
+    "id": "google",
+    "name": "Google",
+    "link": "https://developers.google.com/programs/community/",
+    "logo": "/static/googlelogo.png",
+    "tier": "platinum",
+    "width": "270px"
+  },
+  {
+    "id": "cubio",
+    "name": "CUBiO",
+    "link": "https://cubioinnovation.com/",
+    "logo": "/static/CUBiO-logo.png",
+    "tier": "gold",
+    "width": "270px"
+  }
+]

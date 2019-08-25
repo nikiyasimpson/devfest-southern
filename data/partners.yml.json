@@ -1,0 +1,18 @@
+[
+  {
+    "id": "womentechmakers",
+    "name": "Women Tech Makers",
+    "link": "https://www.womentechmakers.com/",
+    "logo": "/static/WTM-logo.png",
+    "tier": "gold",
+    "width": "450px"
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "link": "https://flutter.dev/",
+    "logo": "/static/Flutter-logo.png",
+    "tier": "gold",
+    "width": "270px"
+  }
+]
