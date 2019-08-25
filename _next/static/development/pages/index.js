@@ -17344,17 +17344,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
 /* harmony import */ var _components_SponsorList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/SponsorList */ "./components/SponsorList.js");
 /* harmony import */ var _components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/icons/devfest_logo.svg */ "./components/icons/devfest_logo.svg");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/elements/Anchor */ "./components/elements/Anchor.js");
-/* harmony import */ var _components_Schedule__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Schedule */ "./components/Schedule.js");
-/* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
-/* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
+/* harmony import */ var _components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/elements/Anchor */ "./components/elements/Anchor.js");
+/* harmony import */ var _components_Schedule__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Schedule */ "./components/Schedule.js");
+/* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
+/* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
 var _jsxFileName = "/Users/aparnakn/Documents/GDG/devfest-houston-2019.github.io/pages/index.js";
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    width: 100%;\n    font-size: 3em;\n    @media (min-width: 300px) {\n      display: none;\n      overflow: hidden;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    width: 100%;\n    font-size: 3em;\n    @media (max-width: 992px) { \n      display: none;\n      overflow: hidden;\n    }\n  }\n  &#mobiletitle {\n    @media (min-width: 992px) {\n      display: none;\n      overflow: hidden;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -17362,6 +17363,7 @@ function _templateObject() {
 
   return data;
 }
+
 
 
 
@@ -17394,31 +17396,31 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
     alt: "DevFest 2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 46
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     style: {
       fontSize: '34px',
       marginTop: '25px',
@@ -17426,36 +17428,80 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 47
     },
     __self: this
-  }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
+    id: "mobiletitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    alt: "GDG",
+    width: "70px",
+    height: "35px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    style: {
+      fontSize: '34px',
+      marginTop: '25px',
+      textAlign: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "DevFest Houston"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    style: {
+      fontSize: '24px',
+      marginTop: '25px',
+      textAlign: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "September 28, 2019"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 57
     },
     __self: this
   }, "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 58
     },
     __self: this
-  }, "We are pleased to offer a limited number of scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, "We are pleased to offer a limited number of scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
     href: "#",
     target: "_blank",
     rel: "noopener noreferrer",
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 58
     },
     __self: this
   }, "Apply here"), ".")
@@ -17464,7 +17510,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17474,40 +17520,40 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 61
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 81
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 82
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 83
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17516,54 +17562,54 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 85
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "partner-organizations",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 90
     },
     __self: this
   }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: partners,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 91
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 95
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 96
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 99
     },
     __self: this
   }));
