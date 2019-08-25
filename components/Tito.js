@@ -52,6 +52,6 @@ const Tito = styled.div`
 export default () => (
   <Tito>
     <script src='https://js.tito.io/v1' async></script>
-    <tito-widget event="gdg-new-orleans/devfest-new-orleans-2019"></tito-widget>
+    <tito-widget event="https://ti.to/gdg-houston/gdg-devfest-houston"></tito-widget>
   </Tito>
 )
