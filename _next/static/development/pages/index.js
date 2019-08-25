@@ -264,7 +264,7 @@ var Layout = function Layout(props) {
     __self: this
   }, "DevFest Houston 2019"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "description",
-    content: "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG New Orleans and Women Techmakers New Orleans invite you to join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!",
+    content: "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBiO in Houston for our first annual DevFest!",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -280,7 +280,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     property: "og:image",
-    content: "http://devfest2019.gdgneworleans.com/static/share.jpg",
+    content: "http://devfest2019.gdghouston.com/static/share.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -320,7 +320,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "twitter:site",
-    content: "@GDG_NewOrleans",
+    content: "@GDG_Houston",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -336,7 +336,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "twitter:description",
-    content: "DevFest Houston is a single-day, single-track, inclusive conference for all developers. Join us on Saturday, October 5, 2019 at Loyola University in New Orleans for our first annual DevFest!",
+    content: "DevFest Houston is a single-day, single-track, inclusive conference for all developers. Join us on Saturday, September 28, 2019 at CUBiO in Houston for our first annual DevFest!",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -344,7 +344,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "twitter:creator",
-    content: "@GDG_NewOrleans",
+    content: "@GDG_Houston",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
@@ -352,7 +352,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "twitter:image",
-    content: "http://devfest2019.gdgneworleans.com/static/share.jpg",
+    content: "http://devfest2019.gdghouston.com/static/share.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -368,7 +368,7 @@ var Layout = function Layout(props) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
     name: "twitter:domain",
-    content: "devfest2019.gdgneworleans.com",
+    content: "devfest2019.gdghouston.com",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -1673,7 +1673,7 @@ var Tito = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templa
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tito-widget", {
-    event: "gdg-new-orleans/devfest-new-orleans-2019",
+    event: "https://ti.to/gdg-houston/gdg-devfest-houston",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -1988,8 +1988,18 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/aparnakn/Documents/GDG/devfest-houston-2019.github.io/components/elements/Section.js";
 
 
-function _templateObject5() {
+function _templateObject6() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  max-width: 920px;\n  margin: 4em 0;\n  width: 92%;\n  h1 {\n    font-size: 2em;\n    margin-bottom: 30px;\n  }\n  p.cta { margin-top: 40px;}\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    background-color: ", ";\n    color: white;\n  "]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -2029,7 +2039,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  ", "\n\n  ", "\n\n  ", "\n\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  ", "\n\n  ", "\n\n  ", "\n\n  ", "\n\n  align-items: center;\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -2047,8 +2057,10 @@ var SectionContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"]
   return props.color === 'red' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject3(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.red);
 }, function (props) {
   return props.color === 'green' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject4(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.green);
+}, function (props) {
+  return props.color === 'yellow' && Object(styled_components__WEBPACK_IMPORTED_MODULE_2__["css"])(_templateObject5(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.yellow);
 });
-var InnerSection = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject5());
+var InnerSection = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject6());
 
 var Section = function Section(_ref) {
   var skyline = _ref.skyline,
@@ -2059,13 +2071,13 @@ var Section = function Section(_ref) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SectionContainer, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 46
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(InnerSection, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 47
       },
       __self: this
     }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_google_skyline_svg__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2074,7 +2086,7 @@ var Section = function Section(_ref) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 48
       },
       __self: this
     }));
@@ -2084,13 +2096,13 @@ var Section = function Section(_ref) {
     color: color,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(InnerSection, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }, children));
@@ -2987,7 +2999,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GA_TRACKING_ID", function() { return GA_TRACKING_ID; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageview", function() { return pageview; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "event", function() { return event; });
-var GA_TRACKING_ID = 'UA-144474236-1'; // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+var GA_TRACKING_ID = ''; // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 
 var pageview = function pageview(url) {
   window.gtag('config', GA_TRACKING_ID, {
@@ -17342,7 +17354,7 @@ var _jsxFileName = "/Users/aparnakn/Documents/GDG/devfest-houston-2019.github.io
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    font-size: 3em;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    width: 100%;\n    font-size: 3em;\n    @media (min-width: 300px) {\n      display: none;\n      overflow: hidden;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -17382,33 +17394,28 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
     alt: "DevFest 2019",
-    width: "580px",
-    style: {
-      position: 'relative',
-      top: '11px'
-    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 39
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17419,36 +17426,36 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 41
     },
     __self: this
   }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 45
     },
     __self: this
   }, "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 46
     },
     __self: this
   }, "We are pleased to offer a limited number of scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    href: "https://forms.gle/GNihqAGiK8aWgMZb7",
+    href: "#",
     target: "_blank",
     rel: "noopener noreferrer",
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 46
     },
     __self: this
   }, "Apply here"), ".")
@@ -17457,7 +17464,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17467,40 +17474,40 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 49
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 69
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 70
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 71
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 72
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17509,54 +17516,54 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 73
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 77
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "partner-organizations",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 78
     },
     __self: this
   }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: partners,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 79
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 83
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 84
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 87
     },
     __self: this
   }));
