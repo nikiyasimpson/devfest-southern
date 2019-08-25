@@ -18,6 +18,11 @@ const SectionContainer = styled.section`
     color: white;
   `}
 
+  ${props =>props.color === 'yellow' && css`
+    background-color: ${theme.colors.yellow};
+    color: white;
+  `}
+
   align-items: center;
   display: flex;
   flex-direction: column;
