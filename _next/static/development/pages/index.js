@@ -17494,8 +17494,8 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
       lineNumber: 58
     },
     __self: this
-  }, "We are pleased to offer a limited number of scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    href: "#",
+  }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfnb8csNEPl7AaRCgh54CjCuvp-Svrs9psBbrufmFg5H9A4jg/viewform?usp=sf_link",
     target: "_blank",
     rel: "noopener noreferrer",
     color: "white",
@@ -17504,9 +17504,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
       lineNumber: 58
     },
     __self: this
-  }, "Apply here"), ".")
-  /*<Tito /> */
-  , react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
