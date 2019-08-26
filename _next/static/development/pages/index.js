@@ -17504,13 +17504,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
       lineNumber: 58
     },
     __self: this
-  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
