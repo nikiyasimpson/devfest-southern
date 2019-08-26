@@ -55,8 +55,8 @@ export default () => (
 
     <Section color="blue">
       <p>DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!</p>
-      {<p>We are pleased to offer a limited number of scholarships to potential attendees. <Anchor href="#" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p>
-      /*<Tito /> */}
+      <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/koXoeUuDHynsSF8ZA" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p>
+      <Tito />
       <p className="cta">
         <AnchorButton color='white/blue' href="https://ti.to/gdg-houston/gdg-devfest-houston" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
       </p>
