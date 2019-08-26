@@ -1,4 +1,4 @@
-webpackHotUpdate("static/development/pages/index.js",{
+webpackHotUpdate("static\\development\\pages\\index.js",{
 
 /***/ "./pages/index.js":
 /*!************************!*\
@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "/Users/aparnakn/Documents/GDG/devfest-houston-2019.github.io/pages/index.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\pages\\index.js";
 
 
 function _templateObject() {
@@ -171,7 +171,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __self: this
   }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    href: "https://docs.google.com/forms/d/e/1FAIpQLSfnb8csNEPl7AaRCgh54CjCuvp-Svrs9psBbrufmFg5H9A4jg/viewform?usp=sf_link",
+    href: "https://forms.gle/pdJkmWLtVZc9qA889",
     target: "_blank",
     rel: "noopener noreferrer",
     color: "white",
@@ -180,7 +180,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
       lineNumber: 58
     },
     __self: this
-  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
@@ -292,4 +298,4 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 /***/ })
 
 })
-//# sourceMappingURL=index.js.8f3bf5daff85f6ea1ced.hot-update.js.map
+//# sourceMappingURL=index.js.2ece9a946b6873577c20.hot-update.js.map

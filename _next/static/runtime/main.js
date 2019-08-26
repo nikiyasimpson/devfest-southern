@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "/Users/aparnakn/Documents/GDG/devfest-houston-2019.github.io/.next");
+      source_map_support_1.rewriteStacktrace(error, "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\.next");
       return error;
     }
   };
