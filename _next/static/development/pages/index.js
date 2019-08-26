@@ -956,7 +956,7 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    href: "https://ti.to/gdg-houston/gdg-devfest-houston",
+    href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
     medium: "true",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -17519,7 +17519,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "white/blue",
-    href: "https://ti.to/gdg-houston/gdg-devfest-houston",
+    href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
