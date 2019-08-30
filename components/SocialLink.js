@@ -4,6 +4,10 @@ import TwitterLogo from './icons/twitter.svg'
 import LinkedInLogo from './icons/linkedin-in.svg'
 import WebsiteLogo from './icons/globe-africa.svg'
 import BlogLogo from './icons/pen-nib.svg'
+import InstagramLogo from './icons/instagram.svg'
+import FacebookLogo from './icons/facebook.svg'
+import SlackLogo from './icons/github.svg'
+import MeetupLogo from './icons/meetup.svg'
 
 const StyledLink = styled.a`
   margin-right: 12px;
@@ -45,5 +49,26 @@ export const WebsiteLink = ({ link }) => (
 export const BlogLink = ({ link }) => (
   <SocialLink href={link}>
     <BlogLogo />
+  </SocialLink>
+)
+
+export const InstagramLink = ({ link }) => (
+  <SocialLink href={link}>
+    <InstagramLogo />
+  </SocialLink>
+)
+export const FacebookLink = ({ link }) => (
+  <SocialLink href={link}>
+    <FacebookLogo />
+  </SocialLink>
+)
+export const SlackLink = ({ link }) => (
+  <SocialLink href={link}>
+    <SlackLogo />
+  </SocialLink>
+)
+export const MeetupLink = ({ link }) => (
+  <SocialLink href={link}>
+    <MeetupLogo />
   </SocialLink>
 )
