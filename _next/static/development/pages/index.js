@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Emcee.js":
 /*!*****************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Emcee.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Emcee.js";
 
 
 function _templateObject() {
@@ -144,7 +144,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _elements_Lead__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./elements/Lead */ "./components/elements/Lead.js");
 /* harmony import */ var _icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Footer.js";
+/* harmony import */ var _icons_twitter_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/twitter.svg */ "./components/icons/twitter.svg");
+/* harmony import */ var _icons_linkedin_in_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/linkedin-in.svg */ "./components/icons/linkedin-in.svg");
+/* harmony import */ var _icons_instagram_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/instagram.svg */ "./components/icons/instagram.svg");
+/* harmony import */ var _icons_facebook_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/facebook.svg */ "./components/icons/facebook.svg");
+/* harmony import */ var _icons_github_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/github.svg */ "./components/icons/github.svg");
+/* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
+/* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Footer.js";
+
+
+
+
+
+
+
 
 
 
@@ -154,22 +168,26 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Lead__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'space-between'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 16
     },
     __self: this
-  }, "DevFest Houston 2019 is organized by"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     style: {
       fontSize: '2.5em'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -181,14 +199,18 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 18
     },
     __self: this
   }), " GDG Houston"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
+    style: {
+      display: 'flex',
+      flexDirection: 'column'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -198,10 +220,40 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 20
     },
     __self: this
-  }, "Join us on Meetup")));
+  }, "Join us on Meetup"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["FacebookLink"], {
+    link: "https://www.facebook.com/HoustonGDG/",
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["InstagramLink"], {
+    link: "https://www.instagram.com/gdghouston/",
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["LinkedInLink"], {
+    link: "https://www.linkedin.com/company/gdg-houston/",
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  })))));
 });
 
 /***/ }),
@@ -224,7 +276,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Layout.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Layout.js";
 
 
 function _templateObject() {
@@ -544,7 +596,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/MobileNav.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\MobileNav.js";
 
 function _templateObject5() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  &.is-visible {\n    display: flex;\n    flex-direction: column;\n    overflow: visible;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n  &.is-hidden {\n    display: none;\n    overflow: hidden;\n    transform: translateY(-100%);\n    opacity: 0;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n"]);
@@ -669,7 +721,7 @@ function (_Component) {
           alignSelf: 'center',
           marginRight: '1em'
         },
-        href: "https://ti.to/gdg-houston/gdg-devfest-houston",
+        href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
         small: "true",
         target: "_blank",
         rel: "noopener noreferrer",
@@ -702,7 +754,7 @@ function (_Component) {
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         passHref: true,
-        href: "/#",
+        href: "https://www.papercall.io/devfest-houston",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 97
@@ -793,11 +845,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./MobileNav */ "./components/MobileNav.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Navbar.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Navbar.js";
 
 
 function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-top: 9px;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tmargin-top: 9px;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -807,7 +859,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: none;\n  @media (min-width: ", ") {\n    display: flex;\n    justify-content: space-between;\n    margin: 0 auto;\n    max-width: 980px;\n    padding: 15px;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tdisplay: none;\n\t@media (min-width: ", ") {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\tmargin: 0 auto;\n\t\tmax-width: 980px;\n\t\tpadding: 15px;\n\t}\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -817,7 +869,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  background: rgba(255,255,255,0.97);\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 5;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tbackground: rgba(255,255,255,0.97);\n\tposition: fixed;\n\ttop: 0;\n\twidth: 100%;\n\tz-index: 5;\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -827,7 +879,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  color: ", ";\n  font-weight: 700;\n  padding: 1em;\n  text-decoration: none;\n  &:hover {\n    color: ", ";\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\tcolor: ", ";\n\tfont-weight: 700;\n\tpadding: 1em;\n\ttext-decoration: none;\n\t&:hover {\n\t\tcolor: ", ";\n\t}\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -955,20 +1007,34 @@ var Navbar = function Navbar() {
       lineNumber: 63
     },
     __self: this
-  }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    href: "https://ti.to/gdg-houston/gdg-devfest-houston",
-    medium: "true",
-    target: "_blank",
-    rel: "noopener noreferrer",
+  }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    passHref: true,
+    href: "https://forms.gle/pdJkmWLtVZc9qA889",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 64
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Inclusivity")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
+    medium: "true",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_MobileNav__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }));
@@ -992,7 +1058,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonCard.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonCard.js";
 
 
 function _templateObject() {
@@ -1123,7 +1189,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonList.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonList.js";
 
 
 function _templateObject2() {
@@ -1199,7 +1265,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Schedule.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Schedule.js";
 
 
 function _templateObject5() {
@@ -1359,7 +1425,7 @@ var Schedule = function Schedule(_ref2) {
 /*!**********************************!*\
   !*** ./components/SocialLink.js ***!
   \**********************************/
-/*! exports provided: GithubLink, TwitterLink, LinkedInLink, WebsiteLink, BlogLink */
+/*! exports provided: GithubLink, TwitterLink, LinkedInLink, WebsiteLink, BlogLink, InstagramLink, FacebookLink, SlackLink, MeetupLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1369,6 +1435,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LinkedInLink", function() { return LinkedInLink; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebsiteLink", function() { return WebsiteLink; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BlogLink", function() { return BlogLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InstagramLink", function() { return InstagramLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FacebookLink", function() { return FacebookLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SlackLink", function() { return SlackLink; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MeetupLink", function() { return MeetupLink; });
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
@@ -1378,8 +1448,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_linkedin_in_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./icons/linkedin-in.svg */ "./components/icons/linkedin-in.svg");
 /* harmony import */ var _icons_globe_africa_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/globe-africa.svg */ "./components/icons/globe-africa.svg");
 /* harmony import */ var _icons_pen_nib_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/pen-nib.svg */ "./components/icons/pen-nib.svg");
+/* harmony import */ var _icons_instagram_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/instagram.svg */ "./components/icons/instagram.svg");
+/* harmony import */ var _icons_facebook_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/facebook.svg */ "./components/icons/facebook.svg");
+/* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SocialLink.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SocialLink.js";
 
 
 function _templateObject() {
@@ -1398,6 +1471,10 @@ function _templateObject() {
 
 
 
+
+
+
+
 var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].a(_templateObject());
 
 var SocialLink = function SocialLink(_ref) {
@@ -1409,7 +1486,7 @@ var SocialLink = function SocialLink(_ref) {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
     },
     __self: this
   }, children);
@@ -1421,13 +1498,13 @@ var GithubLink = function GithubLink(_ref2) {
     href: "https://github.com/".concat(username),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_github_svg__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 27
     },
     __self: this
   }));
@@ -1438,13 +1515,13 @@ var TwitterLink = function TwitterLink(_ref3) {
     href: "https://twitter.com/".concat(username),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_twitter_svg__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
     },
     __self: this
   }));
@@ -1455,13 +1532,13 @@ var LinkedInLink = function LinkedInLink(_ref4) {
     href: link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_linkedin_in_svg__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 39
     },
     __self: this
   }));
@@ -1472,13 +1549,13 @@ var WebsiteLink = function WebsiteLink(_ref5) {
     href: link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_globe_africa_svg__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 45
     },
     __self: this
   }));
@@ -1489,13 +1566,81 @@ var BlogLink = function BlogLink(_ref6) {
     href: link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_pen_nib_svg__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 51
+    },
+    __self: this
+  }));
+};
+var InstagramLink = function InstagramLink(_ref7) {
+  var link = _ref7.link;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialLink, {
+    href: link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_instagram_svg__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }));
+};
+var FacebookLink = function FacebookLink(_ref8) {
+  var link = _ref8.link;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialLink, {
+    href: link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_facebook_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }));
+};
+var SlackLink = function SlackLink(_ref9) {
+  var link = _ref9.link;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialLink, {
+    href: link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_github_svg__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }));
+};
+var MeetupLink = function MeetupLink(_ref10) {
+  var link = _ref10.link;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SocialLink, {
+    href: link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
     },
     __self: this
   }));
@@ -1517,7 +1662,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Sponsor.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Sponsor.js";
 
 
 function _templateObject() {
@@ -1584,7 +1729,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SponsorList.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SponsorList.js";
 
 
 function _templateObject() {
@@ -1641,7 +1786,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Tito.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Tito.js";
 
 
 function _templateObject() {
@@ -1701,7 +1846,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Anchor.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Anchor.js";
 
 
 function _templateObject4() {
@@ -1788,7 +1933,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/AnchorButton.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\AnchorButton.js";
 
 
 function _templateObject6() {
@@ -1985,7 +2130,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _google_skyline_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./google-skyline.svg */ "./components/elements/google-skyline.svg");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Section.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Section.js";
 
 
 function _templateObject6() {
@@ -2676,6 +2821,37 @@ var SvgDevfestLogo = function SvgDevfestLogo(props) {
 
 /***/ }),
 
+/***/ "./components/icons/facebook.svg":
+/*!***************************************!*\
+  !*** ./components/icons/facebook.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  d: "M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"
+});
+
+var SvgFacebook = function SvgFacebook(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
+    viewBox: "0 0 512 512"
+  }, props), _ref);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SvgFacebook);
+
+/***/ }),
+
 /***/ "./components/icons/gdg_logo.svg":
 /*!***************************************!*\
   !*** ./components/icons/gdg_logo.svg ***!
@@ -2795,6 +2971,43 @@ var SvgGlobeAfrica = function SvgGlobeAfrica(props) {
 
 /***/ }),
 
+/***/ "./components/icons/instagram.svg":
+/*!****************************************!*\
+  !*** ./components/icons/instagram.svg ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  d: "M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM257 390c-74.441 0-135-60.559-135-135s60.559-135 135-135 135 60.559 135 135-60.559 135-135 135zm150-240c-24.813 0-45-20.188-45-45s20.188-45 45-45 45 20.188 45 45-20.188 45-45 45zm0 0"
+});
+
+var _ref2 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  d: "M407 90c-8.277 0-15 6.723-15 15s6.723 15 15 15 15-6.723 15-15-6.723-15-15-15zm0 0M257 150c-57.89 0-105 47.11-105 105s47.11 105 105 105 105-47.11 105-105-47.11-105-105-105zm0 0"
+});
+
+var SvgInstagram = function SvgInstagram(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
+    viewBox: "0 0 512 512"
+  }, props), _ref, _ref2);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SvgInstagram);
+
+/***/ }),
+
 /***/ "./components/icons/linkedin-in.svg":
 /*!******************************************!*\
   !*** ./components/icons/linkedin-in.svg ***!
@@ -2824,6 +3037,42 @@ var SvgLinkedinIn = function SvgLinkedinIn(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SvgLinkedinIn);
+
+/***/ }),
+
+/***/ "./components/icons/meetup.svg":
+/*!*************************************!*\
+  !*** ./components/icons/meetup.svg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  fill: "currentColor",
+  d: "M99 414.3c1.1 5.7-2.3 11.1-8 12.3-5.4 1.1-10.9-2.3-12-8-1.1-5.4 2.3-11.1 7.7-12.3 5.4-1.2 11.1 2.3 12.3 8zm143.1 71.4c-6.3 4.6-8 13.4-3.7 20 4.6 6.6 13.4 8.3 20 3.7 6.3-4.6 8-13.4 3.4-20-4.2-6.5-13.1-8.3-19.7-3.7zm-86-462.3c6.3-1.4 10.3-7.7 8.9-14-1.1-6.6-7.4-10.6-13.7-9.1-6.3 1.4-10.3 7.7-9.1 14 1.4 6.6 7.6 10.6 13.9 9.1zM34.4 226.3c-10-6.9-23.7-4.3-30.6 6-6.9 10-4.3 24 5.7 30.9 10 7.1 23.7 4.6 30.6-5.7 6.9-10.4 4.3-24.1-5.7-31.2zm272-170.9c10.6-6.3 13.7-20 7.7-30.3-6.3-10.6-19.7-14-30-7.7s-13.7 20-7.4 30.6c6 10.3 19.4 13.7 29.7 7.4zm-191.1 58c7.7-5.4 9.4-16 4.3-23.7s-15.7-9.4-23.1-4.3c-7.7 5.4-9.4 16-4.3 23.7 5.1 7.8 15.6 9.5 23.1 4.3zm372.3 156c-7.4 1.7-12.3 9.1-10.6 16.9 1.4 7.4 8.9 12.3 16.3 10.6 7.4-1.4 12.3-8.9 10.6-16.6-1.5-7.4-8.9-12.3-16.3-10.9zm39.7-56.8c-1.1-5.7-6.6-9.1-12-8-5.7 1.1-9.1 6.9-8 12.6 1.1 5.4 6.6 9.1 12.3 8 5.4-1.5 9.1-6.9 7.7-12.6zM447 138.9c-8.6 6-10.6 17.7-4.9 26.3 5.7 8.6 17.4 10.6 26 4.9 8.3-6 10.3-17.7 4.6-26.3-5.7-8.7-17.4-10.9-25.7-4.9zm-6.3 139.4c26.3 43.1 15.1 100-26.3 129.1-17.4 12.3-37.1 17.7-56.9 17.1-12 47.1-69.4 64.6-105.1 32.6-1.1.9-2.6 1.7-3.7 2.9-39.1 27.1-92.3 17.4-119.4-22.3-9.7-14.3-14.6-30.6-15.1-46.9-65.4-10.9-90-94-41.1-139.7-28.3-46.9.6-107.4 53.4-114.9C151.6 70 234.1 38.6 290.1 82c67.4-22.3 136.3 29.4 130.9 101.1 41.1 12.6 52.8 66.9 19.7 95.2zm-70 74.3c-3.1-20.6-40.9-4.6-43.1-27.1-3.1-32 43.7-101.1 40-128-3.4-24-19.4-29.1-33.4-29.4-13.4-.3-16.9 2-21.4 4.6-2.9 1.7-6.6 4.9-11.7-.3-6.3-6-11.1-11.7-19.4-12.9-12.3-2-17.7 2-26.6 9.7-3.4 2.9-12 12.9-20 9.1-3.4-1.7-15.4-7.7-24-11.4-16.3-7.1-40 4.6-48.6 20-12.9 22.9-38 113.1-41.7 125.1-8.6 26.6 10.9 48.6 36.9 47.1 11.1-.6 18.3-4.6 25.4-17.4 4-7.4 41.7-107.7 44.6-112.6 2-3.4 8.9-8 14.6-5.1 5.7 3.1 6.9 9.4 6 15.1-1.1 9.7-28 70.9-28.9 77.7-3.4 22.9 26.9 26.6 38.6 4 3.7-7.1 45.7-92.6 49.4-98.3 4.3-6.3 7.4-8.3 11.7-8 3.1 0 8.3.9 7.1 10.9-1.4 9.4-35.1 72.3-38.9 87.7-4.6 20.6 6.6 41.4 24.9 50.6 11.4 5.7 62.5 15.7 58.5-11.1zm5.7 92.3c-10.3 7.4-12.9 22-5.7 32.6 7.1 10.6 21.4 13.1 32 6 10.6-7.4 13.1-22 6-32.6-7.4-10.6-21.7-13.5-32.3-6z"
+});
+
+var SvgMeetup = function SvgMeetup(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
+    "aria-hidden": "true",
+    "data-prefix": "fab",
+    "data-icon": "meetup",
+    className: "meetup_svg__svg-inline--fa meetup_svg__fa-meetup meetup_svg__fa-w-16",
+    viewBox: "0 0 512 512"
+  }, props), _ref);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SvgMeetup);
 
 /***/ }),
 
@@ -9901,10 +10150,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17351,7 +17600,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/index.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\pages\\index.js";
 
 
 function _templateObject() {
@@ -17495,7 +17744,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __self: this
   }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    href: "https://forms.gle/koXoeUuDHynsSF8ZA",
+    href: "https://forms.gle/pdJkmWLtVZc9qA889",
     target: "_blank",
     rel: "noopener noreferrer",
     color: "white",
@@ -17519,7 +17768,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
     color: "white/blue",
-    href: "https://ti.to/gdg-houston/gdg-devfest-houston",
+    href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -17561,7 +17810,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    href: "https://docs.google.com/forms/d/1yCwRgOiRDn8jL2Tso7fNTtySUeP0rgpdlSnGBCG-eYc/",
+    href: "https://forms.gle/C6ueQfWL47uTHxUs9",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
@@ -17622,13 +17871,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 /***/ }),
 
 /***/ 0:
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
