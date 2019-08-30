@@ -61,7 +61,7 @@ export const Navbar = () => {
 					<Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link> */}
 					<Link passHref href="/location"><StyledLink>Location</StyledLink></Link>
 					<Link passHref href="/conduct"><StyledLink>Code of Conduct</StyledLink></Link>
-					<Link passHref href="https://forms.gle/koXoeUuDHynsSF8ZA"><StyledLink>Inclusivity</StyledLink></Link>
+					<Link passHref href="https://forms.gle/pdJkmWLtVZc9qA889"><StyledLink>Inclusivity</StyledLink></Link>
 					<AnchorButton href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" medium="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
 				</NavLinks>
 			</NavDesktopContainer>
