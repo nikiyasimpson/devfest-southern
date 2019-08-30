@@ -10,8 +10,24 @@
   {
     "id": "flutter",
     "name": "Flutter",
-    "link": "https://flutter.dev/",
+    "link": "https://meetup.com/FlutterHouston",
     "logo": "/static/Flutter-logo.png",
+    "tier": "gold",
+    "width": "270px"
+  },
+  {
+    "id": "WWC",
+    "name": "Women Who Code",
+    "link": "https://www.womenwhocode.com/houston",
+    "logo": "/static/wwc-logo.png",
+    "tier": "gold",
+    "width": "270px"
+  },
+  {
+    "id": "HPL",
+    "name": "Houston PyLadies",
+    "link": "https://www.meetup.com/Houston_PyLadies/",
+    "logo": "/static/hpl-logo.jpeg",
     "tier": "gold",
     "width": "270px"
   }

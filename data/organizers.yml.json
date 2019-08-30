@@ -15,7 +15,7 @@
     "id": "sakitha",
     "name": "Sakhitha Kanyadhara",
     "image": "",
-    "bio": "Co-Organizer and Women Tech Maker's Ambassador",
+    "bio": "Co-Organizer and WTM Ambassador",
     "company": "",
     "twitter": "",
     "github": "",
@@ -37,7 +37,7 @@
     "id": "aparna",
     "name": "Aparna Kaliyur",
     "image": "",
-    "bio": "Co-Organizer and Women Tech Maker's Ambassador",
+    "bio": "Co-Organizer and WTM Ambassador",
     "company": "",
     "twitter": "",
     "github": "",
@@ -54,5 +54,15 @@
     "github": "awalakaushik",
     "website": "",
     "linkedin": "https://www.linkedin.com/in/akaushikr"
+  },
+  {
+    "id": "Hussain",
+    "name": "Hussain Abbasi",
+    "image": "",
+    "bio": "Co-Organizer",
+    "company": "",
+    "github": "",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/hnabbasi"
   }
 ]

@@ -32,7 +32,7 @@ const Title = styled.h1`
     }
   }
   &#mobiletitle {
-    @media (min-width: 992px) {
+    @media (min-width: 993px) {
       display: none;
       overflow: hidden;
     }
@@ -47,9 +47,9 @@ export default () => (
         <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Houston, September 28, 2019</h1>
       </Title>
       <Title id="mobiletitle">
-      <GDGLogo alt="GDG" width="70px" height="35px" /> <br/>
-      <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>DevFest Houston</h1>
-      <h1 style={{ fontSize: '24px', marginTop: '25px', textAlign: 'center'}}>September 28, 2019</h1>
+        <GDGLogo alt="GDG" width="70px" height="35px" /> <br/>
+        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>DevFest Houston</h1>
+        <h1 style={{ fontSize: '24px', marginTop: '25px', textAlign: 'center'}}>September 28, 2019</h1>
       </Title>
     </Section>
 
