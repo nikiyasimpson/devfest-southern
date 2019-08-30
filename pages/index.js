@@ -24,17 +24,22 @@ const Title = styled.h1`
   margin-left: 20px;
   text-align: center;
   &#title {
-    width: 100%;
-    font-size: 3em;
-    @media (max-width: 992px) { 
-      display: none;
-      overflow: hidden;
+    display: none;
+    overflow: hidden;
+    @media (min-width: 768px) { 
+      display: block;
+      width: 100%;
+      font-size: 3em;
     }
   }
   &#mobiletitle {
-    @media (min-width: 993px) {
+    display: none;
+    overflow: hidden;
+    @media (max-width: 767px) {
+      display: block;
+    }
+    @media (min-width: 768px) {
       display: none;
-      overflow: hidden;
     }
   }
 `
