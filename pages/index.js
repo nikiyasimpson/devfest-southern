@@ -55,10 +55,10 @@ export default () => (
 
     <Section color="blue">
       <p>DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!</p>
-      <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/koXoeUuDHynsSF8ZA" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p>
+      <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/pdJkmWLtVZc9qA889" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p>
       <Tito />
       <p className="cta">
-        <AnchorButton color='white/blue' href="https://ti.to/gdg-houston/gdg-devfest-houston" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
+        <AnchorButton color='white/blue' href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
       </p>
     </Section>
 
@@ -82,7 +82,7 @@ export default () => (
       <SponsorList sponsors={sponsors} />
       <p>Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:</p>
       <p className="cta">
-        <AnchorButton href="https://docs.google.com/forms/d/1yCwRgOiRDn8jL2Tso7fNTtySUeP0rgpdlSnGBCG-eYc/" target="_blank" rel="noopener noreferrer">Become a sponsor</AnchorButton>
+        <AnchorButton href="https://forms.gle/C6ueQfWL47uTHxUs9" target="_blank" rel="noopener noreferrer">Become a sponsor</AnchorButton>
       </p>
     </Section>
 
