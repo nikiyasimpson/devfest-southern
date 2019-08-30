@@ -6,7 +6,7 @@ import WebsiteLogo from './icons/globe-africa.svg'
 import BlogLogo from './icons/pen-nib.svg'
 import InstagramLogo from './icons/instagram.svg'
 import FacebookLogo from './icons/facebook.svg'
-import SlackLogo from './icons/github.svg'
+import SlackLogo from './icons/slack.svg'
 import MeetupLogo from './icons/meetup.svg'
 
 const StyledLink = styled.a`
