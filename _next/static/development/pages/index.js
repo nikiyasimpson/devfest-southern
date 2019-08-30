@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/Emcee.js":
 /*!*****************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Emcee.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Emcee.js";
 
 
 function _templateObject() {
@@ -148,10 +148,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_linkedin_in_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./icons/linkedin-in.svg */ "./components/icons/linkedin-in.svg");
 /* harmony import */ var _icons_instagram_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/instagram.svg */ "./components/icons/instagram.svg");
 /* harmony import */ var _icons_facebook_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/facebook.svg */ "./components/icons/facebook.svg");
-/* harmony import */ var _icons_github_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/github.svg */ "./components/icons/github.svg");
+/* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
 /* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Footer.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Footer.js";
 
 
 
@@ -174,7 +174,8 @@ var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.i
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       display: 'flex',
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
+      flexWrap: 'wrap'
     },
     __source: {
       fileName: _jsxFileName,
@@ -202,7 +203,7 @@ var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.i
       lineNumber: 18
     },
     __self: this
-  }), " GDG Houston"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), " GDGHouston"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     style: {
       display: 'flex',
@@ -253,6 +254,14 @@ var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.i
       lineNumber: 24
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["SlackLink"], {
+    link: "https://gdg-houston.slack.com",
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
   })))));
 });
 
@@ -276,7 +285,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Layout.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Layout.js";
 
 
 function _templateObject() {
@@ -596,7 +605,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\MobileNav.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/MobileNav.js";
 
 function _templateObject5() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  &.is-visible {\n    display: flex;\n    flex-direction: column;\n    overflow: visible;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n  &.is-hidden {\n    display: none;\n    overflow: hidden;\n    transform: translateY(-100%);\n    opacity: 0;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n"]);
@@ -845,7 +854,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./MobileNav */ "./components/MobileNav.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Navbar.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Navbar.js";
 
 
 function _templateObject4() {
@@ -1058,7 +1067,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonCard.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonCard.js";
 
 
 function _templateObject() {
@@ -1189,7 +1198,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonList.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonList.js";
 
 
 function _templateObject2() {
@@ -1265,7 +1274,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Schedule.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Schedule.js";
 
 
 function _templateObject5() {
@@ -1450,9 +1459,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_pen_nib_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./icons/pen-nib.svg */ "./components/icons/pen-nib.svg");
 /* harmony import */ var _icons_instagram_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./icons/instagram.svg */ "./components/icons/instagram.svg");
 /* harmony import */ var _icons_facebook_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/facebook.svg */ "./components/icons/facebook.svg");
-/* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
+/* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
+/* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SocialLink.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SocialLink.js";
 
 
 function _templateObject() {
@@ -1620,7 +1630,7 @@ var SlackLink = function SlackLink(_ref9) {
       lineNumber: 66
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_github_svg__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_slack_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
@@ -1637,7 +1647,7 @@ var MeetupLink = function MeetupLink(_ref10) {
       lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_icons_meetup_svg__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
@@ -1662,7 +1672,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Sponsor.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Sponsor.js";
 
 
 function _templateObject() {
@@ -1729,7 +1739,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SponsorList.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SponsorList.js";
 
 
 function _templateObject() {
@@ -1786,7 +1796,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Tito.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Tito.js";
 
 
 function _templateObject() {
@@ -1846,7 +1856,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Anchor.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Anchor.js";
 
 
 function _templateObject4() {
@@ -1933,7 +1943,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\AnchorButton.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/AnchorButton.js";
 
 
 function _templateObject6() {
@@ -2130,7 +2140,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _google_skyline_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./google-skyline.svg */ "./components/elements/google-skyline.svg");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Section.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Section.js";
 
 
 function _templateObject6() {
@@ -3105,6 +3115,67 @@ var SvgPenNib = function SvgPenNib(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SvgPenNib);
+
+/***/ }),
+
+/***/ "./components/icons/slack.svg":
+/*!************************************!*\
+  !*** ./components/icons/slack.svg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+var _ref =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", null, ".slack_svg__st0{fill:#e01e5a}.slack_svg__st1{fill:#36c5f0}.slack_svg__st2{fill:#2eb67d}.slack_svg__st3{fill:#ecb22e}");
+
+var _ref2 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  className: "slack_svg__st0",
+  d: "M99.4 151.2c0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9h12.9v12.9zM105.9 151.2c0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v32.3c0 7.1-5.8 12.9-12.9 12.9s-12.9-5.8-12.9-12.9v-32.3z"
+});
+
+var _ref3 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  className: "slack_svg__st1",
+  d: "M118.8 99.4c-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9s12.9 5.8 12.9 12.9v12.9h-12.9zM118.8 105.9c7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9H86.5c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9h32.3z"
+});
+
+var _ref4 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  className: "slack_svg__st2",
+  d: "M170.6 118.8c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9s-5.8 12.9-12.9 12.9h-12.9v-12.9zM164.1 118.8c0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9V86.5c0-7.1 5.8-12.9 12.9-12.9 7.1 0 12.9 5.8 12.9 12.9v32.3z"
+}));
+
+var _ref5 =
+/*#__PURE__*/
+react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+  className: "slack_svg__st3",
+  d: "M151.2 170.6c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9-7.1 0-12.9-5.8-12.9-12.9v-12.9h12.9zM151.2 164.1c-7.1 0-12.9-5.8-12.9-12.9 0-7.1 5.8-12.9 12.9-12.9h32.3c7.1 0 12.9 5.8 12.9 12.9 0 7.1-5.8 12.9-12.9 12.9h-32.3z"
+}));
+
+var SvgSlack = function SvgSlack(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
+    id: "slack_svg__Layer_1",
+    x: 0,
+    y: 0,
+    viewBox: "0 0 270 270",
+    xmlSpace: "preserve"
+  }, props), _ref, _ref2, _ref3, _ref4, _ref5);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SvgSlack);
 
 /***/ }),
 
@@ -10150,10 +10221,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17600,11 +17671,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\pages\\index.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/index.js";
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    width: 100%;\n    font-size: 3em;\n    @media (max-width: 992px) { \n      display: none;\n      overflow: hidden;\n    }\n  }\n  &#mobiletitle {\n    @media (min-width: 993px) {\n      display: none;\n      overflow: hidden;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    display: none;\n    overflow: hidden;\n    @media (min-width: 768px) { \n      display: block;\n      width: 100%;\n      font-size: 3em;\n    }\n  }\n  &#mobiletitle {\n    display: none;\n    overflow: hidden;\n    @media (max-width: 767px) {\n      display: block;\n    }\n    @media (min-width: 768px) {\n      display: none;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -17645,28 +17716,28 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
     alt: "DevFest 2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 51
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17677,14 +17748,14 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 52
     },
     __self: this
   }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "mobiletitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -17693,13 +17764,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     height: "35px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17710,7 +17781,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 56
     },
     __self: this
   }, "DevFest Houston"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17721,26 +17792,26 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 57
     },
     __self: this
   }, "September 28, 2019"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 62
     },
     __self: this
   }, "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -17750,20 +17821,20 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 64
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17773,40 +17844,40 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 66
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 86
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 87
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 88
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17815,54 +17886,54 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    id: "partner-organizations",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    sponsors: partners,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    color: "red",
+  }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    id: "organizers",
+    id: "partner-organizations",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
+    },
+    __self: this
+  }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    sponsors: partners,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    color: "red",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    id: "organizers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 101
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 104
     },
     __self: this
   }));
@@ -17871,13 +17942,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./");
 
 
 /***/ }),
