@@ -1,133 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./components/Emcee.js":
-/*!*****************************!*\
-  !*** ./components/Emcee.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./elements/ProfileImage */ "./components/elements/ProfileImage.js");
-/* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Emcee.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  text-align: center;\n\n  h2 {\n    font-size: 1.6em;\n    margin-bottom: 0;\n  }\n  h3 { font-size: 1.4em; }\n  img {border: 8px solid ", ";}\n  a { color: ", "; }\n  a:hover { color: ", "; }\n  svg { fill: ", "; }\n  svg:hover { fill: ", "; }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-
-var StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blueLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blueLight);
-
-var Emcee = function Emcee(_ref) {
-  var name = _ref.name,
-      company = _ref.company,
-      bio = _ref.bio,
-      image = _ref.image,
-      github = _ref.github,
-      twitter = _ref.twitter,
-      linkedin = _ref.linkedin,
-      website = _ref.website,
-      blog = _ref.blog;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledDiv, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_ProfileImage__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    src: image,
-    alt: name,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, company), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    dangerouslySetInnerHTML: {
-      __html: bio
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, github ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_4__["GithubLink"], {
-    username: github,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }) : null, twitter ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_4__["TwitterLink"], {
-    username: twitter,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }) : null, linkedin ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_4__["LinkedInLink"], {
-    link: linkedin,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }) : null, website ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_4__["WebsiteLink"], {
-    link: website,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }) : null, blog ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_4__["BlogLink"], {
-    link: blog,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }) : null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Emcee);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/location.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -1051,385 +922,6 @@ var Navbar = function Navbar() {
 
 /***/ }),
 
-/***/ "./components/Person/PersonCard.js":
-/*!*****************************************!*\
-  !*** ./components/Person/PersonCard.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
-/* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonCard.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  /* offsetting location for links */\n  margin: 16px 0;\n  padding: 16px;\n  text-align: center;\n  width: 272px;\n\n  &.card h1 {\n    font-size: 1.6em;\n    margin-top: -250px;\n    padding-top: 250px;\n    margin-bottom: 0;\n  }\n  &.card h2 { font-size: 1.4em; }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-var StyledCard = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
-
-var PersonCard = function PersonCard(_ref) {
-  var name = _ref.name,
-      image = _ref.image,
-      bio = _ref.bio,
-      company = _ref.company,
-      twitter = _ref.twitter,
-      github = _ref.github,
-      linkedin = _ref.linkedin,
-      website = _ref.website,
-      blog = _ref.blog,
-      color = _ref.color,
-      id = _ref.id;
-  // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
-  var ghPages = false;
-  var assetPrefix = ghPages ? '/devfest-houston-2019' : '';
-  var img = "".concat(assetPrefix).concat(image);
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledCard, {
-    className: "card",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    id: id,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, company), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, bio), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, github ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_3__["GithubLink"], {
-    username: github,
-    color: color,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }) : null, twitter ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_3__["TwitterLink"], {
-    username: twitter,
-    color: color,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }) : null, linkedin ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_3__["LinkedInLink"], {
-    link: linkedin,
-    color: color,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }) : null, website ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_3__["WebsiteLink"], {
-    link: website,
-    color: color,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }) : null, blog ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_3__["BlogLink"], {
-    link: blog,
-    color: color,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }) : null));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (PersonCard);
-
-/***/ }),
-
-/***/ "./components/Person/PersonList.js":
-/*!*****************************************!*\
-  !*** ./components/Person/PersonList.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _PersonCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PersonCard */ "./components/Person/PersonCard.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
-
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonList.js";
-
-
-function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n    .card:nth-child(4n+1) svg { fill: ", ";}\n    .card:nth-child(4n+1) svg:hover { fill: ", "; }\n    .card:nth-child(4n+1) img { border: 8px solid ", "; }\n    .card:nth-child(4n+2) svg { fill: ", "; }\n    .card:nth-child(4n+2) svg:hover { fill: ", "; }\n    .card:nth-child(4n+2) img { border: 8px solid ", "; }\n    .card:nth-child(4n+3) svg { fill: ", "; }\n    .card:nth-child(4n+3) svg:hover { fill: ", "; }\n    .card:nth-child(4n+3) img { border: 8px solid ", "; }\n    .card:nth-child(4n+4) svg { fill: ", "; }\n    .card:nth-child(4n+4) svg:hover { fill: ", "; }\n    .card:nth-child(4n+4) img { border: 8px solid ", "; }\n  "]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n\n  img { border: 8px solid white; }\n  svg { fill: white; }\n  svg:hover { fill: ", "; }\n\n  ", "\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-var StyledCardDeck = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].div(_templateObject(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.lightGrey, function (props) {
-  return props.rainbow && Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["css"])(_templateObject2(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.redLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellowLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.yellow, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.greenLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blueLight, _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.blue);
-});
-
-var PersonList = function PersonList(_ref) {
-  var people = _ref.people,
-      rainbow = _ref.rainbow;
-  var cards = people.map(function (person) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_PersonCard__WEBPACK_IMPORTED_MODULE_4__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, person, {
-      key: person.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }));
-  });
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledCardDeck, {
-    rainbow: rainbow,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, cards);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (PersonList);
-
-/***/ }),
-
-/***/ "./components/Schedule.js":
-/*!********************************!*\
-  !*** ./components/Schedule.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
-
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Schedule.js";
-
-
-function _templateObject5() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  color: white;\n  text-decoration: none;\n  &hover {\n    color: ", ";\n  }\n"]);
-
-  _templateObject5 = function _templateObject5() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  font-size: 1.1em;\n  font-style: italic;\n  font-weight: 400;\n  margin: 8px 0 0 0;\n"]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  font-size: 1.3em;\n  margin: 16px 0 0 0;\n"]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  font-size: 1.1em;\n  margin: 16px 0 0 0;\n"]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  display: grid;\n  grid-template-columns: 100px 1fr;\n  grid-gap: 8px;\n  margin-bottom: 16px;\n  a { color: white; }\n  a:hover{ color: ", "; }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-
-var Article = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].article(_templateObject(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.lightGrey);
-var Time = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].p(_templateObject2());
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h3(_templateObject3());
-var Speaker = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].h4(_templateObject4());
-var SpeakerLink = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].a(_templateObject5(), _theme__WEBPACK_IMPORTED_MODULE_5__["default"].colors.lightGrey);
-
-var Event = function Event(_ref) {
-  var title = _ref.title,
-      date = _ref.date,
-      speaker = _ref.speaker,
-      speakerId = _ref.speakerId,
-      description = _ref.description,
-      htmlDescription = _ref.htmlDescription;
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Article, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Time, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, date), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Title, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, title), !!speaker && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    passHref: true,
-    href: "/#".concat(speakerId),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(SpeakerLink, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Speaker, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, speaker))), !!description && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, description), !!htmlDescription && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
-    dangerouslySetInnerHTML: {
-      __html: htmlDescription
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  })));
-};
-
-var Schedule = function Schedule(_ref2) {
-  var schedule = _ref2.schedule;
-  var scheduleItems = schedule.map(function (event) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Event, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, event, {
-      key: event.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 57
-      },
-      __self: this
-    }));
-  });
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, scheduleItems);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Schedule);
-
-/***/ }),
-
 /***/ "./components/SocialLink.js":
 /*!**********************************!*\
   !*** ./components/SocialLink.js ***!
@@ -1658,10 +1150,10 @@ var MeetupLink = function MeetupLink(_ref10) {
 
 /***/ }),
 
-/***/ "./components/Sponsor.js":
-/*!*******************************!*\
-  !*** ./components/Sponsor.js ***!
-  \*******************************/
+/***/ "./components/VenueMap.js":
+/*!********************************!*\
+  !*** ./components/VenueMap.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1672,11 +1164,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Sponsor.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/VenueMap.js";
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin: 32px;\n  max-width: 80%;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  height: 400px;\n  margin: 30px 0;\n  max-width: 600px;\n  overflow: hidden;\n  position: relative;\n  width: 100%;\n\n  iframe {\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -1686,243 +1178,27 @@ function _templateObject() {
 }
 
 
-var Image = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].img(_templateObject());
-
-var Sponsor = function Sponsor(_ref) {
-  var name = _ref.name,
-      link = _ref.link,
-      logo = _ref.logo,
-      width = _ref.width;
-  // Hack to get the /static/ folder to work for gh-pages. Set to true for gh-pages build
-  var ghPages = false;
-  var assetPrefix = ghPages ? '/devfest-houston-2019' : '';
-  var img = "".concat(assetPrefix).concat(logo);
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: link,
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Image, {
-    src: img,
-    alt: name,
-    width: width,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Sponsor);
-
-/***/ }),
-
-/***/ "./components/SponsorList.js":
-/*!***********************************!*\
-  !*** ./components/SponsorList.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Sponsor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sponsor */ "./components/Sponsor.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SponsorList.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n  flex-wrap: wrap;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-var List = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div(_templateObject());
-
-var SponsorList = function SponsorList(_ref) {
-  var sponsors = _ref.sponsors;
-  var sponsorList = sponsors.map(function (sponsor) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Sponsor__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, sponsor, {
-      key: sponsor.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    }));
-  });
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(List, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, sponsorList);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SponsorList);
-
-/***/ }),
-
-/***/ "./components/Tito.js":
-/*!****************************!*\
-  !*** ./components/Tito.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Tito.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  */\n  *{box-sizing:border-box}\n  .tito-wrapper{border:1px solid #ccc;background:white;color:#333;margin:20px auto;padding:10px 0 0 0;width:100%}\n  .tito-ticket-list{display:block;list-style-type:none;margin:0;padding:0;width:100%}\n  #tito-previous-releases,.tito-ticket-list.tito-ticket-waitlist{margin:0}.tito-ticket.row{display:block;border-bottom:1px solid #ccc;margin:0 15px;min-height:54px;padding:10px 0}\n  .tito-ticket:after{content:'';display:table;clear:both}\n  .tito-ticket-name-wrapper,.tito-ticket-price-quantity-wrapper{border:none;display:block;float:left;width:100%}\n  @media screen and (min-width: 520px){.tito-ticket-name-wrapper,.tito-ticket-price-quantity-wrapper{width:50%}}\n  .tito-ticket-name{display:block;font-size:16px;font-weight:normal;line-height:1.2;margin:8px 0 5px}\n  .tito-ticket-name .label.label-default{border:1px solid #333;color:#333;font-size:10px;font-weight:bold;margin-left:5px;padding:2px 5px;position:relative;top:-1px;text-transform:uppercase}\n  .tito-ticket-name-wrapper .tito-tickets-remaining{background:#ddd;border:1px solid rgba(51,51,51,0.2);color:#333;font-size:10px;padding:2px 5px;position:relative;top:-3px;margin-left:10px;white-space:nowrap}\n  .tito-ticket-description{color:#adadad;font-size:12px}\n  .tito-degressive-price-desc+.tito-ticket-description{margin-top:.5rem}\n  .tito-ticket-price-quantity{text-align:right;width:auto}\n  @media screen and (min-width: 520px){.tito-ticket-price-quantity{float:right;display:flex;align-items:center;}}\n  .tito-ticket-price{float:left;text-align:left;width:50%}\n  @media screen and (min-width: 520px){.tito-ticket-price{text-align:right;width:auto}}\n  .tito-ticket-quantity{float:right;min-width:70px}\n  .tito-ticket-quantity span{margin:0 10px}\n  input[type=text].tito-ticket-quantity-field,input[type=text].tito-ticket-donation-field{background-color:#fff;border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);color:#333;display:inline-block;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center}\n  input[type=text].tito-ticket-quantity-field{width:45px}\n  input[type=text].tito-ticket-donation-field{width:85px;margin-left:6px}\n  .tito-ticket-price span{display:block;font-size:16px;line-height:34px}\n  .tito-ticket-vat{color:#adadad;font-size:10px;padding-bottom:5px}\n  .tito-ticket-status span{background:#efefef;color:#adadad;display:inline-block;font-size:14px;height:34px;line-height:34px;min-width:90px;padding:0 10px;text-align:center;text-decoration:none;width:100%}\n  .btn.btn-default.btn-waitlist{background:#fff;border:1px solid #ccc;color:#333;font-size:14px;height:34px;line-height:1.42857143;padding:6px 12px;white-space:nowrap;width:200px}\n  .btn.btn-default.btn-waitlist:hover{border:1px solid #333}.tito-discount-code{display:block;margin:0 30px;padding:5px 0}\n  @media screen and (min-width: 520px){.tito-discount-code{float:left}}\n  .tito-discount-code-label{display:none}.btn.btn-default.tito-discount-apply-button{display:none}\n  .tito-discount-code .tab-pane.tito-discount-code-show.active{display:none}\n  .tito-discount-code .tab-pane.tito-discount-code-edit{display:block;visibility:visible}\n  input.form-control.tito-discount-code-field.discount-code-field{background:#fff;border:1px solid #ccc;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);display:inline-block;font-size:14px;height:34px;line-height:1.42857143;margin:5px 0;padding:6px 12px;width:100%}\n  @media screen and (min-width: 520px){input.form-control.tito-discount-code-field.discount-code-field{width:200px}}\n  .tito-discount-code-show{padding-top:15px}.tito-discount-code-edit,.tito-discount-code-show{display:none}\n  .tito-discount-code-edit.active,.tito-discount-code-show.active{display:inline-block}\n  .tito-submit-wrapper{margin:0 15px;padding:10px 0;text-align:right}\n  .tito-submit{background:", ";color:#fff;border-color:transparent;cursor:pointer;font-size:14px;height:34px;line-height:1.42857143;margin:0;padding:6px 12px;text-align:center;width:100%}\n  @media screen and (min-width: 520px){.tito-submit{width:100px}}\n  .tito-submit:hover{background:", "}\n  .tito-ticket.tito-locked-ticket>div{padding:10px 0}\n  .tito-ticket.tito-locked-ticket label,.tito-ticket.tito-locked-ticket span{opacity:.5}\n  .locked-tickets-message p{font-size:14px;line-height:1.3;opacity:.5}\n  .tito-badge-link{font-size:12px;display:inline-block;margin:15px 0 5px;text-align:center;width:100%}\n  .tito-badge-link a {color: ", "}\n  .tito-badge-link a:hover {color: ", "}\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-var Tito = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject(), _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.greenLight, _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.green, _theme__WEBPACK_IMPORTED_MODULE_3__["default"].colors.greenLight);
+var MapContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Tito, {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MapContainer, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
-    src: "https://js.tito.io/v1",
-    async: true,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.0171988954858!2d-95.40461114602502!3d29.690281035050578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0057cffffff%3A0x7566bf063c65497!2sCUBIO%20Innovation%20Center!5e0!3m2!1sen!2sus!4v1566659080847!5m2!1sen!2sus",
+    width: "600",
+    height: "450",
+    frameborder: "0",
+    allowfullscreen: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tito-widget", {
-    event: "https://ti.to/gdg-houston/gdg-devfest-houston",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 22
     },
     __self: this
   }));
 });
-
-/***/ }),
-
-/***/ "./components/elements/Anchor.js":
-/*!***************************************!*\
-  !*** ./components/elements/Anchor.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
-
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Anchor.js";
-
-
-function _templateObject4() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n    color: white;\n    &:hover {\n      color: ", ";\n    }\n  "]);
-
-  _templateObject4 = function _templateObject4() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject3() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n    color: ", ";\n    &:hover {\n      color: ", ";\n    }\n  "]);
-
-  _templateObject3 = function _templateObject3() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n    color: ", ";\n    &:hover {\n      color: ", ";\n    }\n  "]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_1__["default"])(["\n  ", "\n  ", "\n  ", "\n  /* padding: 0.5em 1em; */\n  /* text-decoration: none; */\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-
-var StyledLink = styled_components__WEBPACK_IMPORTED_MODULE_3__["default"].a(_templateObject(), function (props) {
-  return props.color == 'blue' && Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["css"])(_templateObject2(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.blue, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.blueLight);
-}, function (props) {
-  return props.color == 'red' && Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["css"])(_templateObject3(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.red, _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.redLight);
-}, function (props) {
-  return props.color == 'white' && Object(styled_components__WEBPACK_IMPORTED_MODULE_3__["css"])(_templateObject4(), _theme__WEBPACK_IMPORTED_MODULE_4__["default"].colors.lightGrey);
-});
-StyledLink.defaultProps = {
-  color: 'blue'
-};
-
-var Anchor = function Anchor(props) {
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledLink, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), props.children);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Anchor);
 
 /***/ }),
 
@@ -2068,10 +1344,10 @@ function _templateObject() {
 
 /***/ }),
 
-/***/ "./components/elements/OffsetHeading.js":
-/*!**********************************************!*\
-  !*** ./components/elements/OffsetHeading.js ***!
-  \**********************************************/
+/***/ "./components/elements/PageTitle.js":
+/*!******************************************!*\
+  !*** ./components/elements/PageTitle.js ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2082,7 +1358,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  margin-top: -90px;\n  padding-top: 90px;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  font-size: 3em;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -2093,34 +1369,6 @@ function _templateObject() {
 
 
 /* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1(_templateObject()));
-
-/***/ }),
-
-/***/ "./components/elements/ProfileImage.js":
-/*!*********************************************!*\
-  !*** ./components/elements/ProfileImage.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  border-radius: 50%;\n  height: 150px;\n  width: 150px;\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
-
-
-/* harmony default export */ __webpack_exports__["default"] = (styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img(_templateObject()));
 
 /***/ }),
 
@@ -2652,185 +1900,6 @@ var SvgGoogleSkyline = function SvgGoogleSkyline(props) {
 
 /***/ }),
 
-/***/ "./components/icons/devfest_logo.svg":
-/*!*******************************************!*\
-  !*** ./components/icons/devfest_logo.svg ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-var _ref =
-/*#__PURE__*/
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("defs", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  id: "devfest_logo_svg__a",
-  d: "M.266.177H27.91v76.894H.266z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  id: "devfest_logo_svg__c",
-  d: "M0 77.071h575.796V.177H0z"
-}));
-
-var _ref2 =
-/*#__PURE__*/
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
-  fill: "none",
-  fillRule: "evenodd"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#FAD2CF",
-  d: "M278.09 77.823h31.334V.929H278.09z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#AECBFA",
-  d: "M524.765 77.823H556.1V.929h-31.335z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#A8DAB5",
-  d: "M0 77.823h31.334V.929H0z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
-  transform: "translate(0 .751)"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
-  transform: "translate(88.687)"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("mask", {
-  id: "devfest_logo_svg__b",
-  fill: "#fff"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
-  xlinkHref: "#devfest_logo_svg__a"
-})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M27.91 77.071V.177C12.643.177.266 12.488.266 27.674v21.9c0 15.187 12.377 27.497 27.644 27.497",
-  fill: "#FBBC04",
-  mask: "url(#devfest_logo_svg__b)"
-})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("mask", {
-  id: "devfest_logo_svg__d",
-  fill: "#fff"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("use", {
-  xlinkHref: "#devfest_logo_svg__c"
-})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#FDE293",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M116.598 77.071h35.033V.177h-35.033z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#AECBFA",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M170.597.177l44.633 76.894V.177z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#4285F4",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M259.863.177H215.23v76.894z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M31.333.177c21.348 0 38.653 17.214 38.653 38.448 0 21.233-17.305 38.446-38.653 38.446V.177z",
-  fill: "#34A853",
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M31.333 62.39c13.196 0 23.894-10.64 23.894-23.765 0-13.126-10.698-23.766-23.894-23.766H15.667v18.19",
-  stroke: "#0D652D",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M466.258 57.848c-16.01 0-28.99-12.91-28.99-28.835 0-15.926 12.98-28.836 28.99-28.836v57.67z",
-  fill: "#FBBC04",
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#EA4335",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M309.424 19.4h25.773V.178h-25.773z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#4285F4",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M505.068 19.4h19.698V.178h-19.698zm51.032 0h19.697V.178H556.1z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#EA4335",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M309.424 57.848h19.327V38.625h-19.327z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#FBBC04",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M466.258 19.4h25.77V.178h-25.77z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M466.258 19.4v38.448H440.49v19.223h25.77c16.01 0 28.99-12.91 28.99-28.835 0-15.926-12.98-28.836-28.99-28.836",
-  fill: "#FDE293",
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M452.743 42.753c-3.586-3.49-5.812-8.357-5.812-13.74 0-10.617 8.654-19.225 19.328-19.225h12.883",
-  stroke: "#E37400",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M514.917 9.789h51.031",
-  stroke: "#174EA6",
-  strokeWidth: 1.106
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M381.27 77.071V.177c-15.267 0-27.644 12.311-27.644 27.497v21.9c0 15.187 12.377 27.497 27.644 27.497",
-  fill: "#34A853",
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  fill: "#A8DAB5",
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M381.27 77.071h35.033V.177h-35.032z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M372.648 27.011l-4.99-.033",
-  stroke: "#0D652D",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M416.303 27.059h-34.317",
-  stroke: "#FDE293",
-  strokeWidth: 1.106
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M416.303 50.19h-10.246m-9.347 0h-7.79",
-  stroke: "#0D652D",
-  strokeWidth: 1.106
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M220.143 45.549c0-2.699-2.2-4.887-4.913-4.887s-4.913 2.188-4.913 4.887c0 2.698 2.2 4.887 4.913 4.887 2.714 0 4.913-2.189 4.913-4.887zm7.362-29.611c0-2.698 2.198-4.886 4.913-4.886 2.713 0 4.911 2.188 4.911 4.886 0 2.7-2.198 4.887-4.911 4.887-2.715 0-4.913-2.187-4.913-4.887zm2.455 4.232l-12.3 21.194m-14.704-25.426c0-2.698-2.2-4.886-4.913-4.886-2.714 0-4.912 2.188-4.912 4.886 0 2.7 2.198 4.887 4.912 4.887s4.913-2.187 4.913-4.887zM200.5 20.17l12.302 21.194",
-  stroke: "#174EA6",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  stroke: "#0D652D",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M15.666 44.2l-5.605-5.575 5.605-5.576 5.606 5.576zm390.391 5.99l-4.673-4.649-4.674 4.649 4.674 4.648zm-23.971-23.131l-4.673-4.648-4.673 4.648 4.673 4.648z"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M535.76 26.236c0-2.567 2.091-4.648 4.673-4.648 2.58 0 4.673 2.08 4.673 4.648 0 2.567-2.092 4.648-4.673 4.648-2.582 0-4.674-2.081-4.674-4.648zm0 17.818c0-2.567 2.091-4.647 4.673-4.647 2.58 0 4.673 2.08 4.673 4.647 0 2.568-2.092 4.649-4.673 4.649-2.582 0-4.674-2.081-4.674-4.649zm0 17.819c0-2.567 2.091-4.648 4.673-4.648 2.58 0 4.673 2.08 4.673 4.648 0 2.568-2.092 4.649-4.673 4.649-2.582 0-4.674-2.081-4.674-4.649z",
-  stroke: "#174EA6",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M457.12 67.46h9.138c10.674 0 19.327-8.607 19.327-19.224s-8.653-19.223-19.327-19.223",
-  stroke: "#E37400",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  stroke: "#A50E0E",
-  strokeWidth: 1.106,
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M313.668 48.169h-19.91v19.805"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  stroke: "#FBBC04",
-  strokeWidth: 1.102,
-  mask: "url(#devfest_logo_svg__d)",
-  d: "M322.269 9.782h-28.512v28.843"
-}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
-  d: "M151.631 27.059h-35.173m35.173 11.565h-35.173m35.173 11.566h-35.173",
-  stroke: "#E37400",
-  strokeWidth: 1.106
-})));
-
-var SvgDevfestLogo = function SvgDevfestLogo(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({
-    width: 576,
-    height: 78
-  }, props), _ref, _ref2);
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SvgDevfestLogo);
-
-/***/ }),
-
 /***/ "./components/icons/facebook.svg":
 /*!***************************************!*\
   !*** ./components/icons/facebook.svg ***!
@@ -3220,72 +2289,6 @@ __webpack_require__.r(__webpack_exports__);
     lightGrey: '#eee'
   }
 });
-
-/***/ }),
-
-/***/ "./data/mc.yml.json":
-/*!**************************!*\
-  !*** ./data/mc.yml.json ***!
-  \**************************/
-/*! exports provided: 0, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"mc-gant","name":"Gant G Laborde","image":"/static/gant.jpg","bio":"Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is an “open sourcerer”, team leader, and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at <a href=\"http://gantlaborde.com/\">gantlaborde.com</a>.","company":"Infinite Red","twitter":"GantLaborde","website":"http://gantlaborde.com/","blog":"https://medium.com/@gantlaborde","linkedin":"https://www.linkedin.com/in/gant-laborde/","github":"gantman"}];
-
-/***/ }),
-
-/***/ "./data/organizers.yml.json":
-/*!**********************************!*\
-  !*** ./data/organizers.yml.json ***!
-  \**********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"vishal","name":"Vishal Pallerla","image":"","bio":"Organizer","company":"","twitter":"","github":"","website":"","blog":"","linkedin":"https://www.linkedin.com/in/vishalpallerla"},{"id":"sakitha","name":"Sakhitha Kanyadhara","image":"","bio":"Co-Organizer and WTM Ambassador","company":"","twitter":"","github":"","website":"","blog":"","linkedin":"https://www.linkedin.com/in/sakhitha-kanyadhara"},{"id":"roopa","name":"Roopa Rajala","image":"","bio":"Co-Organizer","company":null,"github":"","website":"","linkedin":"https://www.linkedin.com/in/roopa-rajala"},{"id":"aparna","name":"Aparna Kaliyur","image":"","bio":"Co-Organizer and WTM Ambassador","company":"","twitter":"","github":"","website":"","blog":"","linkedin":"https://www.linkedin.com/in/akaliyur"},{"id":"kaushik","name":"Kaushik Awala","image":"","bio":"Co-Organizer","company":"","github":"awalakaushik","website":"","linkedin":"https://www.linkedin.com/in/akaushikr"},{"id":"Hussain","name":"Hussain Abbasi","image":"","bio":"Co-Organizer","company":"","github":"","website":"","linkedin":"https://www.linkedin.com/in/hnabbasi"}];
-
-/***/ }),
-
-/***/ "./data/partners.yml.json":
-/*!********************************!*\
-  !*** ./data/partners.yml.json ***!
-  \********************************/
-/*! exports provided: 0, 1, 2, 3, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"womentechmakers","name":"Women Tech Makers","link":"https://www.womentechmakers.com/","logo":"/static/WTM-logo.png","tier":"gold","width":"450px"},{"id":"flutter","name":"Flutter","link":"https://meetup.com/FlutterHouston","logo":"/static/Flutter-logo.png","tier":"gold","width":"270px"},{"id":"WWC","name":"Women Who Code","link":"https://www.womenwhocode.com/houston","logo":"/static/wwc-logo.png","tier":"gold","width":"270px"},{"id":"HPL","name":"Houston PyLadies","link":"https://www.meetup.com/Houston_PyLadies/","logo":"/static/hpl-logo.jpeg","tier":"gold","width":"270px"}];
-
-/***/ }),
-
-/***/ "./data/schedule.yml.json":
-/*!********************************!*\
-  !*** ./data/schedule.yml.json ***!
-  \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, default */
-/***/ (function(module) {
-
-module.exports = [{"date":"8:00 am","title":"Registration & Diversity Breakfast","id":"registration","description":"Find your parking spot early and join us for a breakfast sponsored and hosted by Women Techmakers.\n"},{"date":"9:00 am","title":"Welcome Address","id":"welcome"},{"date":"9:10 am","title":"Deployment 101 for Frontenders","id":"deployment","speakerId":"diana","speaker":"Diana Rodríguez","description":"We make amazing applications! how about the deployment process? Is there an easy way to get around shipping apps?. From a DevOps turned Frontend thanks to Vue.js learn quick ‘n easy ways to deploy your applications without frustration.\n"},{"date":"9:40 am","title":"Modeling the conceptual structure of ffmpeg in JavaScript","id":"ffmpeg","speakerId":"ryan","speaker":"Ryan Harvey","description":"A core tool in many video developers’ workflows, ffmpeg has a frustratingly steep learning curve and a difficult syntax to master. Many video developers write code to automate ffmpeg runs, and Node.js is a popular way to do that. However, current JavaScript interfaces to ffmpeg do nothing to ease the underlying difficulty of the tool. In this talk, I’ll introduce you to a new library I’ve built for Node.js to make that process easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.\n"},{"date":"10:10 am","title":"Break","id":"break1"},{"date":"10:30 am","title":"CSS For People That Hate CSS","id":"css","speakerId":"robin","speaker":"Robin Dykema","description":"What’s the difference between Flexbox and CSS grid? Should I use a preprocessor? Why is it so hard to center a <div>?! Can’t I just use Bootstrap or Materials UI instead? Learn the basics of CSS, along with strategies and resources for writing better CSS. *Hating CSS is not a prerequisite for attending this talk\n"},{"date":"11:05 am","title":"Building Machine Learning Products with TensorFlow 2.0","id":"tensorflow","speakerId":"ekaba","speaker":"Ekaba Bisong","description":"The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them for integration with software products. Some of these new features include using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products.\n"},{"date":"11:40 am","title":"Help Keep the Internet Safe with WebAuthn","id":"webauthn","speakerId":"jen","speaker":"Jen Tong","description":"Account takeovers continue to be part of major security incidents. Decades of password education haven't helped. Phishing campaigns have become more effective than ever. Sometimes it seems like we're losing. But there is hope! The WebAuthn protocol provides a stronger way for users to authenticate. It uses secure hardware and asymmetric cryptography to provide a strong addition to passwords, or a replacement. Best of all, it's easy to implement, and already widely supported. Come to this talk to learn how WebAuthn works, how you can use it yourself, and how to add support to your software.\n"},{"date":"12:10 pm","title":"Lunch","id":"lunch"},{"date":"1:10 pm","title":"Lightning Talks","id":"lightning","htmlDescription":"Deep Gratitude, Deep Focus by <a href=\"https://github.com/arilfrankel\">Ari Leo Frankel</a><br />Host a custom blog for FREE! by <a href=\"https://twitter.com/prpatel\">Pratik Patel</a><br />Conversational Design for AI Chatbots by <a href=\"https://lynsey.design/\">Lynsey Gwin</a><br />What's your medium? by <a href=\"https://www.ellismarsaliscenter.org\">Élan</a>\n"},{"date":"1:45 pm","title":"Serverless App Starter Kit: How to choose a cloud provider","id":"serverless","speakerId":"michelle","speaker":"Michelle Brenner","description":"Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I’ve done the work for you. I have created a simple app with AWS, Google Cloud & Microsoft Azure. I’ll compare how each one from an idea to a professional production pipeline.\n"},{"date":"2:15 pm","title":"Break","id":"break2"},{"date":"2:35 pm","title":"Reader Beware, Choose Your Own Scare...","id":"typeform","speakerId":"michael","speaker":"Michael Solati","description":"Everyone loves a good spooky story! (Or is cowering under their bed sheets… Either/or…) And what better to captivate the audience than letting them choose their own scare? We all can’t be in the same illustrious class of penmen as R.L. Stine, but we can create compelling experiences with tools such as Typeform! Code doesn’t always tell a compelling story, but conversational UIs developer with easy to use logic jumps can help you craft your own interactive adventure. See how to use the Typeform to give your conversational UIs a voice on the Google Assistant with Dialogflow. Now you can spread your stories reach to more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and more.\n"},{"date":"3:10 pm","title":"Awesome data visualization on the web with Google Maps Platform and Deck.gl","id":"deckgl","speakerId":"alex","speaker":"Alex Muramoto","description":"The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.\n"},{"date":"3:40 pm","title":"Break","id":"break3"},{"date":"4:00 pm","title":"Digital Ethics in an Unethical Era: How to Not Ruin The World","id":"ethics","speakerId":"sonia","speaker":"Sonia Gupta","description":"As we become increasingly reliant upon digital infrastructure and software in all aspects of our lives, technologists hold the safety and well-being of humanity in our hands. In this talk, we’ll take a journey through the history of digital ethics and explore what it means for all of us as technologists today. We’ll also examine some of the technical and social aspects of maintaining an ethical infrastructure and software development practice. Knowing our history and current limitations will help us to ensure that we understand our obligation, as stewards of technology, to do no harm.\n"},{"date":"4:30 pm","title":"Closing Address","id":"closing"}];
-
-/***/ }),
-
-/***/ "./data/speakers.yml.json":
-/*!********************************!*\
-  !*** ./data/speakers.yml.json ***!
-  \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"diana","name":"Diana Rodríguez","image":"/static/diana.png","bio":"Diana Rodriguez is a Full Stack Developer & DevOps lover of all things web and cloud!. With over 18 years' experience and a strong background in back end and infrastructure Diana likes to bring together the best of both worlds. In her spare time she likes to play videogames and loves taekwondo.","company":"Vue Vixens","twitter":"cotufa82"},{"id":"ryan","name":"Ryan Harvey","image":"/static/ryan.png","bio":"Ryan Harvey is a software & data engineer, a computer science educator, and an active participant in civic and public benefit tech efforts. He works at TED on analytics & video and teaches at Loyola University New Orleans.","company":"TED / Loyola","twitter":"CodeAndData","github":"nihonjinrxs","website":"http://datascientist.guru/","linkedin":"https://www.linkedin.com/in/ryanbharvey","profile":"http://people.loyno.edu/~rharvey/"},{"id":"robin","name":"Robin Dykema","image":"/static/robin.jpg","bio":"Robin is a UI engineer at Taulia, where she focuses on front end development in React. She is passionate about building stunning user interfaces and intuitive user experiences. She successfully transitioned from teaching ESL to kindergarteners in Shanghai to wrangling code and hasn't looked back since.","company":"Taulia","twitter":"robindykema","linkedin":"http://www.linkedin.com/in/robindykema"},{"id":"ekaba","name":"Ekaba Bisong","image":"/static/ekaba.png","bio":"Ekaba is a Data Science Lead at T4G. He is a Google Developer Expert in Machine Learning, and is the author of the book \"Building Machine Learning and Deep Learning Models on Google Cloud Platform\" (In Production) with Apress (Springer Nature) Publishers.","company":"T4G","github":"dvdbisong","website":"https://ekababisong.org/","blog":"https://ekababisong.org/writings/","linkedin":"https://www.linkedin.com/in/ekababisong/"},{"id":"jen","name":"Jen Tong","image":"/static/jen.jpg","bio":"Jen is a Security Advocate on Google Cloud Platform. In this role she helps developers and IT professionals stay out of trouble while getting the most out of cloud computing. ","company":"Google","twitter":"MimmingCodes","github":"mimming","website":"https://jen.run","blog":"https://little418.com","linkedin":"http://linked.in/mimming"},{"id":"michelle","name":"Michelle Brenner","image":"/static/michelle.jpg","bio":"Michelle is a Senior Backend Engineer, with 9+ years experience in tech, from engineering support to manager. She runs a tech podcast (From The Source) and works to promote DE&I in tech.","company":"ChowNow","twitter":"michellelynneb","website":"http://www.michellebrenner.com/","linkedin":"https://www.linkedin.com/in/michellebrenner/"},{"id":"michael","name":"Michael Solati","image":"/static/michael.jpg","bio":"Michael is a Developer Advocate at Typeform as well as a Google Developer Expert in Web Technologies. He has found his love in Angular, Firebase, Progressive Web Apps, and the voodoo ways of the web.","company":"Typeform","twitter":"MichaelSolati","github":"MichaelSolati","website":"https://michaelsolati.com/","blog":"https://michaelsolati.com/articles","linkedin":"https://www.linkedin.com/in/michaelsolati/"},{"id":"alex","name":"Alex Muramoto","image":"/static/alex.jpg","bio":"Alex is a developer advocate for Google Maps Platform. His past lives are a mix of web dev, hybrid mobile, chatbots, a lot of documentation, and geo.","company":"Google","twitter":"alexmuramoto","github":"amuramoto","website":"http://developers.google.com/maps/documentation/","blog":"https://cloud.google.com/blog/products/maps-platform","linkedin":"https://www.linkedin.com/in/amuramoto"},{"id":"sonia","name":"Sonia Gupta","image":"/static/sonia.jpg","bio":"Sonia Gupta is a software developer in Los Angeles. Prior to becoming a developer, she was a lawyer in Louisiana. Sonia believes that even if tech can’t change the world, technologists absolutely can.","company":"InfluxData","twitter":"soniagupta504"}];
-
-/***/ }),
-
-/***/ "./data/sponsors.yml.json":
-/*!********************************!*\
-  !*** ./data/sponsors.yml.json ***!
-  \********************************/
-/*! exports provided: 0, 1, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"google","name":"Google","link":"https://developers.google.com/programs/community/","logo":"/static/googlelogo.png","tier":"platinum","width":"270px"},{"id":"cubio","name":"CUBiO","link":"https://cubioinnovation.com/","logo":"/static/CUBiO-logo.png","tier":"gold","width":"270px"}];
 
 /***/ }),
 
@@ -10203,21 +9206,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flocation&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Flocation.js!./":
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flocation&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Flocation.js ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/location", function() {
+      var page = __webpack_require__(/*! ./pages/location.js */ "./pages/location.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/location.js */ "./pages/location.js", function() {
+          if(!next.router.components["/location"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/location.js */ "./pages/location.js")
+          next.router.update("/location", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -17626,45 +16629,24 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/location.js":
+/*!***************************!*\
+  !*** ./pages/location.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "./node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Person/PersonList */ "./components/Person/PersonList.js");
-/* harmony import */ var _components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/elements/AnchorButton */ "./components/elements/AnchorButton.js");
-/* harmony import */ var _components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/elements/OffsetHeading */ "./components/elements/OffsetHeading.js");
-/* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
-/* harmony import */ var _components_SponsorList__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/SponsorList */ "./components/SponsorList.js");
-/* harmony import */ var _components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/icons/devfest_logo.svg */ "./components/icons/devfest_logo.svg");
-/* harmony import */ var _components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/icons/gdg_logo.svg */ "./components/icons/gdg_logo.svg");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/elements/Anchor */ "./components/elements/Anchor.js");
-/* harmony import */ var _components_Schedule__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Schedule */ "./components/Schedule.js");
-/* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
-/* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
-
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/index.js";
-
-
-function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  font-family: 'Product Sans', sans-serif;\n  margin-left: 20px;\n  text-align: center;\n  &#title {\n    display: none;\n    overflow: hidden;\n    @media (min-width: 768px) { \n      display: block;\n      width: 100%;\n      font-size: 3em;\n    }\n  }\n  &#mobiletitle {\n    display: none;\n    overflow: hidden;\n    @media (max-width: 767px) {\n      display: block;\n    }\n    @media (min-width: 768px) {\n      display: none;\n    }\n  }\n"]);
-
-  _templateObject = function _templateObject() {
-    return data;
-  };
-
-  return data;
-}
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_VenueMap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/VenueMap */ "./components/VenueMap.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/elements/PageTitle */ "./components/elements/PageTitle.js");
+/* harmony import */ var _components_elements_Section__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/elements/Section */ "./components/elements/Section.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/elements/AnchorButton */ "./components/elements/AnchorButton.js");
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/location.js";
 
 
 
@@ -17672,250 +16654,77 @@ function _templateObject() {
 
 
 
-
-
-
-
-
-
-
-
-
-var speakers = __webpack_require__(/*! ../data/speakers.yml.json */ "./data/speakers.yml.json");
-
-var emcee = __webpack_require__(/*! ../data/mc.yml.json */ "./data/mc.yml.json")[0];
-
-var schedule = __webpack_require__(/*! ../data/schedule.yml.json */ "./data/schedule.yml.json");
-
-var sponsors = __webpack_require__(/*! ../data/sponsors.yml.json */ "./data/sponsors.yml.json");
-
-var partners = __webpack_require__(/*! ../data/partners.yml.json */ "./data/partners.yml.json");
-
-var organizers = __webpack_require__(/*! ../data/organizers.yml.json */ "./data/organizers.yml.json");
-
-var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templateObject());
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    skyline: true,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
-    id: "title",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_PageTitle__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    alt: "DevFest 2019",
+  }, "CUBiO Innovation Center"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 12
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    style: {
-      fontSize: '34px',
-      marginTop: '25px',
-      textAlign: 'center'
-    },
+  }, "CUBiO is a healthcare incubator and innovative co-working space that not only provides healthcare innovators with office space but also with access to a wide range of diverse resources from human capital, business partners, to investors."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VenueMap__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 18
     },
     __self: this
-  }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
-    id: "mobiletitle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    alt: "GDG",
-    width: "70px",
-    height: "35px",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    style: {
-      fontSize: '34px',
-      marginTop: '25px',
-      textAlign: 'center'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "DevFest Houston"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    style: {
-      fontSize: '24px',
-      marginTop: '25px',
-      textAlign: 'center'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "September 28, 2019"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 22
     },
     __self: this
-  }, "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Welcome to Houston!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 23
     },
     __self: this
-  }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    href: "https://forms.gle/pdJkmWLtVZc9qA889",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    color: "white",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "First time in Houston? Here are some recommendations from locals on restaurants, bars, music, and family-friendly things to do while you're here, we've created a curated a google map just for you!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
     color: "white/blue",
-    href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
+    href: "https://www.google.com/maps/d/viewer?mid=1cLWD_oEPW0BXhThUBINYCknNVZo&msa=0&ll=29.61219238035241%2C-95.51205349999998&z=9",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 24
     },
     __self: this
-  }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, "Things to do"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    id: "sponsors",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    sponsors: sponsors,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "cta",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    href: "https://forms.gle/C6ueQfWL47uTHxUs9",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    id: "partner-organizations",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    sponsors: partners,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    color: "red",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    id: "organizers",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100
-    },
-    __self: this
-  }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    people: organizers,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 27
     },
     __self: this
   }));
@@ -17923,14 +16732,14 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 
 /***/ }),
 
-/***/ 0:
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************************************/
+/***/ 1:
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flocation&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Flocation.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flocation&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Flocation.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flocation&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Flocation.js!./");
 
 
 /***/ }),
@@ -17946,5 +16755,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[1,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=location.js.map
