@@ -14,5 +14,13 @@
     "logo": "/static/CUBiO-logo.png",
     "tier": "gold",
     "width": "270px"
+  },
+  {
+    "id": "byte",
+    "name": "Byte Academy",
+    "link": "https://byteacademy.co/houston/",
+    "logo": "/static/ByteAcademy.png",
+    "tier": "gold",
+    "width": "120px"
   }
 ]
