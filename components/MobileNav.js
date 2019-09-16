@@ -93,7 +93,7 @@ class MobileMenu extends Component {
           <AnchorButton style={{ alignSelf: 'center', marginRight: '1em' }} href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" small="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
         </MobileTopNav>
         <MobileLinks className={this.state.isOpen ? 'is-visible' : 'is-hidden'}>
-          <Link passHref href="/"><MobileNavLink onClick={this.closeMenu} >Home</MobileNavLink></Link>
+          {/* <Link passHref href="/"><MobileNavLink onClick={this.closeMenu} >Home</MobileNavLink></Link> */}
           <Link passHref href="https://www.papercall.io/devfest-houston"><MobileNavLink onClick={this.closeMenu} >Call For Papers</MobileNavLink></Link>
           {/* <Link passHref href="/#speakers"><MobileNavLink onClick={this.closeMenu} >Speakers</MobileNavLink></Link> */}
           {/* <Link passHref href="/#schedule"><MobileNavLink onClick={this.closeMenu} >Talks</MobileNavLink></Link> */}
