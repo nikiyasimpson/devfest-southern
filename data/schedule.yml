@@ -7,22 +7,16 @@
 - date: 9:45 am
   title: Session 1
   id: deployment
-  speakerId: diana
-  speaker: Diana Rodríguez
   description: >
     Building cross-platform apps using Flutter.
 - date: 10:30 am
   title: Session 2
   id: ffmpeg
-  speakerId: ryan
-  speaker: Ryan Harvey
   description: >
     Automated machine learning in data science - Advances and Opportunities!
 - date: 11:15 am
   title: Session 3
   id: css
-  speakerId: robin
-  speaker: Robin Dykema
   description: >
     The good, bad and ugly in webapp development.
 - date: 12:00 pm
@@ -37,8 +31,6 @@
 - date: 3:00 pm
   title: Unlocking the hidden powers of javascript
   id: lightning
-  htmlDescription: >
-    Unlock your hidden powers of javascript. Hosted by so and so...
 - date: 3:30 pm
   title: "Managing the Burnout Burndown"
   id: burnout
