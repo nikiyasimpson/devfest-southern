@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/Emcee.js":
 /*!*****************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Emcee.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Emcee.js";
 
 
 function _templateObject() {
@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
 /* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Footer.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Footer.js";
 
 
 
@@ -285,7 +285,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Layout.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Layout.js";
 
 
 function _templateObject() {
@@ -605,7 +605,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\MobileNav.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/MobileNav.js";
 
 function _templateObject5() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  &.is-visible {\n    display: flex;\n    flex-direction: column;\n    overflow: visible;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n  &.is-hidden {\n    display: none;\n    overflow: hidden;\n    transform: translateY(-100%);\n    opacity: 0;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n"]);
@@ -748,21 +748,6 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         passHref: true,
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
-        onClick: this.closeMenu,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }, "Home")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        passHref: true,
         href: "https://www.papercall.io/devfest-houston",
         __source: {
           fileName: _jsxFileName,
@@ -777,21 +762,6 @@ function (_Component) {
         },
         __self: this
       }, "Call For Papers")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        passHref: true,
-        href: "/#sponsors",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
-        onClick: this.closeMenu,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, "Sponsors")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         passHref: true,
         href: "/location",
         __source: {
@@ -821,7 +791,37 @@ function (_Component) {
           lineNumber: 102
         },
         __self: this
-      }, "Code of Conduct"))));
+      }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        passHref: true,
+        href: "https://forms.gle/pdJkmWLtVZc9qA889",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
+        onClick: this.closeMenu,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, "Inclusivity")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        passHref: true,
+        href: "https://forms.gle/VDqt8hHJJwQYA9Wt7",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
+        onClick: this.closeMenu,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }, "Volunteers"))));
     }
   }]);
 
@@ -854,7 +854,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./MobileNav */ "./components/MobileNav.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Navbar.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Navbar.js";
 
 
 function _templateObject4() {
@@ -962,20 +962,6 @@ var Navbar = function Navbar() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     passHref: true,
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    passHref: true,
     href: "https://www.papercall.io/devfest-houston",
     __source: {
       fileName: _jsxFileName,
@@ -989,6 +975,34 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Call For Papers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    passHref: true,
+    href: "/#speakers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Speakers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    passHref: true,
+    href: "/#schedule",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Talks")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     passHref: true,
     href: "/location",
     __source: {
@@ -1018,32 +1032,32 @@ var Navbar = function Navbar() {
     __self: this
   }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     passHref: true,
-    href: "https://forms.gle/pdJkmWLtVZc9qA889",
+    href: "https://forms.gle/VDqt8hHJJwQYA9Wt7",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
-  }, "Inclusivity")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Volunteers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
     medium: "true",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 66
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_MobileNav__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 69
     },
     __self: this
   }));
@@ -1067,7 +1081,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonCard.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonCard.js";
 
 
 function _templateObject() {
@@ -1198,7 +1212,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonList.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonList.js";
 
 
 function _templateObject2() {
@@ -1274,7 +1288,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Schedule.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Schedule.js";
 
 
 function _templateObject5() {
@@ -1462,7 +1476,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
 /* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SocialLink.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SocialLink.js";
 
 
 function _templateObject() {
@@ -1672,7 +1686,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Sponsor.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Sponsor.js";
 
 
 function _templateObject() {
@@ -1739,7 +1753,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SponsorList.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SponsorList.js";
 
 
 function _templateObject() {
@@ -1796,7 +1810,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Tito.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Tito.js";
 
 
 function _templateObject() {
@@ -1856,7 +1870,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Anchor.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Anchor.js";
 
 
 function _templateObject4() {
@@ -1943,7 +1957,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\AnchorButton.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/AnchorButton.js";
 
 
 function _templateObject6() {
@@ -2140,7 +2154,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _google_skyline_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./google-skyline.svg */ "./components/elements/google-skyline.svg");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Section.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Section.js";
 
 
 function _templateObject6() {
@@ -3260,10 +3274,10 @@ module.exports = [{"id":"womentechmakers","name":"Women Tech Makers","link":"htt
 /*!********************************!*\
   !*** ./data/schedule.yml.json ***!
   \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, default */
 /***/ (function(module) {
 
-module.exports = [{"date":"8:00 am","title":"Registration & Diversity Breakfast","id":"registration","description":"Find your parking spot early and join us for a breakfast sponsored and hosted by Women Techmakers.\n"},{"date":"9:00 am","title":"Welcome Address","id":"welcome"},{"date":"9:10 am","title":"Deployment 101 for Frontenders","id":"deployment","speakerId":"diana","speaker":"Diana Rodríguez","description":"We make amazing applications! how about the deployment process? Is there an easy way to get around shipping apps?. From a DevOps turned Frontend thanks to Vue.js learn quick ‘n easy ways to deploy your applications without frustration.\n"},{"date":"9:40 am","title":"Modeling the conceptual structure of ffmpeg in JavaScript","id":"ffmpeg","speakerId":"ryan","speaker":"Ryan Harvey","description":"A core tool in many video developers’ workflows, ffmpeg has a frustratingly steep learning curve and a difficult syntax to master. Many video developers write code to automate ffmpeg runs, and Node.js is a popular way to do that. However, current JavaScript interfaces to ffmpeg do nothing to ease the underlying difficulty of the tool. In this talk, I’ll introduce you to a new library I’ve built for Node.js to make that process easier and lessen the learning curve, covering both conceptual structure and motivation, as well as practical examples.\n"},{"date":"10:10 am","title":"Break","id":"break1"},{"date":"10:30 am","title":"CSS For People That Hate CSS","id":"css","speakerId":"robin","speaker":"Robin Dykema","description":"What’s the difference between Flexbox and CSS grid? Should I use a preprocessor? Why is it so hard to center a <div>?! Can’t I just use Bootstrap or Materials UI instead? Learn the basics of CSS, along with strategies and resources for writing better CSS. *Hating CSS is not a prerequisite for attending this talk\n"},{"date":"11:05 am","title":"Building Machine Learning Products with TensorFlow 2.0","id":"tensorflow","speakerId":"ekaba","speaker":"Ekaba Bisong","description":"The talk will cover the newly released TensorFlow 2.0 and its exciting features for developing machine learning models and deploying them for integration with software products. Some of these new features include using Keras as the core high-level API for model design, using FeatureColumns to parse data as input into Keras models, and the ease of training on distributed architectures and devices. In addition, the talk will highlight the TensorFlow Extended (TFX) toolset for deploying machine learning models as software products.\n"},{"date":"11:40 am","title":"Help Keep the Internet Safe with WebAuthn","id":"webauthn","speakerId":"jen","speaker":"Jen Tong","description":"Account takeovers continue to be part of major security incidents. Decades of password education haven't helped. Phishing campaigns have become more effective than ever. Sometimes it seems like we're losing. But there is hope! The WebAuthn protocol provides a stronger way for users to authenticate. It uses secure hardware and asymmetric cryptography to provide a strong addition to passwords, or a replacement. Best of all, it's easy to implement, and already widely supported. Come to this talk to learn how WebAuthn works, how you can use it yourself, and how to add support to your software.\n"},{"date":"12:10 pm","title":"Lunch","id":"lunch"},{"date":"1:10 pm","title":"Lightning Talks","id":"lightning","htmlDescription":"Deep Gratitude, Deep Focus by <a href=\"https://github.com/arilfrankel\">Ari Leo Frankel</a><br />Host a custom blog for FREE! by <a href=\"https://twitter.com/prpatel\">Pratik Patel</a><br />Conversational Design for AI Chatbots by <a href=\"https://lynsey.design/\">Lynsey Gwin</a><br />What's your medium? by <a href=\"https://www.ellismarsaliscenter.org\">Élan</a>\n"},{"date":"1:45 pm","title":"Serverless App Starter Kit: How to choose a cloud provider","id":"serverless","speakerId":"michelle","speaker":"Michelle Brenner","description":"Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I’ve done the work for you. I have created a simple app with AWS, Google Cloud & Microsoft Azure. I’ll compare how each one from an idea to a professional production pipeline.\n"},{"date":"2:15 pm","title":"Break","id":"break2"},{"date":"2:35 pm","title":"Reader Beware, Choose Your Own Scare...","id":"typeform","speakerId":"michael","speaker":"Michael Solati","description":"Everyone loves a good spooky story! (Or is cowering under their bed sheets… Either/or…) And what better to captivate the audience than letting them choose their own scare? We all can’t be in the same illustrious class of penmen as R.L. Stine, but we can create compelling experiences with tools such as Typeform! Code doesn’t always tell a compelling story, but conversational UIs developer with easy to use logic jumps can help you craft your own interactive adventure. See how to use the Typeform to give your conversational UIs a voice on the Google Assistant with Dialogflow. Now you can spread your stories reach to more than 500 million devices, including smart speakers, phones, cars, TVs, headphones, watches, and more.\n"},{"date":"3:10 pm","title":"Awesome data visualization on the web with Google Maps Platform and Deck.gl","id":"deckgl","speakerId":"alex","speaker":"Alex Muramoto","description":"The Google team recently announced initial support for the Deck.gl framework, which brings beautiful, WebGL-accelerated visualization of large data sets to Google Maps. In this talk we’ll look at how to integrate Deck.gl into maps on the web using the Maps JS API.\n"},{"date":"3:40 pm","title":"Break","id":"break3"},{"date":"4:00 pm","title":"Digital Ethics in an Unethical Era: How to Not Ruin The World","id":"ethics","speakerId":"sonia","speaker":"Sonia Gupta","description":"As we become increasingly reliant upon digital infrastructure and software in all aspects of our lives, technologists hold the safety and well-being of humanity in our hands. In this talk, we’ll take a journey through the history of digital ethics and explore what it means for all of us as technologists today. We’ll also examine some of the technical and social aspects of maintaining an ethical infrastructure and software development practice. Knowing our history and current limitations will help us to ensure that we understand our obligation, as stewards of technology, to do no harm.\n"},{"date":"4:30 pm","title":"Closing Address","id":"closing"}];
+module.exports = [{"date":"9:00 am","title":"Check-in / Registrations","id":"registration"},{"date":"9:30 am","title":"Welcome Address","id":"welcome"},{"date":"9:45 am","title":"Session 1","id":"deployment","description":"Building cross-platform apps using Flutter.\n"},{"date":"10:30 am","title":"Session 2","id":"ffmpeg","description":"Automated machine learning in data science - Advances and Opportunities!\n"},{"date":"11:15 am","title":"Session 3","id":"css","description":"The good, bad and ugly in webapp development.\n"},{"date":"12:00 pm","title":"Lunch and Networking","id":"lunch"},{"date":"01:00 pm","title":"Codelab - Flutter","id":"flutterCodeLab"},{"date":"2:00 pm","title":"Codelab - Tensorflow","id":"tensorflowCodelab"},{"date":"3:00 pm","title":"Unlocking the hidden powers of javascript","id":"lightning"},{"date":"3:30 pm","title":"Managing the Burnout Burndown","id":"burnout"},{"date":"4:00 pm","title":"Diversity panel / Networking by WTM","id":"networking"},{"date":"4:30 pm","title":"Closing Address","id":"closing"}];
 
 /***/ }),
 
@@ -3271,10 +3285,10 @@ module.exports = [{"date":"8:00 am","title":"Registration & Diversity Breakfast"
 /*!********************************!*\
   !*** ./data/speakers.yml.json ***!
   \********************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"diana","name":"Diana Rodríguez","image":"/static/diana.png","bio":"Diana Rodriguez is a Full Stack Developer & DevOps lover of all things web and cloud!. With over 18 years' experience and a strong background in back end and infrastructure Diana likes to bring together the best of both worlds. In her spare time she likes to play videogames and loves taekwondo.","company":"Vue Vixens","twitter":"cotufa82"},{"id":"ryan","name":"Ryan Harvey","image":"/static/ryan.png","bio":"Ryan Harvey is a software & data engineer, a computer science educator, and an active participant in civic and public benefit tech efforts. He works at TED on analytics & video and teaches at Loyola University New Orleans.","company":"TED / Loyola","twitter":"CodeAndData","github":"nihonjinrxs","website":"http://datascientist.guru/","linkedin":"https://www.linkedin.com/in/ryanbharvey","profile":"http://people.loyno.edu/~rharvey/"},{"id":"robin","name":"Robin Dykema","image":"/static/robin.jpg","bio":"Robin is a UI engineer at Taulia, where she focuses on front end development in React. She is passionate about building stunning user interfaces and intuitive user experiences. She successfully transitioned from teaching ESL to kindergarteners in Shanghai to wrangling code and hasn't looked back since.","company":"Taulia","twitter":"robindykema","linkedin":"http://www.linkedin.com/in/robindykema"},{"id":"ekaba","name":"Ekaba Bisong","image":"/static/ekaba.png","bio":"Ekaba is a Data Science Lead at T4G. He is a Google Developer Expert in Machine Learning, and is the author of the book \"Building Machine Learning and Deep Learning Models on Google Cloud Platform\" (In Production) with Apress (Springer Nature) Publishers.","company":"T4G","github":"dvdbisong","website":"https://ekababisong.org/","blog":"https://ekababisong.org/writings/","linkedin":"https://www.linkedin.com/in/ekababisong/"},{"id":"jen","name":"Jen Tong","image":"/static/jen.jpg","bio":"Jen is a Security Advocate on Google Cloud Platform. In this role she helps developers and IT professionals stay out of trouble while getting the most out of cloud computing. ","company":"Google","twitter":"MimmingCodes","github":"mimming","website":"https://jen.run","blog":"https://little418.com","linkedin":"http://linked.in/mimming"},{"id":"michelle","name":"Michelle Brenner","image":"/static/michelle.jpg","bio":"Michelle is a Senior Backend Engineer, with 9+ years experience in tech, from engineering support to manager. She runs a tech podcast (From The Source) and works to promote DE&I in tech.","company":"ChowNow","twitter":"michellelynneb","website":"http://www.michellebrenner.com/","linkedin":"https://www.linkedin.com/in/michellebrenner/"},{"id":"michael","name":"Michael Solati","image":"/static/michael.jpg","bio":"Michael is a Developer Advocate at Typeform as well as a Google Developer Expert in Web Technologies. He has found his love in Angular, Firebase, Progressive Web Apps, and the voodoo ways of the web.","company":"Typeform","twitter":"MichaelSolati","github":"MichaelSolati","website":"https://michaelsolati.com/","blog":"https://michaelsolati.com/articles","linkedin":"https://www.linkedin.com/in/michaelsolati/"},{"id":"alex","name":"Alex Muramoto","image":"/static/alex.jpg","bio":"Alex is a developer advocate for Google Maps Platform. His past lives are a mix of web dev, hybrid mobile, chatbots, a lot of documentation, and geo.","company":"Google","twitter":"alexmuramoto","github":"amuramoto","website":"http://developers.google.com/maps/documentation/","blog":"https://cloud.google.com/blog/products/maps-platform","linkedin":"https://www.linkedin.com/in/amuramoto"},{"id":"sonia","name":"Sonia Gupta","image":"/static/sonia.jpg","bio":"Sonia Gupta is a software developer in Los Angeles. Prior to becoming a developer, she was a lawyer in Louisiana. Sonia believes that even if tech can’t change the world, technologists absolutely can.","company":"InfluxData","twitter":"soniagupta504"}];
+module.exports = [{"id":"mehrdad","name":"Mehrdad G Shirangi","image":"/static/diana.png","bio":"Mehrdad Gharib Shirangi is a Sr data scientist and digital transformation lead at Baker Hughes, a GE Company. Before joining GE, he was a PhD researcher at Stanford University. Dr Shirangi’s current interests include prescriptive data analytics and automated machine learning for optimal operations.","company":"Baker Hughes","twitter":"MehrdadShirangi","website":"https://www.petrooptimization.com"},{"id":"azam","name":"Mohammad Azam","image":"/static/ryan.png","bio":"Mohammad Azam is an iOS developer and instructor. He have been developing iOS applications since 2010. He served as a lead developer for many fortune 500 companies including Home Depot, Blinds.com, AIG, Valic, Schlumberger, Baker Hughes. At present he is working as a lead instructor at DigitalCrafts.","company":"Digital Crafts","twitter":"azamsharp"},{"id":"anjuan","name":"Anjuan Simmons","image":"/static/robin.jpg","bio":"Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership. Anjuan has an undergraduate degree in electrical engineering from the University of Texas at Austin and an MBA from Texas A&M University.","twitter":"anjuan"},{"id":"aneika","name":"Aneika Simmons","image":"/static/ekaba.png","bio":"Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University. As an academic, she presents her research at both domestic and international conferences.","company":"Sam Houston State University","twitter":"aneika"},{"id":"michaela","name":"Michaela Merz","image":"/static/jen.jpg","bio":"Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net” . She is very much active in the Internet business and enjoys “hacking” modern technologies like block chain, IoT and mobile-, voice- and web-based services.","twitter":"mischmerz"},{"id":"mehdi","name":"Mehdi Vasigh","image":"/static/michelle.jpg","bio":"Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible. He has a lifelong love for teaching and learning. When he’s not coding, you can find Mehdi in the kitchen cooking and experimenting with recipes.","company":"Arundo Analytics","twitter":"mehdi_vasigh"},{"id":"jeremy","name":"Jeremy White","image":"/static/michael.jpg","bio":"Jeremy is a self taught network engineer turned NetDevOps/automation developer. His passion is helping others develop and further their career. One interesting fact about him is the first six months after buying his first home he spent more time traveling than home, experiencing new places brings excitement to his life outside of work (even if the travel is for work)."},{"id":"annie","name":"Annie Jamshed","image":"/static/alex.jpg","bio":"Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International. She spends most of her time working with students that are interested in learning more about Cyber Security field.","company":"Schlumberger","twitter":"wicsuh"}];
 
 /***/ }),
 
@@ -10203,10 +10217,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17653,7 +17667,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\pages\\index.js";
+var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/index.js";
 
 
 function _templateObject() {
@@ -17832,6 +17846,48 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    id: "speakers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Speakers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    people: speakers,
+    rainbow: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    id: "schedule",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Schedule"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schedule__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    schedule: schedule,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
@@ -17924,13 +17980,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
-  \*******************************************************************************************************************************************************/
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./");
 
 
 /***/ }),
