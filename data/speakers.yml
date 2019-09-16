@@ -1,76 +1,45 @@
-- id: diana
-  name: Diana Rodríguez
+- id: mehrdad
+  name: Mehrdad G Shirangi
   image: /static/diana.png
-  bio: "Diana Rodriguez is a Full Stack Developer & DevOps lover of all things web and cloud!. With over 18 years' experience and a strong background in back end and infrastructure Diana likes to bring together the best of both worlds. In her spare time she likes to play videogames and loves taekwondo."
-  company: Vue Vixens
-  twitter: cotufa82
-- id: ryan
-  name: Ryan Harvey
+  bio: "Mehrdad Gharib Shirangi is a Sr data scientist and digital transformation lead at Baker Hughes, a GE Company. Before joining GE, he was a PhD researcher at Stanford University. Dr Shirangi’s current interests include prescriptive data analytics and automated machine learning for optimal operations."
+  company: Baker Hughes
+  twitter: MehrdadShirangi
+  website: https://www.petrooptimization.com
+- id: azam
+  name: Mohammad Azam
   image: /static/ryan.png
-  bio: "Ryan Harvey is a software & data engineer, a computer science educator, and an active participant in civic and public benefit tech efforts. He works at TED on analytics & video and teaches at Loyola University New Orleans."
-  company: TED / Loyola
-  twitter: CodeAndData
-  github: nihonjinrxs
-  website: http://datascientist.guru/
-  linkedin: https://www.linkedin.com/in/ryanbharvey
-  profile: http://people.loyno.edu/~rharvey/
-- id: robin
-  name: Robin Dykema
+  bio: "Mohammad Azam is an iOS developer and instructor. He have been developing iOS applications since 2010. He served as a lead developer for many fortune 500 companies including Home Depot, Blinds.com, AIG, Valic, Schlumberger, Baker Hughes. At present he is working as a lead instructor at DigitalCrafts."
+  company: Digital Crafts
+  twitter: azamsharp
+- id: anjuan
+  name: Anjuan Simmons
   image: /static/robin.jpg
-  bio: "Robin is a UI engineer at Taulia, where she focuses on front end development in React. She is passionate about building stunning user interfaces and intuitive user experiences. She successfully transitioned from teaching ESL to kindergarteners in Shanghai to wrangling code and hasn't looked back since."
-  company: Taulia
-  twitter: robindykema
-  linkedin: http://www.linkedin.com/in/robindykema
-- id: ekaba
-  name: Ekaba Bisong
+  bio: "Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership. Anjuan has an undergraduate degree in electrical engineering from the University of Texas at Austin and an MBA from Texas A&M University."
+  twitter: anjuan
+- id: aneika
+  name: Aneika Simmons
   image: /static/ekaba.png
-  bio: Ekaba is a Data Science Lead at T4G. He is a Google Developer Expert in Machine Learning, and is the author of the book "Building Machine Learning and Deep Learning Models on Google Cloud Platform" (In Production) with Apress (Springer Nature) Publishers.
-  company: T4G
-  github: dvdbisong
-  website: https://ekababisong.org/
-  blog: https://ekababisong.org/writings/
-  linkedin: https://www.linkedin.com/in/ekababisong/
-- id: jen
-  name: Jen Tong
+  bio: "Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University. As an academic, she presents her research at both domestic and international conferences."
+  company: Sam Houston State University
+  twitter: aneika
+- id: michaela
+  name: Michaela Merz
   image: /static/jen.jpg
-  bio: "Jen is a Security Advocate on Google Cloud Platform. In this role she helps developers and IT professionals stay out of trouble while getting the most out of cloud computing. "
-  company: Google
-  twitter: MimmingCodes
-  github: mimming
-  website: https://jen.run
-  blog: https://little418.com
-  linkedin: http://linked.in/mimming
-- id: michelle
-  name: Michelle Brenner
+  bio: "Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net” . She is very much active in the Internet business and enjoys “hacking” modern technologies like block chain, IoT and mobile-, voice- and web-based services."
+  twitter: mischmerz
+- id: mehdi
+  name: Mehdi Vasigh
   image: /static/michelle.jpg
-  bio: Michelle is a Senior Backend Engineer, with 9+ years experience in tech, from engineering support to manager. She runs a tech podcast (From The Source) and works to promote DE&I in tech.
-  company: ChowNow
-  twitter: michellelynneb
-  website: http://www.michellebrenner.com/
-  linkedin: https://www.linkedin.com/in/michellebrenner/
-- id: michael
-  name: Michael Solati
+  bio: Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible. He has a lifelong love for teaching and learning. When he’s not coding, you can find Mehdi in the kitchen cooking and experimenting with recipes.
+  company: Arundo Analytics
+  twitter: mehdi_vasigh
+- id: jeremy
+  name: Jeremy White
   image: /static/michael.jpg
-  bio: "Michael is a Developer Advocate at Typeform as well as a Google Developer Expert in Web Technologies. He has found his love in Angular, Firebase, Progressive Web Apps, and the voodoo ways of the web."
-  company: Typeform
-  twitter: MichaelSolati
-  github: MichaelSolati
-  website: https://michaelsolati.com/
-  blog: https://michaelsolati.com/articles
-  linkedin: https://www.linkedin.com/in/michaelsolati/
-- id: alex
-  name: Alex Muramoto
+  bio: "Jeremy is a self taught network engineer turned NetDevOps/automation developer. His passion is helping others develop and further their career. One interesting fact about him is the first six months after buying his first home he spent more time traveling than home, experiencing new places brings excitement to his life outside of work (even if the travel is for work)."
+- id: annie
+  name: Annie Jamshed
   image: /static/alex.jpg
-  bio: "Alex is a developer advocate for Google Maps Platform. His past lives are a mix of web dev, hybrid mobile, chatbots, a lot of documentation, and geo."
-  company: Google
-  twitter: alexmuramoto
-  github: amuramoto
-  website: http://developers.google.com/maps/documentation/
-  blog: https://cloud.google.com/blog/products/maps-platform
-  linkedin: https://www.linkedin.com/in/amuramoto
-- id: sonia
-  name: Sonia Gupta
-  image: /static/sonia.jpg
-  bio: "Sonia Gupta is a software developer in Los Angeles. Prior to becoming a developer, she was a lawyer in Louisiana. Sonia believes that even if tech can’t change the world, technologists absolutely can."
-  company: InfluxData
-  twitter: soniagupta504
+  bio: "Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International. She spends most of her time working with students that are interested in learning more about Cyber Security field."
+  company: Schlumberger
+  twitter: wicsuh
