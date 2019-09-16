@@ -262,6 +262,14 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
       lineNumber: 25
     },
     __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["TwitterLink"], {
+    username: "gdghouston",
+    color: "blue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
   })))));
 });
 
