@@ -97,7 +97,7 @@ class MobileMenu extends Component {
           <Link passHref href="https://www.papercall.io/devfest-houston"><MobileNavLink onClick={this.closeMenu} >Call For Papers</MobileNavLink></Link>
           {/* <Link passHref href="/#speakers"><MobileNavLink onClick={this.closeMenu} >Speakers</MobileNavLink></Link> */}
           {/* <Link passHref href="/#schedule"><MobileNavLink onClick={this.closeMenu} >Talks</MobileNavLink></Link> */}
-          <Link passHref href="https://forms.gle/C6ueQfWL47uTHxUs9"><MobileNavLink onClick={this.closeMenu} >Sponsors</MobileNavLink></Link>
+          {/* <Link passHref href="https://forms.gle/C6ueQfWL47uTHxUs9"><MobileNavLink onClick={this.closeMenu} >Sponsors</MobileNavLink></Link> */}
           <Link passHref href="/location"><MobileNavLink onClick={this.closeMenu} >Location</MobileNavLink></Link>
           <Link passHref href="/conduct"><MobileNavLink onClick={this.closeMenu} >Code of Conduct</MobileNavLink></Link>
           <Link passHref href="https://forms.gle/pdJkmWLtVZc9qA889"><MobileNavLink onClick={this.closeMenu} >Inclusivity</MobileNavLink></Link>
