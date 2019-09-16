@@ -67,20 +67,20 @@ export default () => (
       </p>
     </Section>
 
-    {/* <Section>
+    <Section>
       <OffsetHeading id="speakers">Speakers</OffsetHeading>
       <PersonList people={speakers} rainbow />
-    </Section> */}
+    </Section>
 
     {/* <Section>
       <OffsetHeading id="emcee">Master of Ceremonies</OffsetHeading>
       <Emcee {...emcee} />
     </Section > */}
 
-    {/* <Section color="blue">
+    <Section color="blue">
       <OffsetHeading id="schedule">Schedule</OffsetHeading>
       <Schedule schedule={schedule} />
-    </Section > */}
+    </Section >
 
     <Section>
       <OffsetHeading id="sponsors">Sponsors</OffsetHeading>
