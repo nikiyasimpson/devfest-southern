@@ -23,7 +23,7 @@ export default () => (
 		<InstagramLink link="https://www.instagram.com/gdghouston/" color="blue" />
 		<LinkedInLink link="https://www.linkedin.com/company/gdg-houston/" color="blue" />
 		<SlackLink link="https://gdg-houston.slack.com" color="blue" />
-		{/* <TwitterLink link="https://twitter.com/gdghouston" color="blue" /> */}
+		<TwitterLink username="gdghouston" color="blue" />
 		{/* <MeetupLink link="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" color="blue" /> */}
 		</span>
 		</p>
