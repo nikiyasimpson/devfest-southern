@@ -54,7 +54,7 @@ export const Navbar = () => {
 			<NavDesktopContainer>
 				<StaticLogo />
 				<NavLinks>
-					<Link passHref href="/"><StyledLink>Home</StyledLink></Link>
+					{/* <Link passHref href="/"><StyledLink>Home</StyledLink></Link> */}
 					<Link passHref href="https://www.papercall.io/devfest-houston"><StyledLink>Call For Papers</StyledLink></Link>
 					<Link passHref href="/#speakers"><StyledLink>Speakers</StyledLink></Link>
 					<Link passHref href="/#schedule"><StyledLink>Talks</StyledLink></Link>
