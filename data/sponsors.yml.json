@@ -16,6 +16,14 @@
     "width": "270px"
   },
   {
+    "id": "chaione",
+    "name": "Chai One",
+    "link": "https://chaione.com",
+    "logo": "/static/chaione.png",
+    "tier": "gold",
+    "width": "270px"
+  },
+  {
     "id": "byte",
     "name": "Byte Academy",
     "link": "https://byteacademy.co/houston/",

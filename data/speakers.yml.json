@@ -1,8 +1,23 @@
 [
   {
+    "id": "jonathan",
+    "name": "Jonathan Campos",
+    "image": "/static/jonathan.jpg",
+    "bio": "Jonathan is CTO for Alto, a ride-hailing startup based here is Dallas. At Alto, Jonathan works with many other talented developers to produce some of the most amazing systems around. Using Kubernetes, Istio, Firebase, and many other wonderful products, Alto is positioned to grow and scale out to the entire nation.",
+    "company": "Alto",
+    "twitter": "jonbcampos"
+  },
+  {
+    "id": "chander",
+    "name": "Chander Dhall",
+    "image": "/static/chander.jpg",
+    "bio": "Chander Dhall is an awarded Microsoft MVP and world-renowned technology leader in architecting and implementing solutions. he’s a voracious and highly-respected speaker. Chander is known to elucidate critical and complex concepts while making them easy to understand. He’s one man who can talk to anyone from a junior developer, a senior architect all the way to an executive and knows how to speak their language.",
+    "twitter": "csdhall"
+  },
+  {
     "id": "mehrdad",
     "name": "Mehrdad G Shirangi",
-    "image": "/static/diana.png",
+    "image": "/static/mehrdad.png",
     "bio": "Mehrdad Gharib Shirangi is a Sr data scientist and digital transformation lead at Baker Hughes, a GE Company. Before joining GE, he was a PhD researcher at Stanford University. Dr Shirangi’s current interests include prescriptive data analytics and automated machine learning for optimal operations.",
     "company": "Baker Hughes",
     "twitter": "MehrdadShirangi",
@@ -11,47 +26,79 @@
   {
     "id": "azam",
     "name": "Mohammad Azam",
-    "image": "/static/ryan.png",
+    "image": "/static/azam.png",
     "bio": "Mohammad Azam is an iOS developer and instructor. He have been developing iOS applications since 2010. He served as a lead developer for many fortune 500 companies including Home Depot, Blinds.com, AIG, Valic, Schlumberger, Baker Hughes. At present he is working as a lead instructor at DigitalCrafts.",
     "company": "Digital Crafts",
     "twitter": "azamsharp"
   },
   {
+    "id": "hussain",
+    "name": "Hussain Abbasi",
+    "image": "/static/hussain.png",
+    "bio": null,
+    "company": "ChaiOne",
+    "twitter": null
+  },
+  {
     "id": "anjuan",
     "name": "Anjuan Simmons",
-    "image": "/static/robin.jpg",
-    "bio": "Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership. Anjuan has an undergraduate degree in electrical engineering from the University of Texas at Austin and an MBA from Texas A&M University.",
+    "image": "/static/anjuan.jpg",
+    "bio": "Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership.",
     "twitter": "anjuan"
   },
   {
     "id": "aneika",
     "name": "Aneika Simmons",
-    "image": "/static/ekaba.png",
-    "bio": "Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University. As an academic, she presents her research at both domestic and international conferences.",
+    "image": "/static/aneika.png",
+    "bio": "Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University.",
     "company": "Sam Houston State University",
     "twitter": "aneika"
   },
   {
     "id": "michaela",
     "name": "Michaela Merz",
-    "image": "/static/jen.jpg",
-    "bio": "Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net” . She is very much active in the Internet business and enjoys “hacking” modern technologies like block chain, IoT and mobile-, voice- and web-based services.",
+    "image": "/static/michaela.jpg",
+    "bio": "Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net”.",
     "twitter": "mischmerz"
   },
   {
     "id": "mehdi",
     "name": "Mehdi Vasigh",
-    "image": "/static/michelle.jpg",
-    "bio": "Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible. He has a lifelong love for teaching and learning. When he’s not coding, you can find Mehdi in the kitchen cooking and experimenting with recipes.",
+    "image": "/static/mehdi.png",
+    "bio": "Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible.",
     "company": "Arundo Analytics",
     "twitter": "mehdi_vasigh"
   },
   {
+    "id": "jeremy",
+    "name": "Jeremy White",
+    "image": "/static/jeremy.jpg",
+    "bio": "Jeremy is a self taught network engineer turned NetDevOps/automation developer. His passion is helping others develop and further their career. One interesting fact about him is the first six months after buying his first home he spent more time traveling than home, experiencing new places brings excitement to his life outside of work (even if the travel is for work)."
+  },
+  {
     "id": "annie",
     "name": "Annie Jamshed",
-    "image": "/static/alex.jpg",
-    "bio": "Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International. She spends most of her time working with students that are interested in learning more about Cyber Security field.",
+    "image": "/static/annie.jpg",
+    "bio": "Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International.",
     "company": "Schlumberger",
-    "twitter": "wicsuh"
+    "linkedin": "https://www.linkedin.com/in/qanniej",
+    "twitter": "anniejamshed"
+  },
+  {
+    "id": "aishwarya",
+    "name": "Aishwarya Girish Mandikal",
+    "image": "/static/aishwarya.jpg",
+    "bio": "I am an Automation and Machine Learning Engineer in the Cyber Security Department of Schlumberger. I work on Big Data Analytics, use SIEM tools, write Machine Learning algorithms to detect security incidents and develop Automation capabilities. I graduated from USC with a Masters in Computer Science in 2018. I am passionate about astronomy, books, travelling and music.",
+    "company": "Schlumberger",
+    "linkedin": "https://www.linkedin.com/in/aishwaryagirish21/",
+    "github": "https://github.com/aishwaryagmandikal/"
+  },
+  {
+    "id": "miao",
+    "name": "Miao Guo Smith",
+    "image": "/static/miao.jpg",
+    "bio": "Mrs. Miao Guo Smith oversees the MyBioGate operations and marketing activities. In her previous ventures, Mrs. Smith served as Founding Managing Director of Xpanding US, providing clients with web, mobile application and software development, as well as digital marketing and marketing consulting services.",
+    "company": "CUBIO",
+    "linkedin": "https://www.linkedin.com/in/miaog"
   }
 ]
