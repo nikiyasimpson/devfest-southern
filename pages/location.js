@@ -12,9 +12,9 @@ export default () => (
       <p>
       CUBiO is a healthcare incubator and innovative co-working space that not only provides healthcare innovators with office space but also with access to a wide range of diverse resources from human capital, business partners, to investors.
       </p>
-      {/* <h2>Travel &amp; Parking</h2>
-      <p>Your best option for travel is by the St Charles streetcar route. The venue is only two blocks off of St. Charles Avenue.</p>
-      <p>If you drive, you can find street parking on St. Charles Avenue and some of the neighborhood streets. Please note that many of the neighborhood streets restrict parking to less than 2 hours. Please obey all parking regulations.</p> */}
+      <h2>Travel &amp; Parking</h2>
+      <p>Office is on the second floor. You'll see a long, glass window facing the elevators and the CUBIO logo.  Parking in the front is free, and there is additional free visitor parking at the back of the building.</p>
+      <p>If the parking lot at the back of the building is full as well, you may also park on the small side street that leads to "Sun Behavior Houston" at the back of the building.</p>
       <VenueMap />
     </Section>
 

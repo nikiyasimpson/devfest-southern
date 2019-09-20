@@ -1,12 +1,12 @@
 - date: 8:30 am
   id: breakfast
   title: Breakfast, Check-in / Registrations
-  description: Breakfast hosted by WTM; Sponsored by ChaiOne
+  description: Hosted by WTM; Sponsored by ChaiOne
 - date: 9:15 am
-  title: Keynote
+  title: Welcome Address
   id: keynote
 - date: 9:30 am
-  title: Deep Dive in Web Performance
+  title: Keynote - Deep Dive in Web Performance
   id: deepDiveInWeb
   speakerId: chander
   speaker: Chander Dhall
@@ -39,15 +39,22 @@
   description: >
     Jacob Bankston is a Veteran Public Speaker, Master of Ceremonies and Vocal Artist in addition to being a React JavaScript Developer. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.
 - date: 01:00 pm
-  title: Codelab - Flutter
-  id: flutterCodeLab
-  speakerId: hussain
-  speaker: Hussain Abbasi
+  title: Building cross-platform apps using Flutter.
+  id: flutter
+  speakerId: azam
+  speaker: Mohammad Azam
+  description: >
+    Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!
 - date: 01:00 pm
   title: Codelab - Intro to Tensorflow 2.0
   id: tensorflowCodelab
   speakerId: greg 
   speaker: Greg Funchess
+- date: 01:30 pm
+  title: Codelab - Flutter
+  id: flutterCodeLab
+  speakerId: hussain
+  speaker: Hussain Abbasi
 - date: 2:00 pm
   title: Get going with Istio and GKE
   id: kubernetes
@@ -82,17 +89,10 @@
 - date: 4:00 pm
   title: Diversity panel
   id: networking 
-  speaker: Annie Jamshed, Aishwarya Mandikal, Miao Smith
+  speaker: Annie Jamshed, Aishwarya Mandikal, Miao Smith, Anjuan Simmons
 - date: 4:45 pm
   title: Closing Address
   id: closing
 - date: 5:00 pm
   title: Networking by WTM (Pizza included)
   id: networking
-# - date: 10:30 am
-#   title: Building cross-platform apps using Flutter.
-#   id: flutter
-#   speakerId: azam
-#   speaker: Mohammad Azam
-#   description: >
-#     Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!
