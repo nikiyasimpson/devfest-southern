@@ -14,7 +14,6 @@ import {TwitterLink,LinkedInLink,InstagramLink, FacebookLink, SlackLink, MeetupL
 export default () => (
   <Section>
 	  <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
-		{/* <Lead>DevFest Houston 2019 is organized by</Lead> */}
 		<h1 style={{ fontSize: '2.5em' }}><GDGLogo alt="GDG" width="110px" style={{ position: 'relative', top: '11px' }} /> GDGHouston</h1>
 		<p className="cta" style={{ display: 'flex', flexDirection: 'column' }}>
 		<AnchorButton color="red" href="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" target="_blank" rel="noopener noreferrer">Join us on Meetup</AnchorButton>
@@ -26,6 +25,7 @@ export default () => (
 		<TwitterLink username="gdghouston" color="blue" />
 		{/* <MeetupLink link="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" color="blue" /> */}
 		</span>
+		<Lead>Website Credits: ❤️ GDG New Orleans!</Lead>
 		</p>
 	  </div>
 
