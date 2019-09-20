@@ -7,7 +7,7 @@
 - id: chander
   name: Chander Dhall
   image: /static/chander.jpg
-  bio: Chander Dhall is an awarded Microsoft MVP and world-renowned technology leader in architecting and implementing solutions. he’s a voracious and highly-respected speaker. Chander is known to elucidate critical and complex concepts while making them easy to understand. He’s one man who can talk to anyone from a junior developer, a senior architect all the way to an executive and knows how to speak their language.
+  bio: Chander Dhall is an awarded Microsoft MVP and world-renowned technology leader in architecting and implementing solutions. he’s a voracious and highly-respected speaker. Chander is known to elucidate critical and complex concepts while making them easy to understand.
   company: Cazton
   twitter: csdhall
 - id: mehrdad
@@ -26,7 +26,7 @@
 - id: hussain
   name: Hussain Abbasi
   image: /static/hussain.png
-  bio: Hussain Abbasi is a Mobile, Desktop and Web developer with a Computer Science degree from the University of Houston. With over 9 years of experience leading and developing software. I am proficient in .NET technologies using C# as main programming language. Experienced android and iOS developer and Xamarin Certified Mobile Developer.
+  bio: Hussain Abbasi is a Mobile, Desktop and Web developer with a Computer Science degree from the University of Houston. He has over 9 years of experience leading and developing software and he is an experienced android and iOS developer and a Xamarin Certified Mobile Developer.
   company: ChaiOne
   linkedin: https://www.linkedin.com/in/hnabbasi
   website: https://www.hussainabbasi.com
@@ -62,6 +62,12 @@
   bio: Greg Funchess is an Instructor at Byte Academy, a coding bootcamp from NYC that recently opened in Houston. He has a math degree and previous work experience at a small company that modifies cars for people in wheelchairs. There he wrote the phone apps to control the interior functions of cars (a/c, radio, windows, etc) and also worked to figure the manufacture specific codes needed for those controls.
   company: Byte Academy
   linkedin: https://www.linkedin.com/in/miaog
+- id: jacob
+  name: Jacob Bankston
+  image: /static/jacob.png
+  bio: Jacob Bankston is a Veteran Public Speaker in addition to being an Application Developer at Engenuity Inc. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.
+  company: Digital Crafts
+  twitter: _JacobBankston
 - id: annie
   name: Annie Jamshed
   image: /static/annie.jpg
