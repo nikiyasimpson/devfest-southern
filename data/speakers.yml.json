@@ -11,9 +11,10 @@
     "id": "chander",
     "name": "Chander Dhall",
     "image": "/static/chander.jpg",
-    "bio": "Chander Dhall is an awarded Microsoft MVP and world-renowned technology leader in architecting and implementing solutions. he’s a voracious and highly-respected speaker. Chander is known to elucidate critical and complex concepts while making them easy to understand.",
+    "bio": "Chander Dhall, CEO of Cazton, is an awarded Microsoft MVP, Google Developer Expert and world renowned technology leader in architecting and implementing solutions. He's not only rescued software development teams, but also implemented successful projects under tight deadlines and difficult business constraints.",
     "company": "Cazton",
-    "twitter": "csdhall"
+    "twitter": "csdhall",
+    "website": "https://chanderdhall.com"
   },
   {
     "id": "mehrdad",
