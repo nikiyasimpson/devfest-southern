@@ -15,6 +15,7 @@ export default () => (
       <h2>Travel &amp; Parking</h2>
       <p>Office is on the second floor. You'll see a long, glass window facing the elevators and the CUBIO logo.  Parking in the front is free, and there is additional free visitor parking at the back of the building.</p>
       <p>If the parking lot at the back of the building is full as well, you may also park on the small side street that leads to "Sun Behavior Houston" at the back of the building.</p>
+      <img src="../static/CUBIOParking.JPG" alt="parking_image" width="80%" height="50%"></img>
       <VenueMap />
     </Section>
 
