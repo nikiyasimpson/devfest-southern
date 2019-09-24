@@ -3208,17 +3208,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./data/mc.yml.json":
-/*!**************************!*\
-  !*** ./data/mc.yml.json ***!
-  \**************************/
-/*! exports provided: 0, default */
-/***/ (function(module) {
-
-module.exports = [{"id":"mc-gant","name":"Gant G Laborde","image":"/static/gant.jpg","bio":"Gant Laborde is an owner of Infinite Red, mentor, adjunct professor, published author, and award-winning speaker. For 20 years, he has been involved in software development and continues strong today. He is an “open sourcerer”, team leader, and aspires to one day become a mad scientist. He blogs, videos, and maintains popular repositories for the community. Follow Gant’s adventures at <a href=\"http://gantlaborde.com/\">gantlaborde.com</a>.","company":"Infinite Red","twitter":"GantLaborde","website":"http://gantlaborde.com/","blog":"https://medium.com/@gantlaborde","linkedin":"https://www.linkedin.com/in/gant-laborde/","github":"gantman"}];
-
-/***/ }),
-
 /***/ "./data/organizers.yml.json":
 /*!**********************************!*\
   !*** ./data/organizers.yml.json ***!
@@ -3248,7 +3237,7 @@ module.exports = [{"id":"womentechmakers","name":"Women Tech Makers","link":"htt
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, default */
 /***/ (function(module) {
 
-module.exports = [{"date":"8:30 am","id":"breakfast","title":"Breakfast, Check-in / Registrations","description":"Hosted by WTM; Sponsored by ChaiOne"},{"date":"9:15 am","title":"Welcome Address","id":"keynote"},{"date":"9:30 am","title":"Keynote - Deep Dive in Web Performance","id":"deepDiveInWeb","speakerId":"chander","speaker":"Chander Dhall","description":"In this talk Chander will discuss the following - The 4 key improvements he made in the database, API, and UI to achieve those performance gains. Improvements made in Angular code that was rendering data in 852ms on the UI, and how he reduced it to less than 10ms. Performance vs perception, TCP improvements, web performance hacks and many other related concepts. If you build for the web you won’t want to miss this session!\n"},{"date":"10:15 am","title":"Cofee Break","id":"coffes"},{"date":"10:30 am","title":"Automated machine learning in data science - Advances and Opportunities!","id":"autoML","speakerId":"mehrdad","speaker":"Mehrdad G Shirangi","description":"Automated machine learning (autoML) has recently become a popular subject for various tech companies. Major cloud providers (Amazon AWS, Google GCP, Microsoft Azure, IBM Watson studio), each provide their own version of autoML. The basic idea is to automate various steps of a typical machine learning project, from data preprocessing, to feature selection, algorithm selection and hyper-parameter optimization. This can significantly accelerate the process of obtaining an accurate machine learning model, while potentially improving the accuracy compared with a manual process. The applications are tremendous. Researchers can now test a hypothesis within a few hours, rather than weeks, once they have obtained the data. Engineers in companies can build or maintain predictive models much more efficiently. In this talk, we consider regression and classification problems where the goal is to obtain a model with smallest generalization error. We review several recent tools and libraries for autoML and compare these tools for some datasets. We then present a demo of Google autoML. We conclude with recommendations for improving machine learning model generation process.\n"},{"date":"11:15 am","title":"The good,bad and ugly in webapp development","id":"css","speakerId":"michaela","speaker":"Michaela Merz","description":"Are webapps going to replace native? When we started the development of “packfrog” , we decided to go “all in” on webapps. Now - about 9 months into development - Are we still happy with webapps? (Hint - so,so .. ). We rely heavy on many modern APIs such as web-push, web-share (version 1&2), web-rtc, caching and others. While some of those APIs are very helpful, others are more complicated or don’t work well - especially when a mobile device is in doze. In my talk, I will highlight the obstacles and advantages of different type of apps, the real cool stuff (like web-sharing and web-share target), but also the differences between webapps and native.\n"},{"date":"12:00 pm","title":"Lunch and Networking","id":"lunch"},{"date":"12:45 pm","title":"Techie Terminology - Pronunciation Guide","speakerId":"jacob","speaker":"Jacob Bankston","description":"Jacob Bankston is a Veteran Public Speaker, Master of Ceremonies and Vocal Artist in addition to being a React JavaScript Developer. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.\n"},{"date":"01:00 pm","title":"Building cross-platform apps using Flutter.","id":"flutter","speakerId":"azam","speaker":"Mohammad Azam","description":"Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!\n"},{"date":"01:00 pm","title":"Codelab - Intro to Tensorflow 2.0","id":"tensorflowCodelab","speakerId":"greg","speaker":"Greg Funchess"},{"date":"01:30 pm","title":"Codelab - Flutter","id":"flutterCodeLab","speakerId":"hussain","speaker":"Hussain Abbasi"},{"date":"2:00 pm","title":"Get going with Istio and GKE","id":"kubernetes","speakerId":"jonathon","speaker":"Jonathan Campos","description":"Kubernetes has taken off like wildfire, and now Istio is building on that success and taking the World by storm. Istio serves as the glue between all those beautiful Kubernetes Pods that you’ve spent so long creating. And now, Istio serves as the backbone for some of the most interesting new projects out there, such as Knative, Google’s CloudRun, and Google’s Anthos Project. In this session, we will look at how to get started with Istio on your own Google Kubernetes Cluster (GKE) and look at how to implement some of the features built into Istio that provide so much power. As an added bonus you will hear of some best practices when debugging issues with Istio and how to overcome on a tight deadline.\n"},{"date":"2:45 pm","title":"Break","id":"break"},{"date":"3:00 pm","title":"Using Google Assistant to Initiate Infrastructure Automation","id":"googleAssistant","speakerId":"jeremy","speaker":"Jeremy White","description":"Introducing automation to infrastructure completely changes how existing engineers interact with ever growing footprints. By making automation easier to consume it greatly increases adoption rates. Also moving workflow initiation from a manual task by an engineer to an automated task initiated by the customer you’re able to free up cycles and increase customer experience. An example would be a service desk agent asking the google assistant to change a vlan on a user interface. By pushing this down to the service desk the request is able to be completed while the user is still commuting with the agent and does not require a ticket to be sent to an operations engineer to be worked.\n"},{"date":"3:00 pm","title":"Unlocking the hidden powers of javascript","id":"jspower","speakerId":"mehdi","speaker":"Mehdi Vasigh","description":"Browsers today ship a wealth of APIs that provide rich functionality for use in front-end web applications. This has unlocked more possibilities for pure front-end applications than ever before. However, as web applications and bundlers have become more and more complex, the barrier to actually using many of these APIs has become larger, leaving them to be underutilized. Moreover, the ever-present problem of browser compatibility still persists. This talk will cover some of these underutilized Web APIs, as well as how and when to use them.\n"},{"date":"3:30 pm","title":"Managing the Burnout Burndown","id":"burnout","speakerId":"simmons","speaker":"Anjuan Simmons, Aneika Simmons","description":"Engineering managers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in leading software engineering teams, but they are also the very traits that make engineering managers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists. This talk will combine the understanding from the trenches of Anjuan Simmons (who has been an engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.\n"},{"date":"4:00 pm","title":"Diversity panel","id":"networking","speaker":"Annie Jamshed, Aishwarya Mandikal, Miao Smith, Anjuan Simmons"},{"date":"4:45 pm","title":"Closing Address","id":"closing"},{"date":"5:00 pm","title":"Networking (Pizza included)","id":"networking"}];
+module.exports = [{"date":"8:30 am","id":"breakfast","title":"Breakfast, Check-in / Registrations","description":"Hosted by WTM; Sponsored by ChaiOne"},{"date":"9:15 am","title":"Welcome Address","id":"keynote"},{"date":"9:30 am","title":"Keynote - Deep Dive in Web Performance","id":"deepDiveInWeb","speakerId":"chander","speaker":"Chander Dhall","description":"In this talk Chander will discuss the following - The 4 key improvements he made in the database, API, and UI to achieve those performance gains. Improvements made in Angular code that was rendering data in 852ms on the UI, and how he reduced it to less than 10ms. Performance vs perception, TCP improvements, web performance hacks and many other related concepts. If you build for the web you won’t want to miss this session!\n"},{"date":"10:15 am","title":"Cofee Break","id":"coffes"},{"date":"10:30 am","title":"Automated machine learning in data science - Advances and Opportunities!","id":"autoML","speakerId":"mehrdad","speaker":"Mehrdad G Shirangi","description":"Automated machine learning (autoML) has recently become a popular subject for various tech companies. Major cloud providers (Amazon AWS, Google GCP, Microsoft Azure, IBM Watson studio), each provide their own version of autoML. The basic idea is to automate various steps of a typical machine learning project, from data preprocessing, to feature selection, algorithm selection and hyper-parameter optimization. This can significantly accelerate the process of obtaining an accurate machine learning model, while potentially improving the accuracy compared with a manual process. The applications are tremendous. Researchers can now test a hypothesis within a few hours, rather than weeks, once they have obtained the data. Engineers in companies can build or maintain predictive models much more efficiently. In this talk, we consider regression and classification problems where the goal is to obtain a model with smallest generalization error. We review several recent tools and libraries for autoML and compare these tools for some datasets. We then present a demo of Google autoML. We conclude with recommendations for improving machine learning model generation process.\n"},{"date":"11:15 am","title":"The good,bad and ugly in webapp development","id":"css","speakerId":"michaela","speaker":"Michaela Merz","description":"Are webapps going to replace native? When we started the development of “packfrog” , we decided to go “all in” on webapps. Now - about 9 months into development - Are we still happy with webapps? (Hint - so,so .. ). We rely heavy on many modern APIs such as web-push, web-share (version 1&2), web-rtc, caching and others. While some of those APIs are very helpful, others are more complicated or don’t work well - especially when a mobile device is in doze. In my talk, I will highlight the obstacles and advantages of different type of apps, the real cool stuff (like web-sharing and web-share target), but also the differences between webapps and native.\n"},{"date":"12:00 pm","title":"Lunch and Networking","id":"lunch"},{"date":"12:45 pm","title":"Techie Terminology - Pronunciation Guide","speakerId":"jacob","speaker":"Jacob Bankston","description":"Jacob Bankston is a Veteran Public Speaker, Master of Ceremonies and Vocal Artist in addition to being a React JavaScript Developer. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.\n"},{"date":"01:00 pm","title":"Building cross-platform apps using Flutter.","id":"flutter","speakerId":"azam","speaker":"Mohammad Azam","description":"Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!\n"},{"date":"01:00 pm","title":"Codelab - Intro to Tensorflow 2.0","id":"tensorflowCodelab","speakerId":"greg","speaker":"Greg Funchess"},{"date":"01:30 pm","title":"Codelab - Flutter","id":"flutterCodeLab","speakerId":"hussain","speaker":"Hussain Abbasi"},{"date":"2:00 pm","title":"Get going with Istio and GKE","id":"kubernetes","speakerId":"jonathon","speaker":"Jonathan Campos","description":"Kubernetes has taken off like wildfire, and now Istio is building on that success and taking the World by storm. Istio serves as the glue between all those beautiful Kubernetes Pods that you’ve spent so long creating. And now, Istio serves as the backbone for some of the most interesting new projects out there, such as Knative, Google’s CloudRun, and Google’s Anthos Project. In this session, we will look at how to get started with Istio on your own Google Kubernetes Cluster (GKE) and look at how to implement some of the features built into Istio that provide so much power. As an added bonus you will hear of some best practices when debugging issues with Istio and how to overcome on a tight deadline.\n"},{"date":"2:45 pm","title":"Break","id":"break"},{"date":"3:00 pm","title":"Using Google Assistant to Initiate Infrastructure Automation","id":"googleAssistant","speakerId":"jeremy","speaker":"Jeremy White","description":"Introducing automation to infrastructure completely changes how existing engineers interact with ever growing footprints. By making automation easier to consume it greatly increases adoption rates. Also moving workflow initiation from a manual task by an engineer to an automated task initiated by the customer you’re able to free up cycles and increase customer experience. An example would be a service desk agent asking the google assistant to change a vlan on a user interface. By pushing this down to the service desk the request is able to be completed while the user is still commuting with the agent and does not require a ticket to be sent to an operations engineer to be worked.\n"},{"date":"3:00 pm","title":"Unlocking the hidden powers of javascript","id":"jspower","speakerId":"mehdi","speaker":"Mehdi Vasigh","description":"Browsers today ship a wealth of APIs that provide rich functionality for use in front-end web applications. This has unlocked more possibilities for pure front-end applications than ever before. However, as web applications and bundlers have become more and more complex, the barrier to actually using many of these APIs has become larger, leaving them to be underutilized. Moreover, the ever-present problem of browser compatibility still persists. This talk will cover some of these underutilized Web APIs, as well as how and when to use them.\n"},{"date":"3:30 pm","title":"Managing the Burnout Burndown","id":"burnout","speakerId":"simmons","speaker":"Anjuan Simmons, Aneika Simmons","description":"Engineering managers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in leading software engineering teams, but they are also the very traits that make engineering managers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists. This talk will combine the understanding from the trenches of Anjuan Simmons (who has been an engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.\n"},{"date":"4:00 pm","title":"Diversity panel","id":"diversity","speaker":"Annie Jamshed, Aishwarya Mandikal, Miao Smith, Aneika Simmons, Anjuan Simmons"},{"date":"4:45 pm","title":"Closing Address","id":"closing"},{"date":"5:00 pm","title":"Networking (Pizza included)","id":"networking"}];
 
 /***/ }),
 
@@ -3259,7 +3248,7 @@ module.exports = [{"date":"8:30 am","id":"breakfast","title":"Breakfast, Check-i
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, default */
 /***/ (function(module) {
 
-module.exports = [{"id":"jonathan","name":"Jonathan Campos","image":"/static/speakers/jonathan.jpg","bio":"Jonathan is CTO for Alto, a ride-hailing startup based here is Dallas. At Alto, Jonathan works with many other talented developers to produce some of the most amazing systems around. Using Kubernetes, Istio, Firebase, and many other wonderful products, Alto is positioned to grow and scale out to the entire nation.","company":"Alto","twitter":"jonbcampos"},{"id":"chander","name":"Chander Dhall","image":"/static/speakers/chander.jpg","bio":"Chander Dhall, CEO of Cazton, is an awarded Microsoft MVP, Google Developer Expert and world renowned technology leader in architecting and implementing solutions. He's not only rescued software development teams, but also implemented successful projects under tight deadlines and difficult business constraints.","company":"Cazton","twitter":"csdhall","website":"https://chanderdhall.com"},{"id":"mehrdad","name":"Mehrdad G Shirangi","image":"/static/speakers/mehrdad.png","bio":"Mehrdad Gharib Shirangi is a Sr data scientist and digital transformation lead at Baker Hughes, a GE Company. Before joining GE, he was a PhD researcher at Stanford University. Dr Shirangi’s current interests include prescriptive data analytics and automated machine learning for optimal operations.","company":"Baker Hughes","twitter":"MehrdadShirangi","website":"https://www.petrooptimization.com"},{"id":"azam","name":"Mohammad Azam","image":"/static/speakers/azam.png","bio":"Mohammad Azam is an iOS developer and instructor. He have been developing iOS applications since 2010. He served as a lead developer for many fortune 500 companies including Home Depot, Blinds.com, AIG, Valic, Schlumberger, Baker Hughes. At present he is working as a lead instructor at DigitalCrafts.","company":"Digital Crafts","twitter":"azamsharp"},{"id":"hussain","name":"Hussain Abbasi","image":"/static/speakers/hussain.png","bio":"Hussain is Head of Mobile at ChaiOne. He is a well-known community leader in the mobile development space. He runs and contributes to several OSS projects. He is a co-organizer of Houston Xamarin User Group and the organizer for Houston Flutter User Group in Houston area.","company":"ChaiOne","linkedin":"https://www.linkedin.com/in/hnabbasi","website":"https://www.hussainabbasi.com"},{"id":"anjuan","name":"Anjuan Simmons","image":"/static/speakers/anjuan.jpg","bio":"Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership.","twitter":"anjuan"},{"id":"aneika","name":"Aneika Simmons","image":"/static/speakers/aneika.png","bio":"Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University.","company":"Sam Houston State University","twitter":"aneika"},{"id":"michaela","name":"Michaela Merz","image":"/static/speakers/michaela.jpg","bio":"Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net”.","twitter":"mischmerz"},{"id":"mehdi","name":"Mehdi Vasigh","image":"/static/speakers/mehdi.png","bio":"Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible.","company":"Arundo Analytics","twitter":"mehdi_vasigh"},{"id":"jeremy","name":"Jeremy White","image":"/static/speakers/jeremy.jpg","bio":"Jeremy White is a self taught network engineer turned NetDevOps/automation developer. His passion is helping others develop and further their career. One interesting fact about him is the first six months after buying his first home he spent more time traveling than home, experiencing new places brings excitement to his life outside of work (even if the travel is for work)."},{"id":"greg","name":"Greg Funchess","image":"/static/speakers/greg.jpg","bio":"Greg Funchess is an Instructor at Byte Academy, a coding bootcamp from NYC that recently opened in Houston. He has a math degree and previous work experience at a small company that modifies cars for people in wheelchairs. There he wrote the phone apps to control the interior functions of cars (a/c, radio, windows, etc) and also worked to figure the manufacture specific codes needed for those controls.","company":"Byte Academy","linkedin":"https://www.linkedin.com/in/miaog"},{"id":"jacob","name":"Jacob Bankston","image":"/static/speakers/jacob.png","bio":"Jacob Bankston is a Veteran Public Speaker in addition to being an Application Developer at Engenuity Inc. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.","company":"Digital Crafts","twitter":"_JacobBankston"},{"id":"annie","name":"Annie Jamshed","image":"/static/speakers/annie.jpg","bio":"Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International.","company":"Schlumberger","linkedin":"https://www.linkedin.com/in/qanniej","twitter":"anniejamshed"},{"id":"aishwarya","name":"Aishwarya Girish Mandikal","image":"/static/speakers/aishwarya.jpg","bio":"Aishwarya Girish Mandikal is an Automation and Machine Learning Engineer in the Cyber Security Department of Schlumberger. She works on Big Data Analytics, use SIEM tools, writes Machine Learning algorithms to detect security incidents and develop Automation capabilities.","company":"Schlumberger","linkedin":"https://www.linkedin.com/in/aishwaryagirish21/","github":"https://github.com/aishwaryagmandikal/"},{"id":"miao","name":"Miao Guo Smith","image":"/static/speakers/miao.jpg","bio":"Mrs. Miao Guo Smith oversees the MyBioGate operations and marketing activities. In her previous ventures, Mrs. Smith served as Founding Managing Director of Xpanding US, providing clients with web, mobile application and software development, as well as digital marketing and marketing consulting services.","company":"CUBIO","linkedin":"https://www.linkedin.com/in/miaog"}];
+module.exports = [{"id":"jonathan","name":"Jonathan Campos","image":"/static/speakers/jonathan.jpg","bio":"Jonathan is CTO for Alto, a ride-hailing startup based here is Dallas. At Alto, Jonathan works with many other talented developers to produce some of the most amazing systems around. Using Kubernetes, Istio, Firebase, and many other wonderful products, Alto is positioned to grow and scale out to the entire nation.","company":"Alto","twitter":"jonbcampos"},{"id":"chander","name":"Chander Dhall","image":"/static/speakers/chander.jpg","bio":"Chander Dhall, CEO of Cazton, is an awarded Microsoft MVP, Google Developer Expert and world renowned technology leader in architecting and implementing solutions. He's not only rescued software development teams, but also implemented successful projects under tight deadlines and difficult business constraints.","company":"Cazton","twitter":"csdhall","website":"https://chanderdhall.com"},{"id":"mehrdad","name":"Mehrdad G Shirangi","image":"/static/speakers/mehrdad.png","bio":"Mehrdad Gharib Shirangi is a Sr data scientist and digital transformation lead at Baker Hughes, a GE Company. Before joining GE, he was a PhD researcher at Stanford University. Dr Shirangi’s current interests include prescriptive data analytics and automated machine learning for optimal operations.","company":"Baker Hughes","twitter":"MehrdadShirangi","website":"https://www.petrooptimization.com"},{"id":"azam","name":"Mohammad Azam","image":"/static/speakers/azam.png","bio":"Mohammad Azam is an iOS developer and instructor. He have been developing iOS applications since 2010. He served as a lead developer for many fortune 500 companies including Home Depot, Blinds.com, AIG, Valic, Schlumberger, Baker Hughes. At present he is working as a lead instructor at DigitalCrafts.","company":"Digital Crafts","twitter":"azamsharp"},{"id":"hussain","name":"Hussain Abbasi","image":"/static/speakers/hussain.jpeg","bio":"Hussain is Head of Mobile at ChaiOne. He is a well-known community leader in the mobile development space. He runs and contributes to several OSS projects. He is a co-organizer of Houston Xamarin User Group and the organizer for Houston Flutter User Group in Houston area.","company":"ChaiOne","linkedin":"https://www.linkedin.com/in/hnabbasi","website":"https://www.hussainabbasi.com"},{"id":"anjuan","name":"Anjuan Simmons","image":"/static/speakers/anjuan.jpg","bio":"Anjuan Simmons is a technologist with a successful track record of delivering technology solutions from the user interface to the database. He is an energetic and informative speaker who presents at conferences, seminars, schools, and community centers around the world on topics including Agile software development, inclusion, and leadership.","twitter":"anjuan"},{"id":"aneika","name":"Aneika Simmons","image":"/static/speakers/aneika.png","bio":"Dr. Aneika Simmons is a Professor at Sam Houston State University. Her research interests are primarily related to creative performance, fairness, diversity issues, and individual differences. Dr. Simmons teaches courses about teamwork, leadership, organization behavior, and human resources at Sam Houston State University.","company":"Sam Houston State University","twitter":"aneika"},{"id":"michaela","name":"Michaela Merz","image":"/static/speakers/michaela.jpg","bio":"Michaela Merz is an entrepreneur and first generation hacker. Her career started even before the Internet was available. She invented and developed a number of technologies now considered to be standard in modern web-environments. Among other things, she developed, founded, managed and sold Germany’s third largest Internet Online Service “germany.net”.","twitter":"mischmerz"},{"id":"mehdi","name":"Mehdi Vasigh","image":"/static/speakers/mehdi.png","bio":"Mehdi Vasigh is a Software Engineer with Arundo Analytics, where he serves as the engineering lead for one of Arundo’s product teams. He is a self-taught developer who has been building web applications since 2015. Mehdi is passionate about programming, creating rich user experiences, and exploring the art of the possible.","company":"Arundo Analytics","twitter":"mehdi_vasigh"},{"id":"jeremy","name":"Jeremy White","image":"/static/speakers/jeremy.jpg","bio":"Jeremy White is a self taught network engineer turned NetDevOps/automation developer. His passion is helping others develop and further their career. One interesting fact about him is the first six months after buying his first home he spent more time traveling than home, experiencing new places brings excitement to his life outside of work (even if the travel is for work)."},{"id":"greg","name":"Greg Funchess","image":"/static/speakers/greg.jpg","bio":"Greg Funchess is an Instructor at Byte Academy, a coding bootcamp from NYC that recently opened in Houston. He has a math degree and previous work experience at a small company that modifies cars for people in wheelchairs. There he wrote the phone apps to control the interior functions of cars (a/c, radio, windows, etc) and also worked to figure the manufacture specific codes needed for those controls.","company":"Byte Academy","linkedin":"https://www.linkedin.com/in/miaog"},{"id":"jacob","name":"Jacob Bankston","image":"/static/speakers/jacob.png","bio":"Jacob Bankston is a Veteran Public Speaker in addition to being an Application Developer at Engenuity Inc. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.","company":"Digital Crafts","twitter":"_JacobBankston"},{"id":"annie","name":"Annie Jamshed","image":"/static/speakers/annie.jpg","bio":"Annie Jamshed is a Security Operations Center Analyst at Schlumberger and Champion for Operational Technology and IIoT in Security Operations Center. She is also founder of Women in Cyber Security at University of Houston and Outreach Director for Control System Cyber Security Association International.","company":"Schlumberger","linkedin":"https://www.linkedin.com/in/qanniej","twitter":"anniejamshed"},{"id":"aishwarya","name":"Aishwarya Girish Mandikal","image":"/static/speakers/aishwarya.jpg","bio":"Aishwarya Girish Mandikal is an Automation and Machine Learning Engineer in the Cyber Security Department of Schlumberger. She works on Big Data Analytics, use SIEM tools, writes Machine Learning algorithms to detect security incidents and develop Automation capabilities.","company":"Schlumberger","linkedin":"https://www.linkedin.com/in/aishwaryagirish21/","github":"https://github.com/aishwaryagmandikal/"},{"id":"miao","name":"Miao Guo Smith","image":"/static/speakers/miao.jpg","bio":"Mrs. Miao Guo Smith oversees the MyBioGate operations and marketing activities. In her previous ventures, Mrs. Smith served as Founding Managing Director of Xpanding US, providing clients with web, mobile application and software development, as well as digital marketing and marketing consulting services.","company":"CUBIO","linkedin":"https://www.linkedin.com/in/miaog"}];
 
 /***/ }),
 
@@ -17668,8 +17657,6 @@ function _templateObject() {
 
 var speakers = __webpack_require__(/*! ../data/speakers.yml.json */ "./data/speakers.yml.json");
 
-var emcee = __webpack_require__(/*! ../data/mc.yml.json */ "./data/mc.yml.json")[0];
-
 var schedule = __webpack_require__(/*! ../data/schedule.yml.json */ "./data/schedule.yml.json");
 
 var sponsors = __webpack_require__(/*! ../data/sponsors.yml.json */ "./data/sponsors.yml.json");
@@ -17683,28 +17670,28 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     skyline: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_devfest_logo_svg__WEBPACK_IMPORTED_MODULE_9__["default"], {
     alt: "DevFest 2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 50
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17715,14 +17702,14 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 51
     },
     __self: this
   }, "Houston, September 28, 2019")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Title, {
     id: "mobiletitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_icons_gdg_logo_svg__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -17731,13 +17718,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     height: "35px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 54
     },
     __self: this
   }), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 54
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17748,7 +17735,7 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, "DevFest Houston"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
@@ -17759,26 +17746,26 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 56
     },
     __self: this
   }, "September 28, 2019"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 61
     },
     __self: this
   }, "DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 62
     },
     __self: this
   }, "We are pleased to offer a limited number of inclusivity scholarships to potential attendees. ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Anchor__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -17788,20 +17775,14 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     color: "white",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 62
     },
     __self: this
-  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Tito__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Apply here"), "."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 64
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17811,20 +17792,20 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 65
     },
     __self: this
   }, "Register now"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 70
     },
     __self: this
   }, "Speakers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -17832,61 +17813,61 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rainbow: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 71
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "schedule",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 80
     },
     __self: this
   }, "Schedule"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Schedule__WEBPACK_IMPORTED_MODULE_13__["default"], {
     schedule: schedule,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 81
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 85
     },
     __self: this
   }, "Sponsors"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: sponsors,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 86
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
     },
     __self: this
   }, "Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     className: "cta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -17895,54 +17876,54 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 89
     },
     __self: this
   }, "Become a sponsor"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "partner-organizations",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 94
     },
     __self: this
   }, "Partner Organizations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_SponsorList__WEBPACK_IMPORTED_MODULE_8__["default"], {
     sponsors: partners,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 95
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_Section__WEBPACK_IMPORTED_MODULE_7__["default"], {
     color: "red",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 98
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_elements_OffsetHeading__WEBPACK_IMPORTED_MODULE_6__["default"], {
     id: "organizers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 99
     },
     __self: this
   }, "Organizers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Person_PersonList__WEBPACK_IMPORTED_MODULE_4__["default"], {
     people: organizers,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 100
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 103
     },
     __self: this
   }));
