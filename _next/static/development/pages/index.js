@@ -762,21 +762,6 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         passHref: true,
-        href: "https://www.papercall.io/devfest-houston",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
-        onClick: this.closeMenu,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, "Call For Papers")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        passHref: true,
         href: "/#speakers",
         __source: {
           fileName: _jsxFileName,
@@ -835,37 +820,7 @@ function (_Component) {
           lineNumber: 102
         },
         __self: this
-      }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        passHref: true,
-        href: "https://forms.gle/pdJkmWLtVZc9qA889",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
-        onClick: this.closeMenu,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
-        },
-        __self: this
-      }, "Inclusivity")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        passHref: true,
-        href: "https://forms.gle/VDqt8hHJJwQYA9Wt7",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(MobileNavLink, {
-        onClick: this.closeMenu,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
-      }, "Volunteers"))));
+      }, "Code of Conduct"))));
     }
   }]);
 
@@ -1006,20 +961,6 @@ var Navbar = function Navbar() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     passHref: true,
-    href: "https://www.papercall.io/devfest-houston",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, "Call For Papers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    passHref: true,
     href: "/#speakers",
     __source: {
       fileName: _jsxFileName,
@@ -1074,21 +1015,7 @@ var Navbar = function Navbar() {
       lineNumber: 63
     },
     __self: this
-  }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    passHref: true,
-    href: "https://forms.gle/VDqt8hHJJwQYA9Wt7",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(StyledLink, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "Volunteers")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, "Code of Conduct")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "https://ti.to/gdg-houston/gdg-devfest-houston-2019",
     medium: "true",
     target: "_blank",
