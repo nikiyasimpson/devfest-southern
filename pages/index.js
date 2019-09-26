@@ -13,7 +13,6 @@ import Schedule from '../components/Schedule';
 import Emcee from '../components/Emcee';
 import Tito from '../components/Tito';
 const speakers = require('../data/speakers.yml.json')
-const emcee = require('../data/mc.yml.json')[0]
 const schedule = require('../data/schedule.yml.json')
 const sponsors = require('../data/sponsors.yml.json')
 const partners = require('../data/partners.yml.json')
@@ -60,8 +59,8 @@ export default () => (
 
     <Section color="blue">
       <p>DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!</p>
-      <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/pdJkmWLtVZc9qA889" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p>
-      <Tito />
+      {/* <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/pdJkmWLtVZc9qA889" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p> */}
+      {/* <Tito /> */}
       <p className="cta">
         <AnchorButton color='white/blue' href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
       </p>
