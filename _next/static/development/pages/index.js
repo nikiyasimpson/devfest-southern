@@ -255,7 +255,7 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["SlackLink"], {
-    link: "https://gdg-houston.slack.com",
+    link: "https://bit.ly/gdghouston-slack",
     color: "blue",
     __source: {
       fileName: _jsxFileName,
