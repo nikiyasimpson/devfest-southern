@@ -22,3 +22,9 @@
   logo: /static/hpl-logo.jpeg
   tier: gold
   width: 270px
+- id: Wics
+  name: Women In Cyber Security, University of Houston
+  link: https://www.wicsuh.org
+  logo: /static/wics-logo.png
+  tier: gold
+  width: 270px

@@ -24,18 +24,26 @@
     "width": "270px"
   },
   {
-    "id": "byte",
-    "name": "Byte Academy",
-    "link": "https://byteacademy.co/houston/",
-    "logo": "/static/ByteAcademy.png",
+    "id": "oreilly",
+    "name": "O'Reilly",
+    "link": "https://www.oreilly.com",
+    "logo": "/static/oreilly-logo.png",
     "tier": "gold",
-    "width": "120px"
+    "width": "170px"
   },
   {
     "id": "jetbrains",
     "name": "JetBrains",
     "link": "https://www.jetbrains.com/",
     "logo": "/static/jetbrains.png",
+    "tier": "gold",
+    "width": "120px"
+  },
+  {
+    "id": "byte",
+    "name": "Byte Academy",
+    "link": "https://byteacademy.co/houston/",
+    "logo": "/static/ByteAcademy.png",
     "tier": "gold",
     "width": "120px"
   }
