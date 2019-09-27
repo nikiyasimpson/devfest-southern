@@ -41,7 +41,7 @@
   },
   {
     "date": "11:10 am",
-    "title": "Using Google Assistant to Initiate Infrastructure Automation",
+    "title": "Lightning Talk - Using Google Assistant to Initiate Infrastructure Automation",
     "id": "googleAssistant",
     "speakerId": "jeremy",
     "speaker": "Jeremy White",
@@ -49,7 +49,7 @@
   },
   {
     "date": "11:30 am",
-    "title": "Unlocking the hidden powers of javascript",
+    "title": "Lightning Talk - Unlocking the hidden powers of javascript",
     "id": "jspower",
     "speakerId": "mehdi",
     "speaker": "Mehdi Vasigh",
@@ -97,7 +97,7 @@
   },
   {
     "date": "03:00 pm",
-    "title": "Codelab - Intro to Tensorflow 2.0",
+    "title": "Intro to Tensorflow 2.0",
     "id": "tensorflowCodelab",
     "speakerId": "greg",
     "speaker": "Greg Funchess"

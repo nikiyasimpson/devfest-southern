@@ -30,14 +30,14 @@
   description: >
     Automated machine learning (autoML) has recently become a popular subject for various tech companies. Major cloud providers (Amazon AWS, Google GCP, Microsoft Azure, IBM Watson studio), each provide their own version of autoML. The basic idea is to automate various steps of a typical machine learning project, from data preprocessing, to feature selection, algorithm selection and hyper-parameter optimization. This can significantly accelerate the process of obtaining an accurate machine learning model, while potentially improving the accuracy compared with a manual process. The applications are tremendous. Researchers can now test a hypothesis within a few hours, rather than weeks, once they have obtained the data. Engineers in companies can build or maintain predictive models much more efficiently. In this talk, we consider regression and classification problems where the goal is to obtain a model with smallest generalization error. We review several recent tools and libraries for autoML and compare these tools for some datasets. We then present a demo of Google autoML. We conclude with recommendations for improving machine learning model generation process.
 - date: 11:10 am
-  title: Using Google Assistant to Initiate Infrastructure Automation
+  title: Lightning Talk - Using Google Assistant to Initiate Infrastructure Automation
   id: googleAssistant
   speakerId: jeremy
   speaker: Jeremy White
   description: >
     Introducing automation to infrastructure completely changes how existing engineers interact with ever growing footprints. By making automation easier to consume it greatly increases adoption rates. Also moving workflow initiation from a manual task by an engineer to an automated task initiated by the customer you’re able to free up cycles and increase customer experience. An example would be a service desk agent asking the google assistant to change a vlan on a user interface. By pushing this down to the service desk the request is able to be completed while the user is still commuting with the agent and does not require a ticket to be sent to an operations engineer to be worked.
 - date: 11:30 am
-  title: Unlocking the hidden powers of javascript
+  title: Lightning Talk - Unlocking the hidden powers of javascript
   id: jspower
   speakerId: mehdi
   speaker: Mehdi Vasigh
@@ -75,7 +75,7 @@
   title: Break
   id: break
 - date: 03:00 pm
-  title: Codelab - Intro to Tensorflow 2.0
+  title: Intro to Tensorflow 2.0
   id: tensorflowCodelab
   speakerId: greg 
   speaker: Greg Funchess
