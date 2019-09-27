@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./components/Emcee.js":
 /*!*****************************!*\
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Emcee.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Emcee.js";
 
 
 function _templateObject() {
@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
 /* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SocialLink */ "./components/SocialLink.js");
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Footer.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Footer.js";
 
 
 
@@ -255,7 +255,7 @@ var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fes
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialLink__WEBPACK_IMPORTED_MODULE_11__["SlackLink"], {
-    link: "https://bit.ly/gdghouston-slack",
+    link: "https://gdg-houston.slack.com",
     color: "blue",
     __source: {
       fileName: _jsxFileName,
@@ -299,7 +299,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Layout.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Layout.js";
 
 
 function _templateObject() {
@@ -619,7 +619,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/MobileNav.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\MobileNav.js";
 
 function _templateObject5() {
   var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_7__["default"])(["\n  &.is-visible {\n    display: flex;\n    flex-direction: column;\n    overflow: visible;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n  &.is-hidden {\n    display: none;\n    overflow: hidden;\n    transform: translateY(-100%);\n    opacity: 0;\n    transition: transform .2s ease-in-out .1s, opacity .2s ease-in-out .2s;\n  }\n"]);
@@ -790,7 +790,7 @@ function (_Component) {
           lineNumber: 99
         },
         __self: this
-      }, "Talks")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, "Schedule")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
         passHref: true,
         href: "/location",
         __source: {
@@ -853,7 +853,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _elements_AnchorButton__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./elements/AnchorButton */ "./components/elements/AnchorButton.js");
 /* harmony import */ var _MobileNav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./MobileNav */ "./components/MobileNav.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Navbar.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Navbar.js";
 
 
 function _templateObject4() {
@@ -987,7 +987,7 @@ var Navbar = function Navbar() {
       lineNumber: 60
     },
     __self: this
-  }, "Talks")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, "Schedule")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
     passHref: true,
     href: "/location",
     __source: {
@@ -1052,7 +1052,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SocialLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SocialLink */ "./components/SocialLink.js");
 /* harmony import */ var _elements_ProfileImage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../elements/ProfileImage */ "./components/elements/ProfileImage.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonCard.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonCard.js";
 
 
 function _templateObject() {
@@ -1183,7 +1183,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Person/PersonList.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Person\\PersonList.js";
 
 
 function _templateObject2() {
@@ -1259,7 +1259,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Schedule.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Schedule.js";
 
 
 function _templateObject5() {
@@ -1447,7 +1447,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_slack_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/slack.svg */ "./components/icons/slack.svg");
 /* harmony import */ var _icons_meetup_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons/meetup.svg */ "./components/icons/meetup.svg");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SocialLink.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SocialLink.js";
 
 
 function _templateObject() {
@@ -1657,7 +1657,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Sponsor.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Sponsor.js";
 
 
 function _templateObject() {
@@ -1724,7 +1724,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/SponsorList.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\SponsorList.js";
 
 
 function _templateObject() {
@@ -1781,7 +1781,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/Tito.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\Tito.js";
 
 
 function _templateObject() {
@@ -1841,7 +1841,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Anchor.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Anchor.js";
 
 
 function _templateObject4() {
@@ -1928,7 +1928,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/AnchorButton.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\AnchorButton.js";
 
 
 function _templateObject6() {
@@ -2125,7 +2125,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _google_skyline_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./google-skyline.svg */ "./components/elements/google-skyline.svg");
 /* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme */ "./components/theme.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/components/elements/Section.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\components\\elements\\Section.js";
 
 
 function _templateObject6() {
@@ -3237,7 +3237,7 @@ module.exports = [{"id":"womentechmakers","name":"Women Tech Makers","link":"htt
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, default */
 /***/ (function(module) {
 
-module.exports = [{"date":"8:15 am","id":"breakfast","title":"Check-in & Breakfast","description":"Hosted by Women Tech Makers; Sponsored by ChaiOne"},{"date":"9:00 am","title":"Welcome Address","id":"keynote"},{"date":"9:15 am","title":"Keynote - Deep Dive in Web Performance","id":"deepDiveInWeb","speakerId":"chander","speaker":"Chander Dhall","description":"In this talk Chander will discuss the following - The 4 key improvements he made in the database, API, and UI to achieve those performance gains. Improvements made in Angular code that was rendering data in 852ms on the UI, and how he reduced it to less than 10ms. Performance vs perception, TCP improvements, web performance hacks and many other related concepts. If you build for the web you won’t want to miss this session!\n"},{"date":"10:00 am","title":"The good,bad and ugly in webapp development","id":"css","speakerId":"michaela","speaker":"Michaela Merz","description":"Are webapps going to replace native? When we started the development of “packfrog” , we decided to go “all in” on webapps. Now - about 9 months into development - Are we still happy with webapps? (Hint - so,so .. ). We rely heavy on many modern APIs such as web-push, web-share (version 1&2), web-rtc, caching and others. While some of those APIs are very helpful, others are more complicated or don’t work well - especially when a mobile device is in doze. In my talk, I will highlight the obstacles and advantages of different type of apps, the real cool stuff (like web-sharing and web-share target), but also the differences between webapps and native.\n"},{"date":"10:25 am","title":"Coffee Break","id":"coffes"},{"date":"10:40 am","title":"Automated machine learning in data science - Advances and Opportunities!","id":"autoML","speakerId":"mehrdad","speaker":"Mehrdad G Shirangi","description":"Automated machine learning (autoML) has recently become a popular subject for various tech companies. Major cloud providers (Amazon AWS, Google GCP, Microsoft Azure, IBM Watson studio), each provide their own version of autoML. The basic idea is to automate various steps of a typical machine learning project, from data preprocessing, to feature selection, algorithm selection and hyper-parameter optimization. This can significantly accelerate the process of obtaining an accurate machine learning model, while potentially improving the accuracy compared with a manual process. The applications are tremendous. Researchers can now test a hypothesis within a few hours, rather than weeks, once they have obtained the data. Engineers in companies can build or maintain predictive models much more efficiently. In this talk, we consider regression and classification problems where the goal is to obtain a model with smallest generalization error. We review several recent tools and libraries for autoML and compare these tools for some datasets. We then present a demo of Google autoML. We conclude with recommendations for improving machine learning model generation process.\n"},{"date":"11:10 am","title":"Lightning Talk - Using Google Assistant to Initiate Infrastructure Automation","id":"googleAssistant","speakerId":"jeremy","speaker":"Jeremy White","description":"Introducing automation to infrastructure completely changes how existing engineers interact with ever growing footprints. By making automation easier to consume it greatly increases adoption rates. Also moving workflow initiation from a manual task by an engineer to an automated task initiated by the customer you’re able to free up cycles and increase customer experience. An example would be a service desk agent asking the google assistant to change a vlan on a user interface. By pushing this down to the service desk the request is able to be completed while the user is still commuting with the agent and does not require a ticket to be sent to an operations engineer to be worked.\n"},{"date":"11:30 am","title":"Lightning Talk - Unlocking the hidden powers of javascript","id":"jspower","speakerId":"mehdi","speaker":"Mehdi Vasigh","description":"Browsers today ship a wealth of APIs that provide rich functionality for use in front-end web applications. This has unlocked more possibilities for pure front-end applications than ever before. However, as web applications and bundlers have become more and more complex, the barrier to actually using many of these APIs has become larger, leaving them to be underutilized. Moreover, the ever-present problem of browser compatibility still persists. This talk will cover some of these underutilized Web APIs, as well as how and when to use them.\n"},{"date":"11:45 am","title":"Lunch and Networking","id":"lunch"},{"date":"12:30 pm","title":"Techie Terminology - Pronunciation Guide","speakerId":"jacob","speaker":"Jacob Bankston","description":"Jacob Bankston is a Veteran Public Speaker, Master of Ceremonies and Vocal Artist in addition to being a React JavaScript Developer. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.\n"},{"date":"12:40 pm","title":"Building cross-platform apps using Flutter.","id":"flutter","speakerId":"azam","speaker":"Mohammad Azam","description":"Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!\n"},{"date":"01:20 pm","title":"Codelab - Flutter","id":"flutterCodeLab","speakerId":"hussain","speaker":"Hussain Abbasi"},{"date":"2:00 pm","title":"Get going with Istio and GKE","id":"kubernetes","speakerId":"jonathon","speaker":"Jonathan Campos","description":"Kubernetes has taken off like wildfire, and now Istio is building on that success and taking the World by storm. Istio serves as the glue between all those beautiful Kubernetes Pods that you’ve spent so long creating. And now, Istio serves as the backbone for some of the most interesting new projects out there, such as Knative, Google’s CloudRun, and Google’s Anthos Project. In this session, we will look at how to get started with Istio on your own Google Kubernetes Cluster (GKE) and look at how to implement some of the features built into Istio that provide so much power. As an added bonus you will hear of some best practices when debugging issues with Istio and how to overcome on a tight deadline.\n"},{"date":"2:45 pm","title":"Break","id":"break"},{"date":"03:00 pm","title":"Intro to Tensorflow 2.0","id":"tensorflowCodelab","speakerId":"greg","speaker":"Greg Funchess"},{"date":"3:45 pm","title":"Managing the Burnout Burndown","id":"burnout","speakerId":"simmons","speaker":"Anjuan Simmons, Aneika Simmons","description":"Engineering managers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in leading software engineering teams, but they are also the very traits that make engineering managers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists. This talk will combine the understanding from the trenches of Anjuan Simmons (who has been an engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.\n"},{"date":"4:15 pm","title":"Diversity panel","id":"diversity","speaker":"Annie Jamshed, Aishwarya Mandikal, Miao Smith, Aneika Simmons, Anjuan Simmons"},{"date":"5:00 pm","title":"Closing Address, Networking, Pizza","id":"closing"}];
+module.exports = [{"date":"8:15 am","id":"breakfast","title":"Check-in & Breakfast","description":"Hosted by Women Tech Makers; Sponsored by ChaiOne"},{"date":"9:00 am","title":"Welcome Address","id":"keynote"},{"date":"9:15 am","title":"Keynote - Deep Dive in Web Performance","id":"deepDiveInWeb","speakerId":"chander","speaker":"Chander Dhall","description":"In this talk Chander will discuss the following - The 4 key improvements he made in the database, API, and UI to achieve those performance gains. Improvements made in Angular code that was rendering data in 852ms on the UI, and how he reduced it to less than 10ms. Performance vs perception, TCP improvements, web performance hacks and many other related concepts. If you build for the web you won’t want to miss this session!\n"},{"date":"10:00 am","title":"The good,bad and ugly in webapp development","id":"css","speakerId":"michaela","speaker":"Michaela Merz","description":"Are webapps going to replace native? When we started the development of “packfrog” , we decided to go “all in” on webapps. Now - about 9 months into development - Are we still happy with webapps? (Hint - so,so .. ). We rely heavy on many modern APIs such as web-push, web-share (version 1&2), web-rtc, caching and others. While some of those APIs are very helpful, others are more complicated or don’t work well - especially when a mobile device is in doze. In my talk, I will highlight the obstacles and advantages of different type of apps, the real cool stuff (like web-sharing and web-share target), but also the differences between webapps and native.\n"},{"date":"10:25 am","title":"Cofee Break","id":"coffes"},{"date":"10:40 am","title":"Automated machine learning in data science - Advances and Opportunities!","id":"autoML","speakerId":"mehrdad","speaker":"Mehrdad G Shirangi","description":"Automated machine learning (autoML) has recently become a popular subject for various tech companies. Major cloud providers (Amazon AWS, Google GCP, Microsoft Azure, IBM Watson studio), each provide their own version of autoML. The basic idea is to automate various steps of a typical machine learning project, from data preprocessing, to feature selection, algorithm selection and hyper-parameter optimization. This can significantly accelerate the process of obtaining an accurate machine learning model, while potentially improving the accuracy compared with a manual process. The applications are tremendous. Researchers can now test a hypothesis within a few hours, rather than weeks, once they have obtained the data. Engineers in companies can build or maintain predictive models much more efficiently. In this talk, we consider regression and classification problems where the goal is to obtain a model with smallest generalization error. We review several recent tools and libraries for autoML and compare these tools for some datasets. We then present a demo of Google autoML. We conclude with recommendations for improving machine learning model generation process.\n"},{"date":"11:10 am","title":"Using Google Assistant to Initiate Infrastructure Automation","id":"googleAssistant","speakerId":"jeremy","speaker":"Jeremy White","description":"Introducing automation to infrastructure completely changes how existing engineers interact with ever growing footprints. By making automation easier to consume it greatly increases adoption rates. Also moving workflow initiation from a manual task by an engineer to an automated task initiated by the customer you’re able to free up cycles and increase customer experience. An example would be a service desk agent asking the google assistant to change a vlan on a user interface. By pushing this down to the service desk the request is able to be completed while the user is still commuting with the agent and does not require a ticket to be sent to an operations engineer to be worked.\n"},{"date":"11:30 am","title":"Unlocking the hidden powers of javascript","id":"jspower","speakerId":"mehdi","speaker":"Mehdi Vasigh","description":"Browsers today ship a wealth of APIs that provide rich functionality for use in front-end web applications. This has unlocked more possibilities for pure front-end applications than ever before. However, as web applications and bundlers have become more and more complex, the barrier to actually using many of these APIs has become larger, leaving them to be underutilized. Moreover, the ever-present problem of browser compatibility still persists. This talk will cover some of these underutilized Web APIs, as well as how and when to use them.\n"},{"date":"11:45 am","title":"Lunch and Networking","id":"lunch"},{"date":"12:30 pm","title":"Techie Terminology - Pronunciation Guide","speakerId":"jacob","speaker":"Jacob Bankston","description":"Jacob Bankston is a Veteran Public Speaker, Master of Ceremonies and Vocal Artist in addition to being a React JavaScript Developer. He brings his humor and wit to the tech world at local meetups, events and conferences. Pulling from his background in education, he hopes to inspire everyone to find fun in this wonderful field of constant learning.\n"},{"date":"12:40 pm","title":"Building cross-platform apps using Flutter.","id":"flutter","speakerId":"azam","speaker":"Mohammad Azam","description":"Learn to create high performance cross platform apps using Flutter framework. Cross platform apps are becoming common in most Enterprise environments. Companies want one app, which can supported by multiple platforms. Flutter framework by Google allows you to build one codebase and target multiple platforms without loosing the performance. In this session you will learn how to get started with Flutter. The session will also include building multiple apps showcasing session and network operations in Flutter framework. This is a very practical session with lots of live coding examples. Sit back and enjoy!\n"},{"date":"01:20 pm","title":"Codelab - Flutter","id":"flutterCodeLab","speakerId":"hussain","speaker":"Hussain Abbasi"},{"date":"2:00 pm","title":"Get going with Istio and GKE","id":"kubernetes","speakerId":"jonathon","speaker":"Jonathan Campos","description":"Kubernetes has taken off like wildfire, and now Istio is building on that success and taking the World by storm. Istio serves as the glue between all those beautiful Kubernetes Pods that you’ve spent so long creating. And now, Istio serves as the backbone for some of the most interesting new projects out there, such as Knative, Google’s CloudRun, and Google’s Anthos Project. In this session, we will look at how to get started with Istio on your own Google Kubernetes Cluster (GKE) and look at how to implement some of the features built into Istio that provide so much power. As an added bonus you will hear of some best practices when debugging issues with Istio and how to overcome on a tight deadline.\n"},{"date":"2:45 pm","title":"Break","id":"break"},{"date":"03:00 pm","title":"Codelab - Intro to Tensorflow 2.0","id":"tensorflowCodelab","speakerId":"greg","speaker":"Greg Funchess"},{"date":"3:45 pm","title":"Managing the Burnout Burndown","id":"burnout","speakerId":"simmons","speaker":"Anjuan Simmons, Aneika Simmons","description":"Engineering managers are, almost by definition, highly capable and strongly driven individuals. These traits are indispensable to success in leading software engineering teams, but they are also the very traits that make engineering managers susceptible to burn out. People who can get things done often find themselves overwhelmed by their to-do lists. This talk will combine the understanding from the trenches of Anjuan Simmons (who has been an engineering manager for more than 20 years) with the academic understanding of his wife, Dr. Aneika Simmons. Together, they will provide a framework for reducing burnout and consistently keeping stress levels in a managed state.\n"},{"date":"4:15 pm","title":"Diversity panel","id":"diversity","speaker":"Annie Jamshed, Aishwarya Mandikal, Miao Smith, Aneika Simmons, Anjuan Simmons"},{"date":"5:00 pm","title":"Closing Address, Networking, Pizza","id":"closing"}];
 
 /***/ }),
 
@@ -10177,10 +10177,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
+  \***************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17627,7 +17627,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Emcee__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Emcee */ "./components/Emcee.js");
 /* harmony import */ var _components_Tito__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Tito */ "./components/Tito.js");
 
-var _jsxFileName = "/Users/kaushik/Extra-Curricular/GoogleDeveloperGroup/dev-fest-website/devfest-houston-2019.github.io/pages/index.js";
+var _jsxFileName = "C:\\Users\\vpalleria\\Desktop\\devfest-houston-2019.github.io\\pages\\index.js";
 
 
 function _templateObject() {
@@ -17916,13 +17916,13 @@ var Title = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h1(_templa
 /***/ }),
 
 /***/ 0:
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js ***!
+  \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fkaushik%2FExtra-Curricular%2FGoogleDeveloperGroup%2Fdev-fest-website%2Fdevfest-houston-2019.github.io%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cvpalleria%5CDesktop%5Cdevfest-houston-2019.github.io%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
