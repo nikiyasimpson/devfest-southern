@@ -9,6 +9,7 @@ export default () => (
   <Layout>
     <Section>
       <PageTitle>CUBiO Innovation Center</PageTitle>
+      <p><b>7707 Fannin St Ste. 200, Houston, TX 77054</b></p>
       <p>
       CUBiO is a healthcare incubator and innovative co-working space that not only provides healthcare innovators with office space but also with access to a wide range of diverse resources from human capital, business partners, to investors.
       </p>
