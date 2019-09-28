@@ -1,4 +1,4 @@
-import Section from "./elements/Section"
+﻿import Section from "./elements/Section"
 import AnchorButton from "./elements/AnchorButton"
 import Lead from "./elements/Lead"
 import GDGLogo from './icons/gdg_logo.svg'
@@ -21,7 +21,7 @@ export default () => (
 		<FacebookLink link="https://www.facebook.com/HoustonGDG/" color="blue" />
 		<InstagramLink link="https://www.instagram.com/gdghouston/" color="blue" />
 		<LinkedInLink link="https://www.linkedin.com/company/gdg-houston/" color="blue" />
-		<SlackLink link="https://gdg-houston.slack.com" color="blue" />
+		<SlackLink link="https://bit.ly/gdghouston-slack" color="blue" />
 		<TwitterLink username="gdghouston" color="blue" />
 		{/* <MeetupLink link="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" color="blue" /> */}
 		</span>
