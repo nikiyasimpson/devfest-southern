@@ -1,7 +1,7 @@
-# DevFest Houston 2019 Website
+# DevFest Southern Region 2020 Website
 
 This website was created using [Next.js](https://nextjs.org/), a React starter for SSR or static sites. [Styled components](https://www.styled-components.com) is used for styling.
- - Website Credits: DevFest New Orleans 2019 Website
+ - Website Credits: DevFest New Orleans 2019 Website, DevFest Houston 2020 repo
 
 ## Getting Started
 
