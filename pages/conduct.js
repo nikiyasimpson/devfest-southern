@@ -9,7 +9,7 @@ const conduct = () => (
       <PageTitle>Event Code of Conduct</PageTitle>
 
       <strong>1. Purpose</strong>
-      <p>A primary goal of GDG Houston is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). GDG Houston prides itself on being an open, respectful, and inclusive community. That means the jerky behavior isn’t allowed at GDG meetings.
+      <p>A primary goal of any GDG is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). GDG prides itself on being an open, respectful, and inclusive community. That means the jerky behavior isn’t allowed at GDG meetings.
       
          This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior. We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.</p>
 

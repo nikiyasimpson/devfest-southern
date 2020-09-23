@@ -47,22 +47,22 @@ export default () => (
   <Layout>
     <Section skyline>
       <Title id="title">
-        <DevFestLogo alt="DevFest 2019" />
-        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Houston, September 28, 2019</h1>
+        <DevFestLogo alt=" Southern DevFest 2020" />
+        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Virtual, November 7, 2020</h1>
       </Title>
       <Title id="mobiletitle">
         <GDGLogo alt="GDG" width="70px" height="35px" /> <br/>
-        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>DevFest Houston</h1>
-        <h1 style={{ fontSize: '24px', marginTop: '25px', textAlign: 'center'}}>September 28, 2019</h1>
+        <h1 style={{ fontSize: '34px', marginTop: '25px', textAlign: 'center'}}>Southern DevFest</h1>
+        <h1 style={{ fontSize: '24px', marginTop: '25px', textAlign: 'center'}}>November 7, 2020</h1>
       </Title>
     </Section>
 
     <Section color="blue">
-      <p>DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBIO Innovation Center in Houston for our first annual DevFest!</p>
+      <p>Southern DevFest is a single-day, single-track, inclusive conference for all developers. GDG Chapters and Women Techmakers from the Southern region of US invite you to join us on Saturday, November 7, 2020  virtually for for our first Southern DevFest!</p>
       {/* <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/pdJkmWLtVZc9qA889" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p> */}
       {/* <Tito /> */}
       <p className="cta">
-        <AnchorButton color='white/blue' href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
+        <AnchorButton color='white/blue' href="" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
       </p>
     </Section>
 
