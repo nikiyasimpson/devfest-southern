@@ -1,33 +1,33 @@
-- id: vishal
-  name: Vishal Pallerla
+- id: timhill
+  name: Tim Hill
   image: ""
-  bio: "Co-Organizer"
+  bio: "Co-Organizer and GDG Mentor"
   company: ""
   twitter: ""
   github: ""
   website: ""
   blog: ""
-  linkedin: https://www.linkedin.com/in/vishalpallerla
-- id: sakitha
-  name: Sakhitha Kanyadhara
+  linkedin: ""
+- id: hendrixtavarez
+  name: Hendrix Tavarez
   image: ""
-  bio: "Co-Organizer and WTM Ambassador"
+  bio: "Co-Organizer and GDG Mentor"
   company: ""
   twitter: ""
   github: ""
   website: ""
   blog: ""
-  linkedin: "https://www.linkedin.com/in/sakhitha-kanyadhara"
-- id: roopa
-  name: Roopa Rajala
+  linkedin: ""
+- id: dannythompson
+  name: Danny Thompsons
   image: ""
   bio: "Co-Organizer"
   company: 
   github: ""
   website: ""
-  linkedin: "https://www.linkedin.com/in/roopa-rajala"
-- id: aparna
-  name: Aparna Kaliyur
+  linkedin: ""
+- id: nikiyasimpson
+  name: Nikiya Simpson
   image: ""
   bio: "Co-Organizer and WTM Ambassador"
   company: ""
@@ -35,20 +35,12 @@
   github: ""
   website: ""
   blog: ""
-  linkedin: "https://www.linkedin.com/in/akaliyur"
-- id: kaushik
-  name: Kaushik Awala
-  image: ""
-  bio: "Co-Organizer"
-  company: "" 
-  github: awalakaushik
-  website: ""
-  linkedin: https://www.linkedin.com/in/akaushikr
-- id: Hussain
-  name: Hussain Abbasi
+  linkedin: "https://www.linkedin.com/in/nikiyasimpson"
+- id: issacah
+  name: Isaac
   image: ""
   bio: "Co-Organizer"
   company: "" 
   github: ""
   website: ""
-  linkedin: https://www.linkedin.com/in/hnabbasi
+  linkedin: ""

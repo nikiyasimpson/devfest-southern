@@ -1,6 +1,6 @@
-﻿- date: 8:15 am
-  id: breakfast
-  title: Check-in & Breakfast
+﻿- date: 8:00 am
+  id: intro
+  title: Check-in
   description: Hosted by Women Tech Makers; Sponsored by ChaiOne
 - date: 9:00 am
   title: Welcome Address
