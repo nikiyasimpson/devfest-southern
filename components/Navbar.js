@@ -56,11 +56,11 @@ export const Navbar = () => {
 				<NavLinks>
 					{/* <Link passHref href="/"><StyledLink>Home</StyledLink></Link> */}
 					{/* <Link passHref href="https://www.papercall.io/devfest-houston"><StyledLink>Call For Papers</StyledLink></Link> */}
-					<Link passHref href="./#speakers"><StyledLink>Speakers</StyledLink></Link>
-					<Link passHref href="./#schedule"><StyledLink>Schedule</StyledLink></Link>
-					{/* <Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link> */}
-					<Link passHref href="./location"><StyledLink>Location</StyledLink></Link>
-					<Link passHref href="./conduct"><StyledLink>Code of Conduct</StyledLink></Link>
+					<Link passHref href="/#speakers"><StyledLink>Speakers</StyledLink></Link>
+					<Link passHref href="/#schedule"><StyledLink>Schedule</StyledLink></Link>
+					<Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link>
+					{/* <Link passHref href="/location"><StyledLink>Location</StyledLink></Link> */}
+					<Link passHref href="/#conduct"><StyledLink>Code of Conduct</StyledLink></Link>
 					{/* <Link passHref href="https://forms.gle/pdJkmWLtVZc9qA889"><StyledLink>Inclusivity</StyledLink></Link> */}
 					{/* <Link passHref href="https://forms.gle/VDqt8hHJJwQYA9Wt7"><StyledLink>Volunteers</StyledLink></Link> */}
 					<AnchorButton href="" medium="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
