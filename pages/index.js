@@ -5,7 +5,7 @@ import AnchorButton from "../components/elements/AnchorButton";
 import OffsetHeading from "../components/elements/OffsetHeading";
 import Section from "../components/elements/Section";
 import SponsorList from "../components/SponsorList";
-import DevFestLogo from '../components/icons/devfest_logo.svg';
+import DevFestLogo from '../components/icons/southerndev.png';
 import GDGLogo from '../components/icons/gdg_logo.svg';
 import Footer from '../components/Footer';
 import Anchor from '../components/elements/Anchor';
