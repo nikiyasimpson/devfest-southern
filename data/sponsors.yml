@@ -1,7 +1,7 @@
 - id: google
   name: Google
   link: https://developers.google.com/programs/community/
-  logo: /static/googlelogo.png
+  logo: "/static/googlelogo.png"
   tier: platinum
   width: 270px
 - id: oreilly

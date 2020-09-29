@@ -76,7 +76,7 @@ export default () => (
       <Emcee {...emcee} />
     </Section > */}
 
-    <Section color="black">
+    <Section color='black'>
       <OffsetHeading id="schedule">Schedule</OffsetHeading>
       <Schedule schedule={schedule} />
     </Section >
@@ -86,7 +86,7 @@ export default () => (
       <SponsorList sponsors={sponsors} />
       <p>Sponsorship offers marketing exposure, hiring help, and adoration from our community, and can be in-kind (space, drinks, volunteers, swag, etc.) or monetary. Interested in becoming a sponsor? Contact us today:</p>
       <p className="cta">
-        <AnchorButton href="https://forms.gle/C6ueQfWL47uTHxUs9" target="_blank" rel="noopener noreferrer">Become a sponsor</AnchorButton>
+        <AnchorButton href="" target="_blank" rel="noopener noreferrer">Become a sponsor</AnchorButton>
       </p>
     </Section>
 
