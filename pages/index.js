@@ -57,7 +57,7 @@ export default () => (
       </Title>
     </Section>
 
-    <Section color="blue">
+    <Section color="darkred">
       <p>Southern DevFest is a single-day, single-track, inclusive conference for all developers. GDG Chapters and Women Techmakers from the Southern region of US invite you to join us on Saturday, November 7, 2020  virtually for for our first Southern DevFest!</p>
       {/* <p>We are pleased to offer a limited number of inclusivity scholarships to potential attendees. <Anchor href="https://forms.gle/pdJkmWLtVZc9qA889" target="_blank" rel="noopener noreferrer" color="white">Apply here</Anchor>.</p> */}
       {/* <Tito /> */}

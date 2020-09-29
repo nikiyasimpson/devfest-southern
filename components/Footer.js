@@ -14,9 +14,9 @@ import {TwitterLink,LinkedInLink,InstagramLink, FacebookLink, SlackLink, MeetupL
 export default () => (
   <Section>
 	  <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
-		<h1 style={{ fontSize: '2.5em' }}><GDGLogo alt="GDG" width="110px" style={{ position: 'relative', top: '11px' }} /> GDGHouston</h1>
+		<h1 style={{ fontSize: '2.5em' }}><GDGLogo alt="GDG" width="110px" style={{ position: 'relative', top: '11px' }} /> GDG Southern Region</h1>
 		<p className="cta" style={{ display: 'flex', flexDirection: 'column' }}>
-		<AnchorButton color="red" href="https://southerndevfest.com" target="_blank" rel="noopener noreferrer">Join us on Meetup</AnchorButton>
+		{ /* <AnchorButton color="red" href="https://southerndevfest.com" target="_blank" rel="noopener noreferrer">Join us on Meetup</AnchorButton> */}
 		<span>
 		{/* <FacebookLink link="https://www.facebook.com/HoustonGDG/" color="blue" /> */}
 		{/* <InstagramLink link="https://www.instagram.com/gdghouston/" color="blue" /> */}
