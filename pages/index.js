@@ -76,7 +76,7 @@ export default () => (
       <Emcee {...emcee} />
     </Section > */}
 
-    <Section color="blue">
+    <Section color="black">
       <OffsetHeading id="schedule">Schedule</OffsetHeading>
       <Schedule schedule={schedule} />
     </Section >
