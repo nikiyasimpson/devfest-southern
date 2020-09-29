@@ -6,18 +6,18 @@ import Link from 'next/link'
 import AnchorButton from './elements/AnchorButton'
 
 const MobileNavLink = styled.a`
-  border-top: 1px solid ${theme.colors.blueExtraLight};
-  color: ${theme.colors.blue};
+  border-top: 1px solid ${theme.colors.lightGrey};
+  color: ${theme.colors.darkred};
   font-size: 0.8em;
   font-weight: 700;
   padding: 1.5em 1.5em 1.5em 1em;
   text-decoration: none;
   &:hover {
-    background-color: ${theme.colors.blueExtraLight};
-    color: ${theme.colors.blueLight};
+    background-color: ${theme.colors.lightGrey};
+    color: ${theme.colors.black};
   }
   &:last-of-type {
-    border-bottom: 1px solid ${theme.colors.blueExtraLight};
+    border-bottom: 1px solid ${theme.colors.lightGrey};
   }
 `
 
@@ -90,15 +90,16 @@ class MobileMenu extends Component {
             onClick={this.state.isOpen ? this.closeMenu : this.openMenu} >
             Menu
           </MenuLink>
-          <AnchorButton style={{ alignSelf: 'center', marginRight: '1em' }} href="https://ti.to/gdg-houston/gdg-devfest-houston-2019" small="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
+          <AnchorButton style={{ alignSelf: 'center', marginRight: '1em' }} href="" small="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
         </MobileTopNav>
         <MobileLinks className={this.state.isOpen ? 'is-visible' : 'is-hidden'}>
           {/* <Link passHref href="/"><MobileNavLink onClick={this.closeMenu} >Home</MobileNavLink></Link> */}
           {/* <Link passHref href="https://www.papercall.io/devfest-houston"><MobileNavLink onClick={this.closeMenu} >Call For Papers</MobileNavLink></Link> */}
           <Link passHref href="/#speakers"><MobileNavLink onClick={this.closeMenu} >Speakers</MobileNavLink></Link>
           <Link passHref href="/#schedule"><MobileNavLink onClick={this.closeMenu} >Schedule</MobileNavLink></Link>
+          <Link passHref href="/#sponsors"><MobileNavLink onClick={this.closeMenu} >Sponsors</MobileNavLink></Link>
           {/* <Link passHref href="https://forms.gle/C6ueQfWL47uTHxUs9"><MobileNavLink onClick={this.closeMenu} >Sponsors</MobileNavLink></Link> */}
-          <Link passHref href="/location"><MobileNavLink onClick={this.closeMenu} >Location</MobileNavLink></Link>
+          {/*<Link passHref href="/location"><MobileNavLink onClick={this.closeMenu} >Location</MobileNavLink></Link> */}
           <Link passHref href="/conduct"><MobileNavLink onClick={this.closeMenu} >Code of Conduct</MobileNavLink></Link>
           {/* <Link passHref href="https://forms.gle/pdJkmWLtVZc9qA889"><MobileNavLink onClick={this.closeMenu} >Inclusivity</MobileNavLink></Link> */}
           {/* <Link passHref href="https://forms.gle/VDqt8hHJJwQYA9Wt7"><MobileNavLink onClick={this.closeMenu} >Volunteers</MobileNavLink></Link> */}

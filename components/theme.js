@@ -16,6 +16,7 @@ export default {
     greenLight: '#11b465',
     blueExtraLight: '#e9f1fe',
     lightGrey: '#eee',
-    black: '#000000'
+    black: '#000000',
+    darkred: '##c21515'
   }
 }

@@ -8,12 +8,13 @@ import MobileMenu from './MobileNav'
 export const NAV_BREAKPOINT = '885px'
 
 const StyledLink = styled.a`
-	color: ${theme.colors.blue};
+	color: ${theme.colors.darkred};
+	font-size: 1em;
 	font-weight: 700;
 	padding: 1em;
 	text-decoration: none;
 	&:hover {
-		color: ${theme.colors.blueLight};
+		color: ${theme.colors.black};
 	}
 `
 
@@ -59,8 +60,8 @@ export const Navbar = () => {
 					<Link passHref href="/#speakers"><StyledLink>Speakers</StyledLink></Link>
 					<Link passHref href="/#schedule"><StyledLink>Schedule</StyledLink></Link>
 					<Link passHref href="/#sponsors"><StyledLink>Sponsors</StyledLink></Link>
-					{/* <Link passHref href="/#location"><StyledLink>Location</StyledLink></Link> */}
-					<Link passHref href="/#conduct"><StyledLink>Code of Conduct</StyledLink></Link>
+					{/* <Link passHref href="/location"><StyledLink>Location</StyledLink></Link> */}
+					<Link passHref href="/conduct"><StyledLink>Code of Conduct</StyledLink></Link>
 					{/* <Link passHref href="https://forms.gle/pdJkmWLtVZc9qA889"><StyledLink>Inclusivity</StyledLink></Link> */}
 					{/* <Link passHref href="https://forms.gle/VDqt8hHJJwQYA9Wt7"><StyledLink>Volunteers</StyledLink></Link> */}
 					<AnchorButton href="" medium="true" target="_blank" rel="noopener noreferrer">Register now</AnchorButton>
