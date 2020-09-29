@@ -16,16 +16,16 @@ export default () => (
 	  <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
 		<h1 style={{ fontSize: '2.5em' }}><GDGLogo alt="GDG" width="110px" style={{ position: 'relative', top: '11px' }} /> GDGHouston</h1>
 		<p className="cta" style={{ display: 'flex', flexDirection: 'column' }}>
-		<AnchorButton color="red" href="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" target="_blank" rel="noopener noreferrer">Join us on Meetup</AnchorButton>
+		<AnchorButton color="red" href="https://southerndevfest.com" target="_blank" rel="noopener noreferrer">Join us on Meetup</AnchorButton>
 		<span>
-		<FacebookLink link="https://www.facebook.com/HoustonGDG/" color="blue" />
-		<InstagramLink link="https://www.instagram.com/gdghouston/" color="blue" />
-		<LinkedInLink link="https://www.linkedin.com/company/gdg-houston/" color="blue" />
-		<SlackLink link="https://bit.ly/gdghouston-slack" color="blue" />
-		<TwitterLink username="gdghouston" color="blue" />
+		{/* <FacebookLink link="https://www.facebook.com/HoustonGDG/" color="blue" /> */}
+		{/* <InstagramLink link="https://www.instagram.com/gdghouston/" color="blue" /> */}
+		{/* <LinkedInLink link="https://www.linkedin.com/company/gdg-houston/" color="blue" /> */}
+		{/* <SlackLink link="https://bit.ly/gdghouston-slack" color="blue" /> */}
+		<TwitterLink username="southerndevfest" color="black" />
 		{/* <MeetupLink link="https://www.meetup.com/Google-Developer-Group-GDG-Houston/" color="blue" /> */}
 		</span>
-		<Lead>Website Credits: ❤️ GDG New Orleans!</Lead>
+		<Lead>Website Credits: ❤️ GDG New Orleans, GDG Houston!</Lead>
 		</p>
 	  </div>
 

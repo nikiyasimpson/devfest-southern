@@ -13,22 +13,22 @@ const Main = styled.main`
 const Layout = (props) => (
   <div>
     <Head>
-      <title>DevFest Houston 2019</title>
-      <meta name="description" content="DevFest Houston is a single-day, single-track, inclusive conference for all developers. GDG Houston and Women Techmakers Houston invite you to join us on Saturday, September 28, 2019 at CUBiO in Houston for our first annual DevFest!" />
+      <title>Southern DevFest 2020</title>
+      <meta name="description" content="The Southern DevFest celebrates technology, inspiring stories and diversity from communities in Texas to the East Coast!  Bringing the entire development community together!" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-      <meta property="og:image" content="http://devfest2019.gdghouston.com/static/share.jpg"/>
+      <meta property="og:image" content="./static/southerndev.png"/>
       <meta property="og:image:type" content="image/jpeg"/>
       <meta property="og:image:width" content="1200"/>
       <meta property="og:image:height" content="630"/>
       <meta name="twitter:card" content="summary_large_image"/>
-      <meta name="twitter:site" content="@GDG_Houston"/>
-      <meta name="twitter:title" content="DevFest Houston 2019"/>
-      <meta name="twitter:description" content="DevFest Houston is a single-day, single-track, inclusive conference for all developers. Join us on Saturday, September 28, 2019 at CUBiO in Houston for our first annual DevFest!"/>
-      <meta name="twitter:creator" content="@GDG_Houston"/>
-      <meta name="twitter:image" content="http://devfest2019.gdghouston.com/static/share.jpg"/>
-      <meta name="twitter:image:alt" content="GDG Houston skyline" />
-      <meta name="twitter:domain" content="devfest2019.gdghouston.com"/>
+      <meta name="twitter:site" content="@SouthernDevFest"/>
+      <meta name="twitter:title" content="Southern DevFest 2020"/>
+      <meta name="twitter:description" content="The Southern DevFest celebrates technology, inspiring stories and diversity from communities in Texas to the East Coast!  Bringing the entire development community together!"/>
+      <meta name="twitter:creator" content="@SouthernDevFest"/>
+      <meta name="twitter:image" content="./static/southerndev.png"/>
+      <meta name="twitter:image:alt" content="Southern DevFest" />
+      <meta name="twitter:domain" content="southerndevfest.com"/>
 
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="true"></link>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Product+Sans:400&amp;lang=en&amp;display=swap" rel="stylesheet"></link>
