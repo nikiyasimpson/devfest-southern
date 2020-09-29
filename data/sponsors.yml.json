@@ -11,7 +11,7 @@
     "id": "oreilly",
     "name": "O'Reilly",
     "link": "https://orielly.com/",
-    "logo": "",
+    "logo": "static/oreilly-logo.png",
     "tier": "",
     "width": "270px"
   }
